@@ -101,3 +101,8 @@
 #contrButtons button{
   margin: 10px;
 }
+
+
+#sharebutton{
+  float: right;
+}

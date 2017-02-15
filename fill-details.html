@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Material Design Lite -->
   <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <script src="geolocation.js"></script>
+    <script src="camera.js"></script>
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-indigo.min.css" />
   <!-- Material Design icon font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -20,7 +20,7 @@
             mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Take a shot</span>
+        <span class="mdl-layout-title">Add details</span>
         <div class="mdl-layout-spacer"></div>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                   mdl-textfield--floating-label mdl-textfield--align-right">
@@ -52,6 +52,71 @@
 
 
 
+
+      <!-- Simple Select -->
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select getmdl-select__fullwidth">
+            <input class="mdl-textfield__input" type="text" id="sample1" value="Food" readonly tabIndex="-1">
+            <label for="sample1" class="mdl-textfield__label">Category</label>
+            <ul for="sample1" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                <li class="mdl-menu__item">Food</li>
+                <li class="mdl-menu__item">Clothes</li>
+                <li class="mdl-menu__item">Cars</li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample1">Store name</label>
+  </div>
+</form>
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample1">Place/Address</label>
+  </div>
+</form>
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample1">Place/Address</label>
+  </div>
+</form>
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+    <label class="mdl-textfield__label" for="sample2">Sale size</label>
+    <span class="mdl-textfield__error">Input is not a number!</span>
+  </div>
+</form>
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+    <label class="mdl-textfield__label" for="sample2">Old price</label>
+    <span class="mdl-textfield__error">Input is not a number!</span>
+  </div>
+</form>
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+    <label class="mdl-textfield__label" for="sample2">New price</label>
+    <span class="mdl-textfield__error">Input is not a number!</span>
+  </div>
+</form>
+
+<button id="sharebutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Share</button>
 
 
 
