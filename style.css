@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*THIS IS FIX FOR IMPROPER MENU BUTTON POSITION*/
+.mdl-layout__drawer-button i{
+  line-height: 2;
+}
+
+/*THIS IS NEWS FEED CARDS*/
+/*THIS IS CARD 1*/
+#card1.demo-card-image.mdl-card {
+  width: 100vw;
+  height: auto;
+  background: url('images/image1.jpg') center / cover;
+}
+/*THIS IS CARD 2*/
+#card2.demo-card-image.mdl-card {
+  width: 100vw;
+  height: auto;
+  background: url('images/image2.jpg') center / cover;
+}
+/*THIS IS CARD 3*/
+#card3.demo-card-image.mdl-card {
+  width: 100vw;
+  height: auto;
+  background: url('images/image3.jpg') center / cover;
+}
+
+
+
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*THIS IS FOOTER*/
+
+.mdl-mini-footer {
+  padding-top: 0;
+  padding-bottom: 15;
+}
