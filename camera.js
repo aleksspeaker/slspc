@@ -56,4 +56,12 @@ function snapshot() {
 
 	function hideCamera() {
     document.getElementById("video").style.display = "none";
+    document.getElementById("myCanvas").style.display = "block";
+    document.getElementById("contrButtons").style.display = "block";
+
+}
+function showCamera() {
+    document.getElementById("video").style.display = "block";
+    document.getElementById("myCanvas").style.display = "none";
+    document.getElementById("contrButtons").style.display = "none";
 }

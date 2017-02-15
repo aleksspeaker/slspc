@@ -84,3 +84,17 @@
 #video {
   display: block;
 }
+#myCanvas {
+  display: none;
+}
+
+#contrButtons {
+  padding: 10px;
+  display: none;
+  text-align: center;
+  width: 100vw;
+  margin-left: -16;
+}
+#contrButtons button{
+  margin: 10px;
+}

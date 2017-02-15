@@ -47,13 +47,14 @@
         <!-- Your content goes here -->
 
 
-    <video onclick="snapshot(this);" width=320 height=240 id="video" controls autoplay></video> 
+    <video onclick="snapshot(this);" width=320 height=240 id="video" autoplay></video> 
     <button id="cambtn-live" onclick="hideCamera(); snapshot();" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored mdl-js-ripple-effect"><i id="ftr_btn" class="material-icons">camera</i></button>
 
     <canvas id="myCanvas" width="320" height="240"></canvas> 
-    <button class="mdl-button mdl-js-button mdl-js-ripple-effect">Retake</button>
-    <button class="mdl-button mdl-js-button mdl-js-ripple-effect">Use</button>
-
+    <div id="contrButtons">
+    <button onclick="showCamera()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">Retake</button>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Use</button>
+    </div>
 
       </div>
     </main>
