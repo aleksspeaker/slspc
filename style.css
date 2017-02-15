@@ -63,8 +63,11 @@
 }
 
 .mdl-mini-footer__link-list {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 100vw;
   margin-left: -16;
 }
