@@ -13,26 +13,20 @@
 .demo-card-image.mdl-card {
   width: 100vw;
   max-width: 600px;
-  height: auto;
+  height: 300px;
   margin-bottom: 30px;
 
 }
 /*THIS IS CARD 1*/
 #card1.demo-card-image.mdl-card {
-  width: 100vw;
-  height: auto;
   background: url('images/image1.jpg') center / cover;
 }
 /*THIS IS CARD 2*/
 #card2.demo-card-image.mdl-card {
-  width: 100vw;
-  height: auto;
   background: url('images/image2.jpg') center / cover;
 }
 /*THIS IS CARD 3*/
 #card3.demo-card-image.mdl-card {
-  width: 100vw;
-  height: auto;
   background: url('images/image3.jpg') center / cover;
 }
 
