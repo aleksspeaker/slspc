@@ -12,8 +12,10 @@
 /*THIS IS NEWS FEED CARDS*/
 .demo-card-image.mdl-card {
   width: 100vw;
+  max-width: 600px;
   height: auto;
   margin-bottom: 30px;
+
 }
 /*THIS IS CARD 1*/
 #card1.demo-card-image.mdl-card {
@@ -62,15 +64,15 @@
 
 .mdl-mini-footer__link-list {
   display: inline-flex;
-  border: 1px solid red;
   justify-content: space-around;
   width: 100vw;
   margin-left: -16;
 }
 
-/*.mdl-mini-footer__link-list li{
-  align-self: flex-start;
-}*/
+.mdl-mini-footer__link-list button{
+  margin: 0 0 5px 0;
+  padding: 0;
+}
 
 #cambtn-live {
   margin-top: -41px;
