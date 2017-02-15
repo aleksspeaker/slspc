@@ -13,7 +13,7 @@
 
 </head>
 
-<body onload="init();startWebcam();"">
+<body">
   <!-- The drawer is always open in large screens. The header is always shown,
   even in small screens. -->
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
@@ -46,21 +46,54 @@
       <div class="page-content">
         <!-- Your content goes here -->
 
+<button onclick="getLocation()">Try It</button>
 
-    <video onclick="snapshot(this);" width=320 height=240 id="video" autoplay></video> 
-    <button id="cambtn-live" onclick="hideCamera(); snapshot();" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored mdl-js-ripple-effect"><i id="ftr_btn" class="material-icons">camera</i></button>
+<div id="mapholder"></div>
 
-    <canvas id="myCanvas" width="320" height="240"></canvas> 
-    
+<script>
+var x = document.getElementById("demo");
 
-      </div>
-    </main>
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    var latlon = position.coords.latitude + "," + position.coords.longitude;
+
+    var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="
+    +latlon+"&zoom=14&size=400x300&sensor=false&key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU";
+    document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+}
+//To use this code on your website, get a free API key from Google.
+//Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+
+function showError(error) {
+    switch(error.code) {
+        case error.PERMISSION_DENIED:
+            x.innerHTML = "User denied the request for Geolocation."
+            break;
+        case error.POSITION_UNAVAILABLE:
+            x.innerHTML = "Location information is unavailable."
+            break;
+        case error.TIMEOUT:
+            x.innerHTML = "The request to get user location timed out."
+            break;
+        case error.UNKNOWN_ERROR:
+            x.innerHTML = "An unknown error occurred."
+            break;
+    }
+}
+</script>
 
 <footer id="contrButtons">
     <button onclick="showCamera()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Retake</button>
-    <button onclick="location.href='fill-details.html';" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Use</button>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Use</button>
     </footer>
-
+    
    <!--  <footer class="mdl-mini-footer">
   <div class="mdl-mini-footer__middle-section">
     <ul class="mdl-mini-footer__link-list">
