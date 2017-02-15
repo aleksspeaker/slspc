@@ -55,9 +55,21 @@
   z-index: 1;
 }
 
+.mdl-mini-footer__link-list {
+  display: inline-flex;
+  border: 1px solid red;
+  justify-content: space-around;
+  width: 100vw;
+  margin-left: -16;
+}
 
-/*CAMERA PAGE*/
+/*.mdl-mini-footer__link-list li{
+  align-self: flex-start;
+}*/
 
-canvas {
-  border:1px solid black;
+#cambtn-live {
+  margin-top: -41px;
+  padding: 0;
+  display: block;
+  z-index: 1;
 }

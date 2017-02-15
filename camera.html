@@ -25,10 +25,10 @@
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                   mdl-textfield--floating-label mdl-textfield--align-right">
           <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
-            <i class="material-icons">search</i>
+            <i onclick="location.href='index.html';" class="material-icons">keyboard_backspace</i>
           </label>
           <div class="mdl-textfield__expandable-holder">
-            <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+            <input class="button mdl-textfield__input">
           </div>
         </div>
       </div>
@@ -47,19 +47,16 @@
         <!-- Your content goes here -->
 
 
-    <p>
-      
-    </p>
-    <video onclick="snapshot(this);" width=320 height=240 id="video" controls autoplay></video>
-    <button onclick="snapshot();">Take Snapshot</button> 
+    <video onclick="snapshot(this);" width=320 height=240 id="video" controls autoplay></video> 
+    <button id="cambtn-live" onclick="snapshot();" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored mdl-js-ripple-effect"><i id="ftr_btn" class="material-icons">camera</i></button>
 
-    <p>Screenshot : <p>
+    <p>Result : <p>
     <canvas id="myCanvas" width="320" height="240"></canvas> 
 
 
       </div>
     </main>
-    <footer class="mdl-mini-footer">
+   <!--  <footer class="mdl-mini-footer">
   <div class="mdl-mini-footer__middle-section">
     <ul class="mdl-mini-footer__link-list">
       <li><button onclick="location.href='index.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">home</i></button></li>
@@ -69,7 +66,7 @@
       <li><button class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">face</i></button></li>
     </ul>
   </div>
-</footer>
+</footer> -->
   </div>
 </body>
 
