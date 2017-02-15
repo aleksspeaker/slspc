@@ -80,3 +80,7 @@
   display: block;
   z-index: 1;
 }
+
+#video {
+  display: block;
+}

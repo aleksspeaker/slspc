@@ -50,3 +50,10 @@ function snapshot() {
 	// Draws current image from the video element into the canvas
 	ctx.drawImage(video, 0,0, canvas.width, canvas.height);
 }
+
+
+// Hides the camera onclick take sbapshop button
+
+	function hideCamera() {
+    document.getElementById("video").style.display = "none";
+}
