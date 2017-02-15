@@ -35,10 +35,10 @@
 .demo-card-image > .mdl-card__actions {
   height: 52px;
   padding: 16px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.7);
 }
 .demo-card-image__filename {
-  color: #fff;
+  color: rgba(255,255,255,1);
   font-size: 18px;
   font-weight: 500;
 }
