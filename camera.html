@@ -46,11 +46,11 @@
       <div class="page-content">
         <!-- Your content goes here -->
 
+  <input type="file" accept="image/*;capture=camera">
+
     <p class="mdl-typography--text-center mdl-typography--headline">Take a shot</p>
     <video onclick="snapshot(this);" width=320 height=240 id="video" autoplay></video> 
-    <button id="cambtn-live" onclick="hideCamera(); snapshot();" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored mdl-js-ripple-effect"><i id="ftr_btn" class="material-icons">camera</i></button>
-
-    <canvas id="myCanvas" width="320" height="240"></canvas> 
+    <button id="cambtn-live" onclick="hideCamera(); snapshot();" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored mdl-js-ripple-effect"><i id="ftr_btn" class="material-icons">camera</i></button>    <canvas id="myCanvas" width="320" height="240"></canvas>
     
 
       </div>
