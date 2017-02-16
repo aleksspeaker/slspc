@@ -58,10 +58,12 @@ function snapshot() {
     document.getElementById("video").style.display = "none";
     document.getElementById("myCanvas").style.display = "block";
     document.getElementById("contrButtons").style.display = "block";
-
+    document.getElementById("cambtn-live").style.display = "none";
 }
 function showCamera() {
     document.getElementById("video").style.display = "block";
     document.getElementById("myCanvas").style.display = "none";
     document.getElementById("contrButtons").style.display = "none";
+    document.getElementById("cambtn-live").style.display = "block";
+
 }
