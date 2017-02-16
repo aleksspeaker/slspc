@@ -58,44 +58,23 @@
 
 
 
-
+<form action="#">
 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select getmdl-select__fullwidth">
   <input class="mdl-textfield__input" type="text" id="sample1" value="" readonly tabIndex="-1">
-  <label for="sample1" class="mdl-textfield__label">Select the category</label>
+  <label id="selCatLabel" for="sample1" class="mdl-textfield__label">Select category</label>
   <ul for="sample1" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
-    <li class="mdl-menu__item">Food</li>
-    <li class="mdl-menu__item">Clothes</li>
-    <li class="mdl-menu__item">Automobile</li>
-    <li class="mdl-menu__item">Accessories</li>
+    <li onclick="document.getElementById('sample1').value =''; document.getElementById('selCatLabel').innerHTML ='Select category'" class="mdl-menu__item" class="mdl-menu__item"></li>
+    <li onclick="document.getElementById('sample1').value ='Food'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Food</li>
+    <li onclick="document.getElementById('sample1').value ='Clothes'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Clothes</li>
+    <li onclick="document.getElementById('sample1').value ='Automobile'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Automobile</li>
+    <li onclick="document.getElementById('sample1').value ='Accessories'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Accessories</li>
   </ul>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<form action="#">
-  <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" id="sample1">
-    <label class="mdl-textfield__label" for="sample1">Store name</label>
-  </div>
 </form>
 <form action="#">
   <div class="mdl-textfield mdl-js-textfield">
     <input class="mdl-textfield__input" type="text" id="sample1">
-    <label class="mdl-textfield__label" for="sample1">Place/Address</label>
+    <label class="mdl-textfield__label" for="sample1">Store name</label>
   </div>
 </form>
 <form action="#">
