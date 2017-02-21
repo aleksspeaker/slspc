@@ -106,3 +106,14 @@
 #sharebutton{
   float: right;
 }
+
+.mdl-button--fab {
+  position: absolute;
+  bottom: 48px;
+  right: 32px;
+}
+
+#myFile {
+  z-index: -1;
+  margin-top: -20px;
+}
