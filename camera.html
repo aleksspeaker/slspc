@@ -13,7 +13,8 @@
 
 </head>
 
-<body onload="init();startWebcam();"">
+<!-- <body onload="init();startWebcam();""> -->
+<body>
   <!-- The drawer is always open in large screens. The header is always shown,
   even in small screens. -->
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
@@ -48,18 +49,29 @@
 
 
 
+
+<img id="target" alt="my image" />
+
+<script>
+  document.getElementById('target').src = localStorage.getItem('image');
+</script>
+
+
+
+
+
     <!-- <p class="mdl-typography--text-center mdl-typography--headline">Take a shot</p> -->
-    <video onclick="snapshot(this);" width=320 height=240 id="video" autoplay></video> 
-    <button id="cambtn-live" onclick="hideCamera(); snapshot();" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored mdl-js-ripple-effect"><i id="ftr_btn" class="material-icons">camera</i></button>    <canvas id="myCanvas" width="320" height="240"></canvas>
+   <!--  <video onclick="snapshot(this);" width=320 height=240 id="video" autoplay></video>  -->
+    <!-- <button id="cambtn-live" onclick="hideCamera(); snapshot();" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored mdl-js-ripple-effect"><i id="ftr_btn" class="material-icons">camera</i></button>    <canvas id="myCanvas" width="320" height="240"></canvas> -->
     
   <!-- <input type="file" accept="image/*;capture=camera"> -->
       </div>
     </main>
 
-<footer id="contrButtons">
+<!-- <footer id="contrButtons">
     <button onclick="showCamera()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Retake</button>
     <button onclick="location.href='fill-details.html';" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Use</button>
-    </footer>
+    </footer> -->
 
    <!--  <footer class="mdl-mini-footer">
   <div class="mdl-mini-footer__middle-section">
@@ -72,6 +84,7 @@
     </ul>
   </div>
 </footer> -->
+
   </div>
 </body>
 

@@ -36,7 +36,7 @@
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="index.html">Home</a>
         <a class="mdl-navigation__link" href="">Search</a>
-        <a class="mdl-navigation__link" href="">Camera</a>
+        <a class="mdl-navigation__link" href="camera.html">Camera</a>
         <a class="mdl-navigation__link" href="">My profile</a>
       </nav>
     </div>
@@ -90,7 +90,7 @@
       
         <!-- <button id="cambtn" onclick="location.href='camera.html';" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored s-ripple-effect"><i id="ftr_btn" class="material-icons">camera</i></button> -->
 
-<button  target="_blank" id="cambtn" onclick="document.getElementById('myFile').click()" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i id="ftr_btn" class="material-icons">add</i></button>
+<button onclick="document.getElementById('image-input').click();"  id="cambtn"  class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i id="ftr_btn" class="material-icons">add</i></button>
 
         
       
@@ -102,7 +102,22 @@
     </div>
   </div>
 </footer>
-<input id="myFile" type="file" accept="image/*;capture=camera">
+<input id="image-input" type="file" accept="image/*;capture=camera">
+
+<script type="text/javascript">
+  var input = document.getElementById('image-input');
+input.onchange = function (event) {
+    var image = input.files[0];
+    if (image) {
+        var reader = new FileReader();
+        reader.onloadend = function () {
+            localStorage.setItem('image', reader.result);
+        }
+        reader.readAsDataURL(image);
+    }
+
+};
+</script>
   </div>
 </body>
 
