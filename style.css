@@ -19,7 +19,7 @@
 }
 /*THIS IS CARD 1*/
 #card1.demo-card-image.mdl-card {
-  background: url('images/image1.jpg') center / cover;
+  background: url('imsharebuttonages/image1.jpg') center / cover;
 }
 /*THIS IS CARD 2*/
 #card2.demo-card-image.mdl-card {
@@ -54,7 +54,7 @@
 .mdl-mini-footer {
   padding-top: 0;
   padding-bottom: 25px;
-  margin-bottom: 0;
+  margin-bottom: -20px;
 }
 
 #cambtn {
