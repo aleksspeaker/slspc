@@ -52,10 +52,10 @@
 
 
 <p class="mdl-typography--text-center mdl-typography--headline">
- Step2: Add details
+Add details
 </p>
 
-<img id="target" alt="my image" />
+<img id="target" alt="my image" style="width: 100%;" />
 
 <script>
   document.getElementById('target').src = localStorage.getItem('image');
@@ -109,7 +109,7 @@
   </div>
 </form>
 
-<button id="sharebutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Share</button>
+<button onclick="localStorage.clear();" id="sharebutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Share</button>
 
 
 
