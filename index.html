@@ -185,23 +185,40 @@
     </form><!-- END OF TRICKY FORM NECESSARY FOR FAB -->
 
   <!-- SCRIPT FOR PLACING IMAGE FROM FORM TO THE NEXT PAGE -->
-    <script type="text/javascript">
-    var input = document.getElementById('image-input');
-    input.onchange = function(event) {
-      var image = input.files[0];
-      if (image) {
+    <!-- <script type="text/javascript"> -->
+    <!-- var input = document.getElementById('image-input'); -->
+    <!-- input.onchange = function(event) { -->
+      <!-- var image = input.files[0]; -->
+      <!-- if (image) { -->
+        <!-- var reader = new FileReader(); -->
+        <!-- reader.onloadend = function() { -->
+          <!-- localStorage.setItem('image', reader.result); -->
+        <!-- } -->
+        <!-- reader.readAsDataURL(image); -->
+      <!-- } -->
+    <!-- }; -->
+
+<!--     document.getElementById("image-input").onchange = function() {
+    document.getElementById("form").submit(); -->
+    <!-- }; -->
+    </script> <!-- SCRIPT FOR PLACING IMAGE FROM FORM TO THE NEXT PAGE -->
+
+<script type="text/javascript">
+  var input = document.getElementById('image-input');
+input.onchange = function (event) {
+    var image = input.files[0];
+    if (image) {
         var reader = new FileReader();
-        reader.onloadend = function() {
-          localStorage.setItem('image', reader.result);
+        reader.onloadend = function () {
+            localStorage.setItem('image', reader.result);
+            document.getElementById("form").submit();
         }
         reader.readAsDataURL(image);
-      }
-    };
+    }
+};
 
-    document.getElementById("image-input").onchange = function() {
-    document.getElementById("form").submit();
-    };
-    </script> <!-- SCRIPT FOR PLACING IMAGE FROM FORM TO THE NEXT PAGE -->
+</script>
+
 
 
   </div>     
