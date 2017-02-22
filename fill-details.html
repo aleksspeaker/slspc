@@ -112,7 +112,7 @@ Add details
 <!-- <button onclick="localStorage.clear();" id="sharebutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Share</button> -->
 
 
-<button onclick="localStorage.clear();" id="sharebutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="button">Share</button>
+<button onclick="localStorage.clear(); channel_click();" id="sharebutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="button">Share</button>
 <div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
   <div class="mdl-snackbar__text"></div>
   <button class="mdl-snackbar__action" type="button"></button>
@@ -138,6 +138,14 @@ Add details
     snackbarContainer.MaterialSnackbar.showSnackbar(data);
   });
 }());
+
+function channel_click(){
+
+    setTimeout( function () {
+        location.href='index.html';
+    } , 2000 );
+
+}
 </script>
 
 
