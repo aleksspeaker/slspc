@@ -52,9 +52,16 @@
 /*THIS IS FOOTER*/
 
 .mdl-mini-footer {
-padding: 0;
+  padding-top: 0;
+  padding-bottom: 25px;
+  margin-bottom: -20px;
 }
 
+#cambtn {
+  margin-top: -12px;
+  display: block;
+  z-index: 1;
+}
 
 .mdl-mini-footer__link-list {
   display: -webkit-inline-box;
@@ -63,18 +70,20 @@ padding: 0;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 100vw;
-  /*margin-left: -16;*/
+  margin-left: -16;
 }
 
 .mdl-mini-footer__link-list button{
+  margin: 0 0 5px 0;
+  padding: 0;
 }
 
-/*#cambtn-live {
+#cambtn-live {
   margin-top: -41px;
   padding: 0;
   display: block;
   z-index: 1;
-}*/
+}
 
 #video {
   display: block;
@@ -100,14 +109,14 @@ padding: 0;
 }
 
 .mdl-button--fab {
-  position: fixed;
+  position: absolute;
   bottom: 48px;
   right: 32px;
-  z-index: 10;
 }
 
 #image-input {
-  display: none;
+  z-index: -1;
+  margin-top: -20px;
 }
 
 
