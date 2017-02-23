@@ -59,6 +59,10 @@
 
 /*THIS IS FOOTER*/
 
+.mdl-badge[data-badge]:after {
+  z-index: 1;
+}
+
 .mdl-mini-footer {
     padding-top: 0px;
     /*padding-bottom: 15px;*/
