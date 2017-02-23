@@ -2,9 +2,9 @@
   "lang": "en",
   "dir": "ltr",
   "short_name": "SaleSpace",
-  "name": "SaleSpace. <br> Share the discounts with your friends",
+  "name": "SaleSpace. Share the discounts with your friends",
   "background_color": "#2196F3",
-  "display": "fullscreen", "standalone", "minimal-ui",
+  "display": "fullscreen",
   "icons": [
     {
       "src": "launcher-icon-1x.png",
