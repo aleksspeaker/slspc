@@ -4,10 +4,19 @@
   padding: 0;
 }
 
+/* HEADER */
+.mdl-layout__header {
+  color: #555;
+  background: white;
+  text-shadow: 1px 1px 5px rgba(0,0,0,.3);
+  
+}
+
 /*THIS IS FIX FOR IMPROPER MENU BUTTON POSITION*/
 .mdl-layout__drawer-button i{
   line-height: 2;
 }
+
 
 /*THIS IS NEWS FEED CARDS*/
 .demo-card-image.mdl-card {
