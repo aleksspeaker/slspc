@@ -13,22 +13,23 @@
 
 </head>
 
-<body">
+<body>
   <!-- The drawer is always open in large screens. The header is always shown,
   even in small screens. -->
+   <!-- HEADER WITH NAVIGATION -->
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
             mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Share the sale</span>
+        <span class="mdl-layout-title">Share</span>
         <div class="mdl-layout-spacer"></div>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                   mdl-textfield--floating-label mdl-textfield--align-right">
           <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
-            <i onclick="location.href='camera.html';" class="material-icons">keyboard_backspace</i>
+            <i class="material-icons">search</i>
           </label>
           <div class="mdl-textfield__expandable-holder">
-            <input class="button mdl-textfield__input">
+            <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
           </div>
         </div>
       </div>
@@ -38,17 +39,19 @@
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="index.html">Home</a>
         <a class="mdl-navigation__link" href="">Search</a>
-        <a class="mdl-navigation__link" href="">Camera</a>
-        <a class="mdl-navigation__link" href="">My profile</a>
+        <a class="mdl-navigation__link" href="fill-details.html">Camera</a>
+        <a class="mdl-navigation__link" href="profile.html">My profile</a>
       </nav>
-    </div>
+    </div>  <!-- END OF HEADER WITH NAVIGATION -->
+
     <main class="mdl-layout__content">
-      <div class="page-content"> <!-- Your content goes here -->
+      <div class="page-content"> <!-- PAGE CONTENT -->
+        <!-- Your content goes here -->
 
 
 
 
-
+<div class="fillin-content">
 
 
 <p class="mdl-typography--text-center mdl-typography--headline">
@@ -109,7 +112,6 @@ Add details
   </div>
 </form>
 
-<!-- <button onclick="localStorage.clear();" id="sharebutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Share</button> -->
 
 
 <button onclick="localStorage.clear(); channel_click();" id="sharebutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="button">Share</button>
@@ -148,25 +150,9 @@ function channel_click(){
 }
 </script>
 
-
-
-<!-- END OF MAIN CONTENT -->
-<!-- <footer id="contrButtons">
-    <button onclick="showCamera()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Retake</button>
-    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Use</button>
-    </footer> -->
-    
-   <!--  <footer class="mdl-mini-footer">
-  <div class="mdl-mini-footer__middle-section">
-    <ul class="mdl-mini-footer__link-list">
-      <li><button onclick="location.href='index.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">home</i></button></li>
-      <li><button class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">search</i></button></li>
-      <li><button id="cambtn" onclick="location.href='camera.html';" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored mdl-js-ripple-effect"><i id="ftr_btn" class="material-icons">camera</i></button></li>
-      <li><button class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">favorite</i></button></li>
-      <li><button class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">face</i></button></li>
-    </ul>
-  </div>
-</footer> -->
+</div>
+</div>
+</main>
   </div>
 </body>
 
