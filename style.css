@@ -126,6 +126,7 @@
 }
 
 .card-icons {
+    max-width: 600px;
     margin-top: -16px;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -139,6 +140,7 @@
 }
 
 .card-details {
+    max-width: 600px;
     padding-left: 16px;
     margin-top: -16px;
     margin-bottom: 8px;
@@ -146,6 +148,10 @@
 
 
 /*PROFILE PAGE*/
+.profile-content {
+ padding-left: 16px;
+ padding-right: 16px;
+}
 
 .demo-list-radio {
   display: inline;
