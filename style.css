@@ -72,11 +72,11 @@
 
 .mdl-badge[data-badge]:after {
   z-index: 1;
-  background: cyan;
+  /*background: cyan;*/
 }
 
 .mdl-mini-footer {
-    box-shadow: 0px -1px 4px rgba(0,0,0,.6);
+    box-shadow: 0px -1px 8px rgba(0,0,0,.4);
     background: white;
     padding-top: 0px;
     /*padding-bottom: 15px;*/
