@@ -28,7 +28,9 @@
   margin-bottom: 30px;
 
 }
-
+.heart {
+  color: black;
+}
 
 /*THIS IS CARD 1*/
 #card1.demo-card-image.mdl-card {
