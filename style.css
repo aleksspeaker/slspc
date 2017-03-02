@@ -32,6 +32,14 @@
   color: black;
 }
 
+#spinner {
+position: absolute;
+display: block;
+top: 50%;
+right: 47%;
+z-index: 100;
+}
+
 /*THIS IS CARD 1*/
 #card1.demo-card-image.mdl-card {
   background: url('images/image1.jpg') center / cover;

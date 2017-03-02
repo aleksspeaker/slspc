@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html  onload="hideSpinner()">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +8,15 @@
   <!-- Material Design Lite -->
   <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <link rel="manifest" href="manifest.json">
-<link rel="stylesheet" href="material.min.css" />
+  <link rel="stylesheet" href="material.min.css"/>
   <!-- Material Design icon font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body onload="document.getElementById('spinner').style.display = 'none';">
+<div id="spinner" class="mdl-spinner mdl-js-spinner is-active"></div>
   <!-- The drawer is always open in large screens. The header is always shown,
   even in small screens. -->
 
@@ -56,7 +57,7 @@
 <!-- POSITION ON THE MAP -->
 <div class="map-container">
 <h5 class="leftmargin-16">Nearby discounts</h5>
- <iframe width="300" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/search?q=restaurants%20near%20Bondi%20NSW&key=AIzaSyA-KK3tjHPg_DOIRMGrg1JhldSAc_9D4To" allowfullscreen></iframe>
+ <iframe width="300" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/search?q=shops%20near%20Khreschatyk%2C%20Kiev%2C%20Kyiv%20city%2C%20Ukraine&key=AIzaSyA-KK3tjHPg_DOIRMGrg1JhldSAc_9D4To"></iframe>
 </div><!-- END OF POSITION ON THE MAP -->
 
 
