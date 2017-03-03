@@ -220,3 +220,12 @@ div.fillin-content {
 h5.leftmargin-16 {
   margin-left: 16px;
 }
+
+
+// FAV CARDS
+.mdl-card.fav-card {
+  width: 100vw;
+  max-width: 600px;
+  margin-bottom: 30px;
+  min-height: 50px;
+}
