@@ -12,6 +12,14 @@
   
 }
 
+/* HEADER BACK BUTTON POSITION */
+.bck-btn {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+}
+
+
 /*THIS IS FIX FOR IMPROPER MENU BUTTON POSITION*/
 .mdl-layout__drawer-button i{
   line-height: 2;
@@ -222,10 +230,11 @@ h5.leftmargin-16 {
 }
 
 
-// FAV CARDS
+ /*FAV CARDS*/
 .mdl-card.fav-card {
   width: 100vw;
   max-width: 600px;
   margin-bottom: 30px;
   min-height: 50px;
 }
+
