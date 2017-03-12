@@ -28,7 +28,7 @@
       <button onclick="location.href='index.html';" class="mdl-button mdl-js-button  mdl-button--icon bck-btn"><i id="ftr_btn" class="material-icons">arrow_back</i></button>
         <span class="mdl-layout-title">Near me</span>
         <div class="mdl-layout-spacer"></div>
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+       <!--  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                   mdl-textfield--floating-label mdl-textfield--align-right">
           <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
             <i class="material-icons">search</i>
@@ -36,7 +36,7 @@
           <div class="mdl-textfield__expandable-holder">
             <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
           </div>
-        </div>
+        </div> -->
       </div>
     </header><!-- END OF HEADER WITH NAVIGATION -->
 
@@ -48,7 +48,15 @@
 
 <!-- POSITION ON THE MAP -->
 <div class="map-container">
-<h5 class="leftmargin-16">Nearby discounts</h5>
+<form action="#">
+  <div id="nearme-search" class="leftmargin-16 mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample1">Search</label>
+  </div>
+  <label style="display: inline-block;" class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+            <i class="material-icons">search</i>
+          </label>
+</form>
  <iframe width="300" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/search?q=shops%20near%20Khreschatyk%2C%20Kiev%2C%20Kyiv%20city%2C%20Ukraine&key=AIzaSyA-KK3tjHPg_DOIRMGrg1JhldSAc_9D4To"></iframe>
 </div><!-- END OF POSITION ON THE MAP -->
 

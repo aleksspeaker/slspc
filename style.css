@@ -224,6 +224,9 @@ div.fillin-content {
   pointer-events: auto;
 }
 
+.leftmargin-16 {
+  margin-left: 16px;
+}
 
 h5.leftmargin-16 {
   margin-left: 16px;
@@ -238,3 +241,7 @@ h5.leftmargin-16 {
   min-height: 50px;
 }
 
+/*SEARCH ON NEAR ME SCREEN*/
+#nearme-search {
+  width: 260px;
+}
