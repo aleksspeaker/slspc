@@ -245,3 +245,7 @@ h5.leftmargin-16 {
 #nearme-search {
   width: 260px;
 }
+
+.mdl-layout__header .mdl-layout__drawer-button i {
+  opacity: 1;
+}
