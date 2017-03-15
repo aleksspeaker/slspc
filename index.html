@@ -7,6 +7,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <!-- Material Design Lite -->
   <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="https://use.fontawesome.com/cdf13c6df2.js"></script>
   <link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="material.min.css" />
   <!-- Material Design icon font -->
@@ -24,7 +25,6 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-       <!-- <button style="z-index: 4;" onclick="location.href='#';" class="mdl-button mdl-js-button  mdl-button--icon bck-btn"><i id="ftr_btn" class="material-icons">apps</i></button> -->
         <span class="mdl-layout-title">News feed</span>
         <div class="mdl-layout-spacer"></div>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
@@ -38,13 +38,14 @@
         </div>
       </div>
     </header>
+
     <div class="mdl-layout__drawer">
       <span class="mdl-layout-title">Categories</span>
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="index.html">Home</a>
-        <a class="mdl-navigation__link" href="">Search</a>
-        <a class="mdl-navigation__link" href="fill-details.html">Camera</a>
-        <a class="mdl-navigation__link" href="profile.html">My profile</a>
+        <a class="mdl-navigation__link" href="index.html"><i style="color: red;" class="material-icons">directions_car</i> Cars</a>
+        <a class="mdl-navigation__link" href="index.html"><i style="color: green;" class="fa fa-cutlery" aria-hidden="true"></i> Food</a>
+        <a class="mdl-navigation__link" href="index.html"><i style="color: brown;" class="material-icons">free_breakfast</i> Cafe</a>
+        <a class="mdl-navigation__link" href="index.html"><i style="color: blue;" class="fa fa-shopping-bag" aria-hidden="true"></i> Clothes</a>
       </nav>
     </div>  <!-- END OF HEADER WITH NAVIGATION -->
 

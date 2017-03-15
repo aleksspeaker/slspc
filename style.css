@@ -247,5 +247,14 @@ h5.leftmargin-16 {
 }
 
 .mdl-layout__header .mdl-layout__drawer-button i {
-  opacity: 1;
+  opacity: 0;
+}
+.mdl-layout__header {
+background: url(images/ic_apps_black_24dp_1x.png);
+background-repeat: no-repeat;
+background-position: 16px;
+}
+.fa {
+  font-size: 1.3rem;
+  padding: 5px;
 }
