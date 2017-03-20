@@ -261,27 +261,30 @@ background-position: 16px;
 }
 
 
+
+
+
+
+
+/*FAVORITES PAGE*/
+.fav-card-container {
+  margin: -17px;
+  text-align: center;
+}
 .card-grid.demo-card-image.mdl-card {
-  float: left;
-  margin: 4px;
-  width: 45vw;
+  display: inline-block;
+  margin: auto;
+  width: 47vw;
   min-height: 0;
   height: 128px;
   background: url('images/image1.jpg') center / cover;
 }
-
-
 .card-names {
     margin-top: -16px;
     margin-bottom: 24px;
     padding-left: 16px;
 }
 
-/*FAVORITES PAGE*/
-
-.fav-card-container {
-  margin: -16px;
-}
 .myposts-heading {
   margin-top: 0;
   text-align: center;
