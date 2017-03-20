@@ -109,6 +109,7 @@ z-index: 100;
     justify-content: space-around;
     width: 100vw;
     margin-left: -16px;
+    margin-bottom: -32px;
     /*background: #424242;*/
 }
 
