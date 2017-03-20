@@ -279,3 +279,10 @@ background-position: 16px;
   font-size: 14px;
   font-weight: 500;
 }*/
+
+
+.card-names {
+    margin-top: -16px;
+    margin-bottom: 24px;
+    padding-left: 16px;
+}
