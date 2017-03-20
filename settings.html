@@ -20,8 +20,11 @@
 
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
             mdl-layout--fixed-header">
-    <header class="mdl-layout__header">
+    <header id="hdr" class="mdl-layout__header">
       <div class="mdl-layout__header-row">
+
+       <button onclick="window.history.back()" class="mdl-button mdl-js-button  mdl-button--icon bck-btn"><i id="bck" class="material-icons">arrow_back</i></button>
+
         <span class="mdl-layout-title">My settings</span>
         <div class="mdl-layout-spacer"></div>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
@@ -35,15 +38,13 @@
         </div>
       </div>
     </header>
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Title</span>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="index.html">Home</a>
-        <a class="mdl-navigation__link" href="">Search</a>
-        <a class="mdl-navigation__link" href="fill-details.html">Camera</a>
-        <a class="mdl-navigation__link" href="">My profile</a>
-      </nav>
-    </div><!-- END OF HEADER WITH NAVIGATION -->
+
+<!-- THIS SCRIPT HIDES THE CATEGORY ICON -->
+<script type="text/javascript">
+  document.getElementById('hdr').style.backgroundPosition = '-32px';
+</script><!-- END OF THE  SCCRIPT THAT HIDES THE CATEGORY ICON -->
+
+    <!-- END OF HEADER WITH NAVIGATION -->
 
     <main class="mdl-layout__content">
       <div class="page-content"> <!-- PAGE CONTENT -->
