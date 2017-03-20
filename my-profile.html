@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Material Design Lite -->
   <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://use.fontawesome.com/cdf13c6df2.js"></script>
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-orange.min.css" />
   <!-- Material Design icon font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -17,12 +18,10 @@
   even in small screens. -->
 
   <!-- HEADER WITH NAVIGATION -->
-
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
-            mdl-layout--fixed-header">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">My profile</span>
+        <span class="mdl-layout-title">News feed</span>
         <div class="mdl-layout-spacer"></div>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                   mdl-textfield--floating-label mdl-textfield--align-right">
@@ -35,15 +34,16 @@
         </div>
       </div>
     </header>
+
     <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Title</span>
+      <span class="mdl-layout-title">Categories</span>
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="index.html">Home</a>
-        <a class="mdl-navigation__link" href="">Search</a>
-        <a class="mdl-navigation__link" href="fill-details.html">Camera</a>
-        <a class="mdl-navigation__link" href="">My profile</a>
+        <a class="mdl-navigation__link" href="index.html"><i style="color: red;" class="material-icons">directions_car</i> Cars</a>
+        <a class="mdl-navigation__link" href="index.html"><i style="color: green;" class="fa fa-cutlery" aria-hidden="true"></i> Food</a>
+        <a class="mdl-navigation__link" href="index.html"><i style="color: brown;" class="material-icons">free_breakfast</i> Cafe</a>
+        <a class="mdl-navigation__link" href="index.html"><i style="color: blue;" class="fa fa-shopping-bag" aria-hidden="true"></i> Clothes</a>
       </nav>
-    </div><!-- END OF HEADER WITH NAVIGATION -->
+    </div>  <!-- END OF HEADER WITH NAVIGATION -->
 
     <main class="mdl-layout__content">
       <div class="page-content"> <!-- PAGE CONTENT -->
@@ -143,8 +143,8 @@
     <footer class="mdl-mini-footer">
       <div class="mdl-mini-footer__middle-section">
         <div class="mdl-mini-footer__link-list">
-          <button onclick="location.href='index.html';" class="mdl-button mdl-js-button mdl-button--colored mdl-button--icon"><i id="ftr_btn" class="material-icons">home</i></button>
-          <button class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">account_circle</i></button>
+          <button onclick="location.href='index.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">home</i></button>
+          <button class="mdl-button mdl-js-button mdl-button--colored mdl-button--icon"><i id="ftr_btn" class="material-icons">account_circle</i></button>
           <button onclick="location.href='fav.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">star</i></button>
           <button onclick="location.href='near-me.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">near_me</i></button>
         </div>
