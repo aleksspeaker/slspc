@@ -264,21 +264,11 @@ background-position: 16px;
 .card-grid.demo-card-image.mdl-card {
   float: left;
   margin: 4px;
-  width: 40vw;
+  width: 45vw;
   min-height: 0;
   height: 128px;
   background: url('images/image1.jpg') center / cover;
 }
-/*.demo-card-image > .mdl-card__actions {
-  height: 52px;
-  padding: 16px;
-  background: rgba(0, 0, 0, 0.2);
-}*/
-/*.demo-card-image__filename {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-}*/
 
 
 .card-names {
@@ -286,3 +276,18 @@ background-position: 16px;
     margin-bottom: 24px;
     padding-left: 16px;
 }
+
+/*FAVORITES PAGE*/
+
+.fav-card-container {
+  margin: -16px;
+}
+.myposts-heading {
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.settings-btn {
+    position: absolute;
+    left: 72px;
+    top: 43px;
