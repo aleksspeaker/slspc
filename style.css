@@ -1,99 +1,120 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 
 /* HEADER */
+
 .mdl-layout__header {
-  color: #555;
-  background: white;
-  /*text-shadow: 1px 1px 5px rgba(0,0,0,.3);*/
-  
+    color: #555;
+    background: white;
+    /*text-shadow: 1px 1px 5px rgba(0,0,0,.3);*/
 }
 
+
 /* HEADER BACK BUTTON POSITION */
+
 .bck-btn {
-  position: absolute;
-  top: 12px;
-  left: 16px;
+    position: absolute;
+    top: 12px;
+    left: 16px;
 }
 
 
 /*THIS IS FIX FOR IMPROPER MENU BUTTON POSITION*/
-.mdl-layout__drawer-button i{
-  line-height: 2;
+
+.mdl-layout__drawer-button i {
+    line-height: 2;
 }
-
-
 
 
 /*THIS IS NEWS FEED CARDS*/
-.demo-card-image.mdl-card {
-  width: 100vw;
-  max-width: 600px;
-  height: 300px;
-  margin-bottom: 30px;
 
+.demo-card-image.mdl-card {
+    width: 100vw;
+    max-width: 600px;
+    height: 300px;
+    margin-bottom: 30px;
 }
+
 .heart {
-  color: black;
+    color: black;
 }
 
 #spinner {
-position: absolute;
-display: block;
-top: 50%;
-right: 47%;
-z-index: 100;
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 47%;
+    z-index: 100;
 }
+
 
 /*THIS IS CARD 1*/
+
 #card1.demo-card-image.mdl-card {
-  background: url('images/image1.jpg') center / cover;
-}
-/*THIS IS CARD 2*/
-#card2.demo-card-image.mdl-card {
-  background: url('images/image2.jpg') center / cover;
-}
-/*THIS IS CARD 3*/
-#card3.demo-card-image.mdl-card {
-  background: url('images/image3.jpg') center / cover;
-}
-/*THIS IS CARD 4*/
-#card4.demo-card-image.mdl-card {
-  background: url('images/image4.jpg') center / cover;
-}
-/*THIS IS CARD 5*/
-#card5.demo-card-image.mdl-card {
-  background: url('images/image5.jpg') center / cover;
+    background: url('images/image1.jpg') center / cover;
 }
 
+
+/*THIS IS CARD 2*/
+
+#card2.demo-card-image.mdl-card {
+    background: url('images/image2.jpg') center / cover;
+}
+
+
+/*THIS IS CARD 3*/
+
+#card3.demo-card-image.mdl-card {
+    background: url('images/image3.jpg') center / cover;
+}
+
+
+/*THIS IS CARD 4*/
+
+#card4.demo-card-image.mdl-card {
+    background: url('images/image4.jpg') center / cover;
+}
+
+
+/*THIS IS CARD 5*/
+
+#card5.demo-card-image.mdl-card {
+    background: url('images/image5.jpg') center / cover;
+}
+
+
 /*THIS IS CARD 6*/
+
 #card6.demo-card-image.mdl-card {
-  background: url('images/image6.jpg') center / cover;
+    background: url('images/image6.jpg') center / cover;
 }
 
 .demo-card-image > .mdl-card__actions {
-  height: 52px;
-  padding: 16px;
-  background: rgba(0, 0, 0, 0.7);
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.7);
 }
+
 .demo-card-image__filename {
-  color: rgba(255,255,255,1);
-  font-size: 18px;
-  font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 500;
 }
+
 
 /*THIS IS FOOTER*/
 
 .mdl-badge[data-badge]:after {
-  z-index: 1;
-  /*background: cyan;*/
+    z-index: 1;
+    /*background: cyan;*/
 }
 
 .mdl-mini-footer {
-    box-shadow: 0px -1px 8px rgba(0,0,0,.4);
+    box-shadow: 0px -1px 8px rgba(0, 0, 0, .4);
     background: white;
     padding-top: 0px;
     /*padding-bottom: 15px;*/
@@ -126,40 +147,41 @@ z-index: 100;
 /*END OF FOOTER*/
 
 #video {
-  display: block;
+    display: block;
 }
+
 #myCanvas {
-  display: none;
+    display: none;
 }
 
 #contrButtons {
-  padding: 10px;
-  display: none;
-  text-align: center;
-  width: 100vw;
-  margin-left: -16;
-}
-#contrButtons button{
-  margin: 10px;
+    padding: 10px;
+    display: none;
+    text-align: center;
+    width: 100vw;
+    margin-left: -16;
 }
 
+#contrButtons button {
+    margin: 10px;
+}
 
-#sharebutton{
-  float: right;
-  bottom: 8px;
+#sharebutton {
+    float: right;
+    bottom: 8px;
 }
 
 .mdl-button--fab {
-  position: absolute;
-  bottom: 50px;
-  right: 16px;
-  z-index: 200;
+    position: absolute;
+    bottom: 50px;
+    right: 16px;
+    z-index: 200;
 }
 
 #image-input {
-  z-index: -1;
-  margin-top: -20px;
-  display: none;
+    z-index: -1;
+    margin-top: -20px;
+    display: none;
 }
 
 .card-icons {
@@ -171,9 +193,9 @@ z-index: 100;
 }
 
 .star-label {
-  margin-top: -6px;
-  margin-right: 8px;
-  float: right;
+    margin-top: -6px;
+    margin-right: 8px;
+    float: right;
 }
 
 .card-details {
@@ -185,97 +207,106 @@ z-index: 100;
 
 
 /*PROFILE PAGE*/
+
 .profile-content {
- padding-left: 16px;
- padding-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .demo-list-radio {
-  display: inline;
+    display: inline;
 }
 
 .demo-list-two {
-  width: 100%;
+    width: 100%;
 }
 
 
 /*FILL DETAILS PAGE*/
 
 div.fillin-content {
- padding-top: 8px;
- padding-left: 16px;
- padding-right: 16px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
-
 
 
 /*NO SCROLL FOR MAP*/
 
 .map-container {
-  width: 100%;
-  margin-bottom: 16px;
+    width: 100%;
+    margin-bottom: 16px;
 }
-.map-container iframe{
-  width: 100%;
-  display: block;
-  pointer-events: none;
-  position: relative; /* IE needs a position other than static */
+
+.map-container iframe {
+    width: 100%;
+    display: block;
+    pointer-events: none;
+    position: relative;
+    /* IE needs a position other than static */
 }
-.map-container iframe.clicked{
-  pointer-events: auto;
+
+.map-container iframe.clicked {
+    pointer-events: auto;
 }
 
 .leftmargin-16 {
-  margin-left: 16px;
+    margin-left: 16px;
 }
 
 h5.leftmargin-16 {
-  margin-left: 16px;
+    margin-left: 16px;
 }
 
-
- /*FAV CARDS*/
-.mdl-card.fav-card {
-  width: 100vw;
-  max-width: 600px;
-  margin-bottom: 30px;
-  min-height: 50px;
-}
 
 /*SEARCH ON NEAR ME SCREEN*/
+
 #nearme-search {
-  width: 260px;
+    width: 260px;
 }
 
 .mdl-layout__header .mdl-layout__drawer-button i {
-  opacity: 0;
+    opacity: 0;
 }
+
 .mdl-layout__header {
-background: url(images/ic_apps_black_24dp_1x.png);
-background-repeat: no-repeat;
-background-position: 16px;
+    background: url(images/ic_apps_black_24dp_1x.png);
+    background-repeat: no-repeat;
+    background-position: 16px;
 }
+
 .fa {
-  font-size: 1.3rem;
-  padding: 5px;
+    font-size: 1.3rem;
+    padding: 5px;
 }
-
-
 
 
 /*FAVORITES PAGE*/
+
+
+/*FAV CARDS*/
+
+.mdl-card.fav-card {
+    width: 100vw;
+    max-width: 600px;
+    margin-bottom: 30px;
+    min-height: 50px;
+}
+
 .fav-card-container {
-  margin: -17px;
-  text-align: center;
+    margin: -17px;
+    text-align: center;
 }
+
 .card-grid.demo-card-image.mdl-card {
-  display: inline-block;
-  margin: auto;
-  width: 47vw;
-  min-height: 0;
-  height: 128px;
-  background: url('images/image1.jpg') center / cover;
+    display: inline-block;
+    margin: auto;
+    width: 47vw;
+    min-height: 0;
+    height: 128px;
+    background: url('images/image1.jpg') center / cover;
 }
+
 .card-names {
     margin-top: -16px;
     margin-bottom: 24px;
@@ -283,11 +314,24 @@ background-position: 16px;
 }
 
 .myposts-heading {
-  margin-top: 0;
-  text-align: center;
-  margin-bottom: 24px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 24px;
 }
+
 .settings-btn {
     position: absolute;
     margin: auto;
     top: 43px;
+}
+
+.active {
+    transition: transform .3s, margin-top .5s .5s;
+    transition-delay: .3s, .5s;
+    transform: translateX(-330px);
+    margin-top: -80px;
+}
+
+.normal {
+    transform: translateX(0);
+}
