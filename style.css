@@ -291,6 +291,7 @@ h5.leftmargin-16 {
     max-width: 600px;
     margin-bottom: 30px;
     min-height: 50px;
+    padding: 16px;
 }
 
 .fav-card-container {
@@ -328,7 +329,7 @@ h5.leftmargin-16 {
 .active {
     transition: transform .3s, margin-top .5s .5s;
     transition-delay: .3s, .5s;
-    transform: translateX(-330px);
+    transform: translateX(-105%);
     margin-top: -80px;
 }
 
