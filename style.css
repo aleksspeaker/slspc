@@ -327,12 +327,18 @@ h5.leftmargin-16 {
 }
 
 .active {
+    -webkit-transition: margin-top .5s .5s, -webkit-transform .3s;
+    transition: margin-top .5s .5s, -webkit-transform .3s;
     transition: transform .3s, margin-top .5s .5s;
-    transition-delay: .3s, .5s;
-    transform: translateX(-105%);
+    transition: transform .3s, margin-top .5s .5s, -webkit-transform .3s;
+    -webkit-transition-delay: .3s, .5s;
+            transition-delay: .3s, .5s;
+    -webkit-transform: translateX(-105%);
+            transform: translateX(-105%);
     margin-top: -80px;
 }
 
 .normal {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
 }
