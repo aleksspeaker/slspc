@@ -335,7 +335,7 @@ h5.leftmargin-16 {
 }
 
 .normal {
-opacity: 1;
+    opacity: 1;
 }
 
 .displaynone {
@@ -353,4 +353,7 @@ opacity: 1;
 .slide-left {
     transform: translateX(-105%);
     transition: .3s .3s;
+}
+.normal label.star-label, .active label.star-label  {
+    margin: 4px;
 }
