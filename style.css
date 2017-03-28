@@ -209,8 +209,8 @@
 /*PROFILE PAGE*/
 
 .profile-content {
-    padding-left: 16px;
-    padding-right: 16px;
+/*    padding-left: 16px;
+    padding-right: 16px;*/
 }
 
 .demo-list-radio {
@@ -357,3 +357,6 @@ h5.leftmargin-16 {
 .normal label.star-label, .active label.star-label  {
     margin: 4px;
 }
+#map {
+        height: 80vh;
+      }
