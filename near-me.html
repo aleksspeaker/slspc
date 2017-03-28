@@ -7,13 +7,19 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <!-- Material Design Lite -->
   <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <script src="https://use.fontawesome.com/cdf13c6df2.js"></script>
+  <script src="https://use.fontawesome.com/cdf13c6df2.js"></script>
+  <script src="location1.js" type="text/javascript"></script>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYnsYbtMIoeC9UAYZo1pXWsOVRE1Jgbu8&callback=initMap"></script>
+
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="material.min.css"/>
   <!-- Material Design icon font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
   <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body onload="document.getElementById('spinner').style.display = 'none';">
@@ -25,18 +31,18 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Near me</span>
+        <span class="mdl-layout-title">Предложения поблизости</span>
         <div class="mdl-layout-spacer"></div>
       </div>
     </header>
 
     <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Categories</span>
+      <span class="mdl-layout-title">Категории</span>
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="index.html"><i style="color: red;" class="material-icons">directions_car</i> Cars</a>
-        <a class="mdl-navigation__link" href="index.html"><i style="color: green;" class="fa fa-cutlery" aria-hidden="true"></i> Food</a>
-        <a class="mdl-navigation__link" href="index.html"><i style="color: brown;" class="material-icons">free_breakfast</i> Cafe</a>
-        <a class="mdl-navigation__link" href="index.html"><i style="color: blue;" class="fa fa-shopping-bag" aria-hidden="true"></i> Clothes</a>
+        <a class="mdl-navigation__link" href="index.html"><i style="color: red;" class="material-icons">directions_car</i> Машины</a>
+        <a class="mdl-navigation__link" href="index.html"><i style="color: green;" class="fa fa-cutlery" aria-hidden="true"></i> Еда</a>
+        <a class="mdl-navigation__link" href="index.html"><i style="color: brown;" class="material-icons">free_breakfast</i> Кафе</a>
+        <a class="mdl-navigation__link" href="index.html"><i style="color: blue;" class="fa fa-shopping-bag" aria-hidden="true"></i> Одежда</a>
       </nav>
     </div>  <!-- END OF HEADER WITH NAVIGATION -->
 
@@ -44,72 +50,32 @@
       <div class="page-content"> <!-- PAGE CONTENT -->
         <!-- Your content goes here -->
 
-
+<div id="map"></div>
 
 <!-- POSITION ON THE MAP -->
-<div class="map-container">
-<!-- <form action="#">
+<div onload="getLocation()" class="map-container">
+<form action="#">
   <div id="nearme-search" class="leftmargin-16 mdl-textfield mdl-js-textfield">
     <input class="mdl-textfield__input" type="text" id="sample1">
-    <label class="mdl-textfield__label" for="sample1">Search</label>
+    <label class="mdl-textfield__label" for="sample1">Поиск</label>
   </div>
   <label style="display: inline-block;" class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
             <i class="material-icons">search</i>
           </label>
 </form>
- <iframe width="300" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyAYnsYbtMIoeC9UAYZo1pXWsOVRE1Jgbu8"></iframe>
-</div> --><!-- END OF POSITION ON THE MAP -->
+<!--  <iframe width="300" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyAYnsYbtMIoeC9UAYZo1pXWsOVRE1Jgbu8"></iframe> -->
+</div>
+
+<!-- END OF POSITION ON THE MAP -->
 
 
 
 
-<p id="demo">Click the button to get your position.</p>
+<p class="leftmargin-16" id="demo"></p>
 
-<button onclick="getLocation()">Try It</button>
+<button onclick="getLocation()">Нажми сюда!</button>
 
-<div id="mapholder"></div>
-
-<script>
-var x = document.getElementById("demo");
-
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition, showError);
-    } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
-    }
-}
-
-function showPosition(position) {
-    var latlon = position.coords.latitude + "," + position.coords.longitude;
-
-    var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="
-    +latlon+"&zoom=14&size=400x300&sensor=false&key=AIzaSyAYnsYbtMIoeC9UAYZo1pXWsOVRE1Jgbu8";
-    document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
-}
-//To use this code on your website, get a free API key from Google.
-//Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
-
-function showError(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            x.innerHTML = "User denied the request for Geolocation."
-            break;
-        case error.POSITION_UNAVAILABLE:
-            x.innerHTML = "Location information is unavailable."
-            break;
-        case error.TIMEOUT:
-            x.innerHTML = "The request to get user location timed out."
-            break;
-        case error.UNKNOWN_ERROR:
-            x.innerHTML = "An unknown error occurred."
-            break;
-    }
-}
-</script>
-
-
-
+<div  id="mapholder"></div>
 
 
 

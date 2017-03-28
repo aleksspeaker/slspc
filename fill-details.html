@@ -47,7 +47,7 @@
 
 
 <p class="mdl-typography--text-center mdl-typography--headline">
-Add details
+Добавьте детали
 </p>
 
 <img id="target" alt="my image" style="width: 100%;" />
@@ -60,53 +60,53 @@ Add details
 <form action="#">
 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select getmdl-select__fullwidth">
   <input class="mdl-textfield__input" type="text" id="sample1" value="" readonly tabIndex="-1">
-  <label id="selCatLabel" for="sample1" class="mdl-textfield__label">Select category</label>
+  <label id="selCatLabel" for="sample1" class="mdl-textfield__label">Выбрать категорию</label>
   <ul for="sample1" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
     <li onclick="document.getElementById('sample1').value =''; document.getElementById('selCatLabel').innerHTML ='Select category'" class="mdl-menu__item" class="mdl-menu__item"></li>
-    <li onclick="document.getElementById('sample1').value ='Food'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Food</li>
-    <li onclick="document.getElementById('sample1').value ='Clothes'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Clothes</li>
-    <li onclick="document.getElementById('sample1').value ='Automobile'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Automobile</li>
-    <li onclick="document.getElementById('sample1').value ='Accessories'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Accessories</li>
+    <li onclick="document.getElementById('sample1').value ='Food'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Еда</li>
+    <li onclick="document.getElementById('sample1').value ='Clothes'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Одежда</li>
+    <li onclick="document.getElementById('sample1').value ='Automobile'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Машины</li>
+    <li onclick="document.getElementById('sample1').value ='Accessories'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Аксессуары</li>
   </ul>
 </div>
 </form>
 <form action="#">
   <div class="mdl-textfield mdl-js-textfield">
     <input class="mdl-textfield__input" type="text" id="sample1">
-    <label class="mdl-textfield__label" for="sample1">Store name</label>
+    <label class="mdl-textfield__label" for="sample1">Название заведения</label>
   </div>
 </form>
 <form action="#">
   <div class="mdl-textfield mdl-js-textfield">
     <input class="mdl-textfield__input" type="text" id="sample1">
-    <label class="mdl-textfield__label" for="sample1">Place/Address</label>
+    <label class="mdl-textfield__label" for="sample1">Адрес</label>
   </div>
 </form>
 <form action="#">
   <div class="mdl-textfield mdl-js-textfield">
     <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
-    <label class="mdl-textfield__label" for="sample2">Sale size</label>
-    <span class="mdl-textfield__error">Input is not a number!</span>
+    <label class="mdl-textfield__label" for="sample2">Размер скидки</label>
+    <span class="mdl-textfield__error">Вводите только цифры!</span>
   </div>
 </form>
 <form action="#">
   <div class="mdl-textfield mdl-js-textfield">
     <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
-    <label class="mdl-textfield__label" for="sample2">Old price</label>
-    <span class="mdl-textfield__error">Input is not a number!</span>
+    <label class="mdl-textfield__label" for="sample2">Старая цена</label>
+    <span class="mdl-textfield__error">Вводите только цифры!</span>
   </div>
 </form>
 <form action="#">
   <div class="mdl-textfield mdl-js-textfield">
     <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
-    <label class="mdl-textfield__label" for="sample2">New price</label>
-    <span class="mdl-textfield__error">Input is not a number!</span>
+    <label class="mdl-textfield__label" for="sample2">Нова цена</label>
+    <span class="mdl-textfield__error">Вводите только цифры!</span>
   </div>
 </form>
 
 
 
-<button onclick="localStorage.clear(); channel_click();" id="sharebutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="button">Share</button>
+<button onclick="localStorage.clear(); channel_click();" id="sharebutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="button">поделиться</button>
 <div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
   <div class="mdl-snackbar__text"></div>
   <button class="mdl-snackbar__action" type="button"></button>
@@ -124,10 +124,10 @@ Add details
     showSnackbarButton.style.backgroundColor = '#' +
         Math.floor(Math.random() * 0xFFFFFF).toString(16);
     var data = {
-      message: 'Your update has been shared',
+      message: 'Вы поделились находкой',
       timeout: 2000,
       actionHandler: handler,
-      actionText: 'Undo'
+      actionText: 'Отменить'
     };
     snackbarContainer.MaterialSnackbar.showSnackbar(data);
   });

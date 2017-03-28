@@ -28,8 +28,8 @@
         <div class="mdl-layout-spacer"></div>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                   mdl-textfield--floating-label mdl-textfield--align-right">
-          <label onclick="location.href='fav-grid.html';" class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
-            <i class="material-icons">view_module</i>
+          <label onclick="location.href='fav.html';"class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+            <i class="material-icons">view_list</i>
           </label>
           <div class="mdl-textfield__expandable-holder">
           </div>
@@ -63,67 +63,56 @@
 
 <!-- card -->
 <br>
-<div style="padding: 0; vertical-align: middle;" id="fav-card" class="slide-none fav-card mdl-card mdl-shadow--4dp mdl-grid">
-<div class="mdl-cell mdl-cell--1-col"><img style="width: 100%;" src="images/image6.jpg"></div>
-<div style="padding-top: 4%" class="mdl-cell mdl-cell--3-col fav-item">Зимние шины <span>-25%</span>
-<label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle">
-    <input onclick="myfunc('fav-card')" type="checkbox" id="icon-toggle" class="mdl-icon-toggle__input" checked>
-    <i class="mdl-icon-toggle__label material-icons">star</i>
-</label></div>
-</div>
-
 
 <script type="text/javascript">
 function myfunc(id) {
   var div = document.getElementById(id);
   var className = div.getAttribute("class");
-  if(div.classList.contains('slide-none')) {
-    div.classList.remove("slide-none");
-    div.classList.add("slide-left");
+  if(div.classList.contains('normal')) {
+    div.classList.remove("normal");
+    div.classList.add("active");
     setTimeout(function() {
     div.classList.add("displaynone");
     }, 700);
   }
   else{
-    div.classList.add("slide-left");
+    div.classList.add("normal");
   }
 }
 </script>
 
 
+  <div style="display: inline-flex; flex-wrap: wrap;" class="fav-card-container">
+    
+    <div id="fav-card" class="card-grid demo-card-image mdl-card mdl-shadow--2dp normal">
+      <label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle">
+        <input onclick="myfunc('fav-card')" type="checkbox" id="icon-toggle" class="mdl-icon-toggle__input" checked>
+          <i class="mdl-icon-toggle__label material-icons">star</i>
+      </label>
+    </div>
 
+    <div id="fav-card1" class="card-grid demo-card-image mdl-card mdl-shadow--2dp normal">
+      <label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle1">
+        <input onclick="myfunc('fav-card1')" type="checkbox" id="icon-toggle1" class="mdl-icon-toggle__input" checked>
+          <i class="mdl-icon-toggle__label material-icons">star</i>
+      </label>
+    </div>
 
+    <div id="fav-card2" class="card-grid demo-card-image mdl-card mdl-shadow--2dp normal">
+      <label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle2">
+        <input onclick="myfunc('fav-card2')" type="checkbox" id="icon-toggle2" class="mdl-icon-toggle__input" checked>
+          <i class="mdl-icon-toggle__label material-icons">star</i>
+      </label>
+    </div>
 
-
-
-<div style="padding: 0; vertical-align: middle;" id="fav-card1" class="slide-none fav-card mdl-card mdl-shadow--4dp mdl-grid">
-<div class="mdl-cell mdl-cell--1-col"><img style="width: 100%;" src="images/image6.jpg"></div>
-<div style="padding-top: 4%" class="mdl-cell mdl-cell--3-col fav-item">Зимние шины <span>-25%</span>
-<label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-2">
-    <input onclick="myfunc('fav-card1')" type="checkbox" id="icon-toggle-2" class="mdl-icon-toggle__input" checked>
-    <i class="mdl-icon-toggle__label material-icons">star</i>
-</label></div>
-</div>
-
-<div style="padding: 0; vertical-align: middle;" id="fav-card2" class="slide-none fav-card mdl-card mdl-shadow--4dp mdl-grid">
-<div class="mdl-cell mdl-cell--1-col"><img style="width: 100%;" src="images/image6.jpg"></div>
-<div style="padding-top: 4%" class="mdl-cell mdl-cell--3-col fav-item">Зимние шины <span>-25%</span>
-<label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-3">
-    <input onclick="myfunc('fav-card2')" type="checkbox" id="icon-toggle-3" class="mdl-icon-toggle__input" checked>
-    <i class="mdl-icon-toggle__label material-icons">star</i>
-</label></div>
-</div>
-
-<div style="padding: 0; vertical-align: middle;" id="fav-card3" class="slide-none fav-card mdl-card mdl-shadow--4dp mdl-grid">
-<div class="mdl-cell mdl-cell--1-col"><img style="width: 100%;" src="images/image6.jpg"></div>
-<div style="padding-top: 4%" class="mdl-cell mdl-cell--3-col fav-item">Зимние шины <span>-25%</span>
-<label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-4">
-    <input onclick="myfunc('fav-card3')" type="checkbox" id="icon-toggle-4" class="mdl-icon-toggle__input" checked>
-    <i class="mdl-icon-toggle__label material-icons">star</i>
-</label></div>
-</div>
-
-
+    <div id="fav-card3" class="card-grid demo-card-image mdl-card mdl-shadow--2dp normal">
+      <label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle3">
+        <input onclick="myfunc('fav-card3')" type="checkbox" id="icon-toggle3" class="mdl-icon-toggle__input" checked>
+          <i class="mdl-icon-toggle__label material-icons">star</i>
+      </label>
+    </div>
+            
+          </div>
 
       </div><!-- END OF THE PAGE CONTENT -->
     </main>
