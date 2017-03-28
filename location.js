@@ -38,7 +38,7 @@ function initMap() {
 function performSearch() {
         var request = {
           bounds: map.getBounds(),
-          keyword: 'mcdonalds'
+          keyword: 'магазин'
         };
         service.radarSearch(request, callback);
       }
