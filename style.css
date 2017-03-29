@@ -310,11 +310,20 @@ h5.leftmargin-16 {
     height: 128px;
     background: url('images/image1.jpg') center / cover;
 }
-
+.card-info {
+    display: flex;
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: 8px;
+}
 .card-names {
-    margin-top: -16px;
-    margin-bottom: 24px;
-    padding-left: 16px;
+    padding: 16px 0px 24px 8px;
+    font-size: 20px;
+    color: rgba(0,0,0,.87);
+}
+.category-icon {
+    padding: 16px 8px 24px 16px;
+    margin-top: -8px;
 }
 
 .myposts-heading {

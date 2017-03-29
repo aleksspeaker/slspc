@@ -26,7 +26,7 @@ function initMap() {
       };
 
       infoWindow.setPosition(pos);
-      infoWindow.setContent('Me');
+      infoWindow.setContent('Я тут');
       map.setCenter(pos);
               // The idle event is a debounced event, so we can query & listen without
         // throwing too many requests at the server.
