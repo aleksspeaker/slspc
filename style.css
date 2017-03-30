@@ -299,7 +299,9 @@ h5.leftmargin-16 {
     /*margin: -17px;*/
     /*text-align: center;*/
 }
-
+.fav-item {
+    font-size: 14px;
+}
 .card-grid.demo-card-image.mdl-card {
     /*display: inline-block;*/
     /*margin: auto;*/
@@ -308,7 +310,19 @@ h5.leftmargin-16 {
     margin-bottom: 2px;
     min-height: 0;
     height: 128px;
+    
+}
+#fav-card.card-grid {
     background: url('images/image1.jpg') center / cover;
+}
+#fav-card1.card-grid {
+    background: url('images/image2.jpg') center / cover;
+}
+#fav-card2.card-grid {
+    background: url('images/image3.jpg') center / cover;
+}
+#fav-card3.card-grid {
+    background: url('images/image4.jpg') center / cover;
 }
 .card-info {
     display: flex;
