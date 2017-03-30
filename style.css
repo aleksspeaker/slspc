@@ -190,8 +190,9 @@
 }
 
 .star-label {
-    margin-right: 8px;
-    float: right;
+    position: absolute;
+    right: 8px;
+    top: 20px;
 }
 
 .card-details {
@@ -286,7 +287,7 @@ h5.leftmargin-16 {
     max-width: 600px;
     margin-bottom: 1px;
     min-height: 50px;
-    padding: 16px
+    vertical-align: middle;
 }
 
 .fav-card-container {
@@ -296,6 +297,11 @@ h5.leftmargin-16 {
 }
 .fav-item {
     font-size: 14px;
+    padding-top: 10px;
+}
+.favimg {
+    height: 40px;
+    overflow-y: hidden;
 }
 .card-grid.demo-card-image.mdl-card {
     /*display: inline-block;*/
@@ -325,12 +331,12 @@ h5.leftmargin-16 {
     margin-bottom: -12px;
 }
 .card-names {
-    padding: 16px 0px 24px 8px;
+    padding: 16px 0px 24px 4px;
     font-size: 18px;
     color: rgba(0,0,0,.87);
 }
 .category-icon {
-    padding: 16px 8px 24px 16px;
+    padding: 16px 4px 24px 16px;
     margin-top: -8px;
 }
 
@@ -372,7 +378,7 @@ h5.leftmargin-16 {
 .slide-left {
         transform: translateX(-110%);
         
-        margin-top: -57px;
+        margin-top: -73px;
         transition: transform .3s, margin-top .3s .3s;
 }
 .normal label.star-label, .active label.star-label  {
@@ -382,7 +388,3 @@ h5.leftmargin-16 {
         height: 70vh;
       }
 
-.favimg {
-    height: 40px;
-    overflow-y: hidden;
-}
