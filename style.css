@@ -289,7 +289,7 @@ h5.leftmargin-16 {
 .mdl-card.fav-card {
     width: 100vw;
     max-width: 600px;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
     min-height: 50px;
     padding: 16px
 }
@@ -358,14 +358,14 @@ h5.leftmargin-16 {
 }
 
 .slide-none {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+        transform: translateX(0);
+        transform: translateY(0);
 }
 .slide-left {
-    -webkit-transform: translateX(-105%);
-            transform: translateX(-105%);
-    -webkit-transition: .3s .3s;
-    transition: .3s .3s;
+        transform: translateX(-110%);
+        
+        margin-top: -57px;
+        transition: transform .3s, margin-top .3s .3s;
 }
 .normal label.star-label, .active label.star-label  {
     margin: 4px;
@@ -373,3 +373,8 @@ h5.leftmargin-16 {
 #map {
         height: 70vh;
       }
+
+.favimg {
+    height: 40px;
+    overflow-y: hidden;
+}
