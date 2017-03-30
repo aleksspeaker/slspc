@@ -313,6 +313,12 @@ h5.leftmargin-16 {
     height: 128px;
     
 }
+.card-grid label {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 #fav-card.card-grid {
     background: url('images/image1.jpg') center / cover;
 }
