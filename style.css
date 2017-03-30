@@ -187,14 +187,21 @@
     max-width: 600px;
     padding: 16px;
     line-height: 1.5;
+    position: relative;
 }
+
+
 
 .star-label {
     position: absolute;
     right: 8px;
     top: 20px;
 }
-
+.card-icons.star-label {
+    position: absolute;
+    right: 8px;
+    top: 20px;
+}
 .card-details {
     max-width: 600px;
     padding-left: 16px;
