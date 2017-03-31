@@ -96,12 +96,12 @@
 <div class="card-icons">
   <button class="mdl-button mdl-js-button mdl-button--icon">
         <i class="material-icons">comment</i>
-  </button>&nbsp &nbsp
+  </button> 
   <label class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-1">
       <input type="checkbox" id="icon-toggle-1" class="mdl-icon-toggle__input">
     <i class="heart mdl-icon-toggle__label material-icons">favorite</i>
   </label>
- &nbsp &nbsp
+  
 
 <!-- SHARE BUTTON -->
 
@@ -164,12 +164,12 @@
 <div class="card-icons">
   <button class="mdl-button mdl-js-button mdl-button--icon">
         <i class="material-icons">comment</i>
-  </button>&nbsp &nbsp
+  </button> 
   <label class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-1">
       <input type="checkbox" id="icon-toggle-1" class="mdl-icon-toggle__input">
     <i class="heart mdl-icon-toggle__label material-icons">favorite</i>
   </label>
- &nbsp &nbsp
+  
 
 <!-- SHARE BUTTON -->
 
@@ -200,7 +200,7 @@
     </main>
 
 
-<button onclick="document.getElementById('image-input').click();" id="cambtn" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i id="ftr_btn" class="material-icons">add</i></button>
+
 
 
 <!-- FOOTER -->    
@@ -214,31 +214,6 @@
         </div>
       </div>
     </footer><!-- END OF THE FOOTER -->
-
-
-    <!-- THIS IS TRICKY FORM NECESSARY FOR FAB -->
-    <form id="form" action="fill-details.html" style="z-index: -1;">
-      <input id="image-input" type="file" accept="image/*" capture="camera">
-    </form><!-- END OF TRICKY FORM NECESSARY FOR FAB -->
-
-
-
-<script type="text/javascript">
-var input = document.getElementById('image-input');
-input.onchange = function(event) {
-  var image = input.files[0];
-  if (image) {
-    var reader = new FileReader();
-    reader.onloadend = function() {
-      localStorage.setItem('image', reader.result);
-      document.getElementById("form").submit();
-    }
-    reader.readAsDataURL(image);
-  }
-};
-</script>
-
-
 
 
   </div>     
