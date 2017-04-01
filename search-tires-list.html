@@ -67,9 +67,13 @@
         <!-- MDL Progress Bar with Indeterminate Progress -->
         <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
         <!-- Wide card with share menu button -->
-        <!-- card -->
+
+
+
+
+        <!-- CARD -->
         <br>
-        <div id="fav-card" class="slide-none fav-card mdl-card mdl-shadow--4dp mdl-grid">
+        <div onclick="myfunc('fav-card')" id="fav-card" class="card-collaps mdl-card mdl-shadow--4dp mdl-grid">
           <div class="favimg mdl-cell mdl-cell--1-col">
             <img style="width: 100%;" src="images/image4.jpg"></div>
           <div class="mdl-cell mdl-cell--3-col fav-item">Шины зимние <span>-25%</span>
@@ -83,20 +87,20 @@
         function myfunc(id) {
           var div = document.getElementById(id);
           var className = div.getAttribute("class");
-          if (div.classList.contains('slide-none')) {
-            div.classList.remove("slide-none");
-            div.classList.add("slide-left");
-            setTimeout(function() {
-              div.classList.add("displaynone");
-            }, 1700);
+          if (div.classList.contains('card-collaps')) {
+            div.classList.remove("card-collaps");
+            div.classList.add("card-expand");
+            // setTimeout(function() {
+            //   div.classList.add("displaynone");
+            // }, 1700);
           } else {
-            div.classList.add("slide-left");
+            div.classList.add("card-expand");
           }
         }
         </script>
 
 
-        <div id="fav-card1" class="slide-none fav-card mdl-card mdl-shadow--4dp mdl-grid">
+        <div id="fav-card1" class="card-collaps fav-card mdl-card mdl-shadow--4dp mdl-grid">
           <div class="favimg mdl-cell mdl-cell--1-col">
             <img style="width: 100%;" src="images/image4.jpg"></div>
           <div class="mdl-cell mdl-cell--3-col fav-item">Шины летние <span>-25%</span>
@@ -106,7 +110,7 @@
             </label> -->
           </div>
         </div>
-        <div id="fav-card2" class="slide-none fav-card mdl-card mdl-shadow--4dp mdl-grid">
+        <div id="fav-card2" class="card-collaps fav-card mdl-card mdl-shadow--4dp mdl-grid">
           <div class="favimg mdl-cell mdl-cell--1-col">
             <img style="width: 100%;" src="images/image4.jpg"></div>
           <div class="mdl-cell mdl-cell--3-col fav-item">Шины внедорожные <span>-25%</span>
@@ -116,7 +120,7 @@
             </label> -->
           </div>
         </div>
-        <div id="fav-card3" class="slide-none fav-card mdl-card mdl-shadow--4dp mdl-grid">
+        <div id="fav-card3" class="card-collaps fav-card mdl-card mdl-shadow--4dp mdl-grid">
           <div class="favimg mdl-cell mdl-cell--1-col">
             <img style="width: 100%;" src="images/image4.jpg"></div>
           <div class="mdl-cell mdl-cell--3-col fav-item">Шины <span>-25%</span>
