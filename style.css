@@ -400,4 +400,6 @@ h5.leftmargin-16 {
 #map {
         height: 70vh;
       }
-
+mdl-menu__container {
+    margin-left: -20px;
+}

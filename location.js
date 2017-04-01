@@ -56,9 +56,9 @@ function addMarker(place) {
           map: map,
           position: place.geometry.location,
           icon: {
-            url: 'https://developers.google.com/maps/documentation/javascript/images/circle.png',
+            url: 'images/sale-map.png',
             anchor: new google.maps.Point(10, 10),
-            scaledSize: new google.maps.Size(10, 17)
+            scaledSize: new google.maps.Size(36, 36)
           }
         });
 
