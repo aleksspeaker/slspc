@@ -38,7 +38,7 @@ function initMap() {
 function performSearch() {
         var request = {
           bounds: map.getBounds(),
-          keyword: 'шины'
+          keyword: 'піцца'
         };
         service.radarSearch(request, callback);
       }
