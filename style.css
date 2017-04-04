@@ -206,7 +206,7 @@ footer.mdl-mini-footer {
 
 .mdl-button--fab {
     position: absolute;
-    bottom: 50px;
+    bottom: 60px;
     right: 16px;
     z-index: 200;
 }
