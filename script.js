@@ -22,6 +22,7 @@
             div.classList.remove("search-img-small");
             div.classList.add("search-img-big");
             div.classList.add("mdl-cell--4-col");
+            div.classList.add("mdl-cell--order-2");
             // setTimeout(function() {
             //   div.classList.add("displaynone");
             // }, 1700);

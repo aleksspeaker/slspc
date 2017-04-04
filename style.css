@@ -390,10 +390,10 @@ h5.leftmargin-16 {
         transform: translateY(0);
 }
 .slide-left {
-        transform: translateX(-110%);
+        transform: translateX(-220%);
         
         margin-top: -73px;
-        transition: transform .3s, margin-top .3s .3s;
+        transition: transform .6s, margin-top .3s .3s;
 }
 .normal label.star-label, .active label.star-label  {
     margin: 4px;
@@ -416,7 +416,7 @@ h5.leftmargin-16 {
 }
 .card-expand {
 min-height: 100px;
-transition: min-height 1s;
+transition: .3s;
 }
 
 
@@ -426,6 +426,7 @@ transition: min-height 1s;
     overflow-y: hidden;
 }
 .search-img-big {
-    height: 120px;
+    height: 180px;
     overflow-y: hidden;
+    transition: .3s;
 }
