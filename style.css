@@ -20,6 +20,7 @@
     position: absolute;
     top: 12px;
     left: 16px;
+    z-index: 4;
 }
 
 
@@ -403,7 +404,7 @@ h5.leftmargin-16 {
 .mdl-menu__container {
     margin-left: -20px;
 }
-.card-collaps {
+.card-collapse {
     width: 100vw;
     max-width: 600px;
     margin-bottom: 1px;
@@ -416,4 +417,15 @@ h5.leftmargin-16 {
 .card-expand {
 min-height: 100px;
 transition: min-height 1s;
+}
+
+
+/*SEARCH LIST ITEMS*/
+.search-img-small {
+    height: 40px;
+    overflow-y: hidden;
+}
+.search-img-big {
+    height: 120px;
+    overflow-y: hidden;
 }

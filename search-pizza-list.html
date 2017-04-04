@@ -8,6 +8,7 @@
   <!-- Material Design Lite -->
   <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <script src="https://use.fontawesome.com/cdf13c6df2.js"></script>
+    <script src="script.js"></script>
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="material.min.css" />
   <!-- Material Design icon font -->
@@ -66,68 +67,36 @@
         <!-- Your content goes here -->
         <!-- MDL Progress Bar with Indeterminate Progress -->
         <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
-        <!-- Wide card with share menu button -->
-
 
 
 
         <!-- CARD -->
         <br>
-        <div onclick="myfunc('fav-card')" id="fav-card" class="card-collaps mdl-card mdl-shadow--4dp mdl-grid">
-          <div class="favimg mdl-cell mdl-cell--1-col">
+        <div onclick="search_card_expand('search-card')" id="search-card" class="card-collapse mdl-card mdl-shadow--4dp mdl-grid">
+          <div id="search-image" class="search-img-small mdl-cell mdl-cell--1-col">
             <img style="width: 100%;" src="images/image4.jpg"></div>
           <div class="mdl-cell mdl-cell--3-col fav-item">Пицца Челентано <span>-25%</span>
-            <!-- <label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle">
-              <input onclick="myfunc('fav-card')" type="checkbox" id="icon-toggle" class="mdl-icon-toggle__input" checked>
-              <i class="mdl-icon-toggle__label material-icons">star</i>
-            </label> -->
           </div>
         </div>
-        <script type="text/javascript">
-        function myfunc(id) {
-          var div = document.getElementById(id);
-          var className = div.getAttribute("class");
-          if (div.classList.contains('card-collaps')) {
-            div.classList.remove("card-collaps");
-            div.classList.add("card-expand");
-            // setTimeout(function() {
-            //   div.classList.add("displaynone");
-            // }, 1700);
-          } else {
-            div.classList.add("card-expand");
-          }
-        }
-        </script>
 
-
-        <div id="fav-card1" class="card-collaps fav-card mdl-card mdl-shadow--4dp mdl-grid">
-          <div class="favimg mdl-cell mdl-cell--1-col">
+        <div id="search-card1" class="card-collapse search-card mdl-card mdl-shadow--4dp mdl-grid">
+          <div class="search-img-small mdl-cell mdl-cell--1-col">
             <img style="width: 100%;" src="images/image4.jpg"></div>
           <div class="mdl-cell mdl-cell--3-col fav-item">Пицца с собой <span>-25%</span>
-            <!-- <label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-2">
-              <input onclick="myfunc('fav-card1')" type="checkbox" id="icon-toggle-2" class="mdl-icon-toggle__input" checked>
-              <i class="mdl-icon-toggle__label material-icons">star</i>
-            </label> -->
           </div>
         </div>
-        <div id="fav-card2" class="card-collaps fav-card mdl-card mdl-shadow--4dp mdl-grid">
-          <div class="favimg mdl-cell mdl-cell--1-col">
+
+        <div id="search-card2" class="card-collapse search-card mdl-card mdl-shadow--4dp mdl-grid">
+          <div class="search-img-small mdl-cell mdl-cell--1-col">
             <img style="width: 100%;" src="images/image4.jpg"></div>
           <div class="mdl-cell mdl-cell--3-col fav-item">Пицца на дровах <span>-5%</span>
-          <!--   <label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-3">
-              <input onclick="myfunc('fav-card2')" type="checkbox" id="icon-toggle-3" class="mdl-icon-toggle__input" checked>
-              <i class="mdl-icon-toggle__label material-icons">star</i>
-            </label> -->
           </div>
         </div>
-        <div id="fav-card3" class="card-collaps fav-card mdl-card mdl-shadow--4dp mdl-grid">
-          <div class="favimg mdl-cell mdl-cell--1-col">
+
+        <div id="search-card3" class="card-collapse search-card mdl-card mdl-shadow--4dp mdl-grid">
+          <div class="search-img-small mdl-cell mdl-cell--1-col">
             <img style="width: 100%;" src="images/image4.jpg"></div>
           <div class="mdl-cell mdl-cell--3-col fav-item">Пицца <span>-25%</span>
-            <!-- <label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-4">
-              <input onclick="myfunc('fav-card3')" type="checkbox" id="icon-toggle-4" class="mdl-icon-toggle__input" checked>
-              <i class="mdl-icon-toggle__label material-icons">star</i>
-            </label> -->
           </div>
         </div>
       </div>
@@ -146,6 +115,7 @@
     </footer>
     <!-- END OF THE FOOTER -->
   </div>
+
 </body>
 
 </html>
