@@ -31,3 +31,4 @@
             div.classList.add("mdl-cell--4-col");
           }
         }
+// END OF SCRIPT FOR CARD ANIMATION
