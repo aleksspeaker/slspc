@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+.page-content {
+    margin-bottom: 64px;
+}
 
 /* HEADER */
 
@@ -108,21 +110,14 @@
 
 /*THIS IS FOOTER*/
 
-mdl-mini-footer__middle-section {
-    padding: 0;
 
-}
 footer.mdl-mini-footer {
-
     box-shadow: 0px -1px 8px rgba(0, 0, 0, .4);
     background: white;
     margin: 0px;
-    
     padding-left: 0px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-
-    display: block;
+    /*padding-top: 6px;*/
+    /*padding-bottom: 6px;*/
 }
 
 .mdl-mini-footer__link-list {
@@ -139,12 +134,38 @@ footer.mdl-mini-footer {
     margin: 0;
 }
 
-.mdl-mini-footer__link-list span {
+/*.mdl-mini-footer__link-list span {
     margin-top: 3px;
-}
+}*/
 
 #footer {
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    height: 56px;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+}
 
+.bottom-button {
+    width: 96px;
+    height: 56px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0px;
+}
+
+.mdl-button--icon {
+    margin: 0;
+    border: 1px solid green
+}
+.material-icons {
+    margin: 0;
+    border: 1px solid blue   
 }
 
 /*END OF FOOTER*/
@@ -180,15 +201,6 @@ footer.mdl-mini-footer {
     right: 16px;
     z-index: 200;
 }
-/*#form {
-    display: none;
-}
-
-#image-input {
-    z-index: -1;
-    margin-top: -20px;
-    display: none;
-}*/
 
 .card-icons {
     max-width: 600px;
@@ -217,10 +229,7 @@ footer.mdl-mini-footer {
 
 /*PROFILE PAGE*/
 
-.profile-content {
-/*    padding-left: 16px;
-    padding-right: 16px;*/
-}
+
 
 .demo-list-radio {
     display: inline;
