@@ -339,7 +339,7 @@
         <!--END OF THE PERSON WHO SHARED CONTENT -->
         <div class="card-info">
           <div class="category-icon" style="color: red;">
-            <button class="mdl-button mdl-js-button mdl-button--icon">
+            <button id="homebutton" class="mdl-button mdl-js-button mdl-button--icon">
               <i style="color: #4CAF50;" class="fa fa-cutlery"></i>
             </button>
           </div>
@@ -383,12 +383,14 @@
       <!-- END OF THE PAGE CONTENT -->
     </main>
     <button onclick="document.getElementById('image-input').click();" id="cambtn" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i id="fab" class="material-icons">add</i></button>
+    
     <!-- FOOTER -->
     <footer id="footer" class="clearfix:after mdl-mini-footer">
       <div class="mdl-mini-footer__middle-section">
         <div class="mdl-mini-footer__link-list">
           <div class="bottom-button">
             <button onclick="location.href='index.html';" class="mdl-button mdl-js-button mdl-button--colored mdl-button--icon"><i id="ftr_btn" class="material-icons">home</i></button>
+            <span class="button-label">Лента</span>
           </div>
           <div class="bottom-button">
             <button onclick="location.href='my-profile.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn1" class="material-icons">account_circle</i></button>
@@ -403,6 +405,7 @@
       </div>
     </footer>
     <!-- END OF THE FOOTER -->
+
     <!-- THIS IS TRICKY FORM NECESSARY FOR FAB -->
     <form id="form" action="fill-details.html" style="display: none;">
       <input id="image-input" type="file" accept="image/*">
