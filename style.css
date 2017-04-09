@@ -118,44 +118,60 @@ footer.mdl-mini-footer {
 
 /* line 100, style.scss */
 .mdl-mini-footer__link-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   width: 100vw;
 }
-/* line 104, style.scss */
-.mdl-mini-footer__link-list button, .mdl-mini-footer__link-list span {
+/* line 108, style.scss */
+.mdl-mini-footer__link-list button,
+.mdl-mini-footer__link-list span {
   margin: 0;
 }
 
-/* line 109, style.scss */
+/* line 113, style.scss */
 #footer {
   z-index: 1;
   position: fixed;
   bottom: 0;
   height: 56px;
   margin: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding: 0;
 }
 
-/* line 119, style.scss */
+/* line 125, style.scss */
 .bottom-button {
   width: 96px;
   height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: relative;
   margin: 0;
 }
 
-/* line 130, style.scss */
-.mdl-button--icon, .material-icons {
+/* line 146, style.scss */
+.mdl-button--icon,
+.material-icons {
   margin: 0;
 }
 
-/* line 134, style.scss */
+/* line 150, style.scss */
 .button-label {
   font-size: 12px;
   margin: 0;
@@ -164,7 +180,7 @@ footer.mdl-mini-footer {
   padding-bottom: 10px;
 }
 
-/* line 142, style.scss */
+/* line 158, style.scss */
 .button-label-active {
   color: #00bcd4;
   font-size: 14px;
@@ -174,17 +190,17 @@ footer.mdl-mini-footer {
   padding-bottom: 10px;
 }
 
-/* line 151, style.scss */
+/* line 167, style.scss */
 #video {
   display: block;
 }
 
-/* line 155, style.scss */
+/* line 171, style.scss */
 #myCanvas {
   display: none;
 }
 
-/* line 159, style.scss */
+/* line 175, style.scss */
 #contrButtons {
   padding: 10px;
   display: none;
@@ -192,18 +208,18 @@ footer.mdl-mini-footer {
   width: 100vw;
   margin-left: -16px;
 }
-/* line 165, style.scss */
+/* line 181, style.scss */
 #contrButtons button {
   margin: 10px;
 }
 
-/* line 170, style.scss */
+/* line 186, style.scss */
 #sharebutton {
   float: right;
   bottom: 8px;
 }
 
-/* line 175, style.scss */
+/* line 191, style.scss */
 .mdl-button--fab {
   position: absolute;
   bottom: 60px;
@@ -211,7 +227,7 @@ footer.mdl-mini-footer {
   z-index: 200;
 }
 
-/* line 182, style.scss */
+/* line 198, style.scss */
 .card-icons {
   max-width: 600px;
   padding: 16px;
@@ -219,77 +235,79 @@ footer.mdl-mini-footer {
   position: relative;
 }
 
-/* line 189, style.scss */
-.star-label, .card-icons.star-label {
+/* line 206, style.scss */
+.star-label,
+.card-icons.star-label {
   position: absolute;
   right: 8px;
   top: 20px;
 }
 
-/* line 195, style.scss */
+/* line 212, style.scss */
 .card-details {
   max-width: 600px;
   padding-left: 16px;
 }
 
-/* line 200, style.scss */
+/* line 217, style.scss */
 .demo-list-radio {
   display: inline;
 }
 
-/* line 204, style.scss */
+/* line 221, style.scss */
 .demo-list-two {
   width: 100%;
   padding: 0;
 }
 
-/* line 209, style.scss */
+/* line 226, style.scss */
 div.fillin-content {
   padding-top: 8px;
   padding-left: 16px;
   padding-right: 16px;
 }
 
-/* line 215, style.scss */
+/* line 232, style.scss */
 .map-container {
   width: 100%;
   margin-bottom: 16px;
 }
-/* line 218, style.scss */
+/* line 235, style.scss */
 .map-container iframe {
   width: 100%;
   display: block;
   position: relative;
 }
 
-/* line 225, style.scss */
-.leftmargin-16, h5.leftmargin-16 {
+/* line 243, style.scss */
+.leftmargin-16,
+h5.leftmargin-16 {
   margin-left: 16px;
 }
 
-/* line 229, style.scss */
+/* line 247, style.scss */
 #nearme-search {
   width: 260px;
 }
 
-/* line 233, style.scss */
+/* line 251, style.scss */
 .mdl-layout__header {
   background: url(images/ic_apps_black_24dp_1x.png);
   background-repeat: no-repeat;
   background-position: 16px;
 }
-/* line 234, style.scss */
+/* line 252, style.scss */
 .mdl-layout__header .mdl-layout__drawer-button i {
   opacity: 0;
 }
 
-/* line 242, style.scss */
+/* line 260, style.scss */
 .fa {
   font-size: 1.3rem;
   padding: 5px;
 }
 
-/* line 247, style.scss */
+/* line 265, style.scss */
 .mdl-card.fav-card {
   width: 100vw;
   max-width: 600px;
@@ -298,19 +316,19 @@ div.fillin-content {
   vertical-align: middle;
 }
 
-/* line 255, style.scss */
+/* line 273, style.scss */
 .fav-item {
   font-size: 14px;
   padding-top: 10px;
 }
 
-/* line 260, style.scss */
+/* line 278, style.scss */
 .favimg {
   height: 40px;
   overflow-y: hidden;
 }
 
-/* line 266, style.scss */
+/* line 284, style.scss */
 .card-grid.demo-card-image.mdl-card {
   width: 49vw;
   margin-right: 2px;
@@ -318,118 +336,128 @@ div.fillin-content {
   min-height: 0;
   height: 128px;
 }
-/* line 273, style.scss */
+/* line 291, style.scss */
 .card-grid label {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 280, style.scss */
+/* line 298, style.scss */
 #fav-card.card-grid {
   background: url("images/image1.jpg") center/cover;
 }
 
-/* line 284, style.scss */
+/* line 302, style.scss */
 #fav-card1.card-grid {
   background: url("images/image2.jpg") center/cover;
 }
 
-/* line 288, style.scss */
+/* line 306, style.scss */
 #fav-card2.card-grid {
   background: url("images/image3.jpg") center/cover;
 }
 
-/* line 292, style.scss */
+/* line 310, style.scss */
 #fav-card3.card-grid {
   background: url("images/image4.jpg") center/cover;
 }
 
-/* line 296, style.scss */
+/* line 314, style.scss */
 .card-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   margin-bottom: -12px;
 }
 
-/* line 302, style.scss */
+/* line 322, style.scss */
 .card-names {
   padding: 16px 0 24px 4px;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.87);
 }
 
-/* line 308, style.scss */
+/* line 328, style.scss */
 .category-icon {
   padding: 16px 4px 24px 16px;
   margin-top: -8px;
 }
 
-/* line 313, style.scss */
+/* line 333, style.scss */
 .myposts-heading {
   margin-top: 0;
   text-align: center;
   margin-bottom: 24px;
 }
 
-/* line 319, style.scss */
+/* line 339, style.scss */
 .settings-btn {
   position: absolute;
   margin: auto;
   top: 43px;
 }
 
-/* line 325, style.scss */
+/* line 345, style.scss */
 .active {
   opacity: 0;
+  -webkit-transition: 0.3s 0.3s;
   transition: 0.3s 0.3s;
 }
 
-/* line 330, style.scss */
+/* line 351, style.scss */
 .normal {
   opacity: 1;
 }
 
-/* line 334, style.scss */
+/* line 355, style.scss */
 .displaynone {
   display: none;
 }
 
-/* line 338, style.scss */
+/* line 359, style.scss */
 .mdl-icon-toggle__ripple-container {
   background: rgba(255, 255, 255, 0.53);
   z-index: -1;
 }
 
-/* line 343, style.scss */
+/* line 364, style.scss */
 .slide-none {
+  -webkit-transform: translateX(0);
   transform: translateX(0);
+  -webkit-transform: translateY(0);
   transform: translateY(0);
 }
 
-/* line 348, style.scss */
+/* line 371, style.scss */
 .slide-left {
+  -webkit-transform: translateX(-220%);
   transform: translateX(-220%);
   margin-top: -73px;
+  -webkit-transition: margin-top 0.3s 0.3s, -webkit-transform 0.6s;
+  transition: margin-top 0.3s 0.3s, -webkit-transform 0.6s;
   transition: transform 0.6s, margin-top 0.3s 0.3s;
+  transition: transform 0.6s, margin-top 0.3s 0.3s, -webkit-transform 0.6s;
 }
 
-/* line 354, style.scss */
-.normal label.star-label, .active label.star-label {
+/* line 382, style.scss */
+.normal label.star-label,
+.active label.star-label {
   margin: 4px;
 }
 
-/* line 358, style.scss */
+/* line 386, style.scss */
 #map {
   height: 70vh;
 }
 
-/* line 362, style.scss */
+/* line 390, style.scss */
 .mdl-menu__container {
   margin-left: -20px;
 }
 
-/* line 366, style.scss */
+/* line 394, style.scss */
 .card-collapse {
   width: 100vw;
   max-width: 600px;
@@ -438,27 +466,33 @@ div.fillin-content {
   vertical-align: middle;
 }
 
-/* line 374, style.scss */
+/* line 402, style.scss */
 .card-expand {
   min-height: 100px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* line 379, style.scss */
+/* line 408, style.scss */
 .search-img-small {
   height: 40px;
   overflow-y: hidden;
 }
 
-/* line 384, style.scss */
+/* line 413, style.scss */
 .search-img-big {
   height: 180px;
   overflow-y: hidden;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* line 390, style.scss */
+/* line 420, style.scss */
 .profile-content {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
