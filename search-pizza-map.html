@@ -60,7 +60,7 @@
 
 <form class="leftmargin-16" action="#">
 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select getmdl-select__fullwidth">
-  <input class="mdl-textfield__input" type="text" id="sample1" value="" readonly tabIndex="-1">
+  <input class="mdl-textfield__input" type="text" id="sample1" value="пицца" readonly tabIndex="-1">
   <label id="selCatLabel" for="sample1" class="mdl-textfield__label">Поиск</label>
   <ul for="sample1" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
     <li onclick="document.getElementById('sample1').value ='пицца'; document.getElementById('selCatLabel').innerHTML =''; location.href='search-pizza-map.html'" class="mdl-menu__item">пицца</li>
@@ -76,17 +76,30 @@
 </main>
 
 
-<!-- FOOTER -->    
-    <footer class="mdl-mini-footer">
+<!-- FOOTER -->
+    <footer id="footer" class="clearfix:after mdl-mini-footer">
       <div class="mdl-mini-footer__middle-section">
         <div class="mdl-mini-footer__link-list">
-          <button onclick="location.href='index.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">home</i></button>
-          <button class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">account_circle</i></button>
-          <button onclick="location.href='fav.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">star</i></button>
-          <button onclick="location.href='near-me.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">near_me</i></button>
+          <div class="bottom-button">
+            <button onclick="location.href='index.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">home</i></button>
+            <span class="button-label">Лента</span>
+          </div>
+          <div class="bottom-button">
+            <button onclick="location.href='my-profile.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn1" class="material-icons">account_circle</i></button>
+            <span class="button-label">Профиль</span>
+          </div>
+          <div class="bottom-button">
+            <button onclick="location.href='fav.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn2" class="material-icons">star</i></button>
+            <span class="button-label">Избранное</span>
+          </div>
+          <div class="bottom-button">
+            <button onclick="location.href='near-me.html';" class="mdl-button mdl-js-button mdl-button--colored mdl-button--icon"><i id="ftr_btn3" class="material-icons">near_me</i></button>
+            <span class="button-label-active">Вокруг</span>
+          </div>
         </div>
       </div>
-    </footer><!-- END OF THE FOOTER -->
+    </footer>
+    <!-- END OF THE FOOTER -->
   
 
 

@@ -1,22 +1,18 @@
-/* line 1, style.scss */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* line 7, style.scss */
 .page-content {
   margin-bottom: 64px;
 }
 
-/* line 11, style.scss */
 .mdl-layout__header {
   color: #555;
   background: white;
 }
 
-/* line 16, style.scss */
 .bck-btn {
   position: absolute;
   top: 12px;
@@ -24,24 +20,20 @@
   z-index: 4;
 }
 
-/* line 23, style.scss */
 .mdl-layout__drawer-button i {
   line-height: 2;
 }
 
-/* line 27, style.scss */
 .demo-card-image.mdl-card {
   width: 100vw;
   max-width: 600px;
   height: 300px;
 }
 
-/* line 33, style.scss */
 .heart {
   color: black;
 }
 
-/* line 37, style.scss */
 #spinner {
   position: absolute;
   display: block;
@@ -50,51 +42,42 @@
   z-index: 100;
 }
 
-/* line 45, style.scss */
 #card1.demo-card-image.mdl-card {
-  background: url("images/image1.jpg") center/cover;
+  background: url('images/image1.jpg') (center / cover);
 }
 
-/* line 49, style.scss */
 #card2.demo-card-image.mdl-card {
-  background: url("images/image2.jpg") center/cover;
+  background: url('images/image2.jpg') (center / cover);
 }
 
-/* line 53, style.scss */
 #card3.demo-card-image.mdl-card {
-  background: url("images/image3.jpg") center/cover;
+  background: url('images/image3.jpg') (center / cover);
 }
 
-/* line 57, style.scss */
 #card4.demo-card-image.mdl-card {
-  background: url("images/image4.jpg") center/cover;
+  background: url('images/image4.jpg') (center / cover);
 }
 
-/* line 61, style.scss */
 #card5.demo-card-image.mdl-card {
-  background: url("images/image5.jpg") center/cover;
+  background: url('images/image5.jpg') (center / cover);
 }
 
-/* line 65, style.scss */
 #card6.demo-card-image.mdl-card {
-  background: url("images/image6.jpg") center/cover;
+  background: url('images/image6.jpg') (center / cover);
 }
 
-/* line 69, style.scss */
 .demo-card-image > .mdl-card__actions {
   height: 52px;
   padding: 16px;
   background: rgba(0, 0, 0, 0.7);
 }
 
-/* line 75, style.scss */
 .demo-card-image__filename {
-  color: white;
+  color: rgba(255, 255, 255, 1);
   font-size: 18px;
   font-weight: 500;
 }
 
-/* line 81, style.scss */
 .card-description-collapsed {
   width: calc(100% - 16px);
   height: 2.7rem;
@@ -103,12 +86,10 @@
   margin-bottom: 16px;
 }
 
-/* line 89, style.scss */
 .published {
   color: rgba(0, 0, 0, 0.54);
 }
 
-/* line 93, style.scss */
 footer.mdl-mini-footer {
   box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.4);
   background: white;
@@ -116,18 +97,15 @@ footer.mdl-mini-footer {
   padding-left: 0;
 }
 
-/* line 100, style.scss */
 .mdl-mini-footer__link-list {
   display: flex;
   justify-content: space-around;
   width: 100vw;
-}
-/* line 104, style.scss */
-.mdl-mini-footer__link-list button, .mdl-mini-footer__link-list span {
-  margin: 0;
+  button, span {
+    margin: 0;
+  }
 }
 
-/* line 109, style.scss */
 #footer {
   z-index: 1;
   position: fixed;
@@ -138,7 +116,6 @@ footer.mdl-mini-footer {
   padding: 0;
 }
 
-/* line 119, style.scss */
 .bottom-button {
   width: 96px;
   height: 56px;
@@ -150,12 +127,10 @@ footer.mdl-mini-footer {
   margin: 0;
 }
 
-/* line 130, style.scss */
 .mdl-button--icon, .material-icons {
   margin: 0;
 }
 
-/* line 134, style.scss */
 .button-label {
   font-size: 12px;
   margin: 0;
@@ -164,9 +139,8 @@ footer.mdl-mini-footer {
   padding-bottom: 10px;
 }
 
-/* line 142, style.scss */
 .button-label-active {
-  color: #00bcd4;
+  color: rgb(0, 188, 212);
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -174,36 +148,30 @@ footer.mdl-mini-footer {
   padding-bottom: 10px;
 }
 
-/* line 151, style.scss */
 #video {
   display: block;
 }
 
-/* line 155, style.scss */
 #myCanvas {
   display: none;
 }
 
-/* line 159, style.scss */
 #contrButtons {
   padding: 10px;
   display: none;
   text-align: center;
   width: 100vw;
   margin-left: -16px;
-}
-/* line 165, style.scss */
-#contrButtons button {
-  margin: 10px;
+  button {
+    margin: 10px;
+  }
 }
 
-/* line 170, style.scss */
 #sharebutton {
   float: right;
   bottom: 8px;
 }
 
-/* line 175, style.scss */
 .mdl-button--fab {
   position: absolute;
   bottom: 60px;
@@ -211,7 +179,6 @@ footer.mdl-mini-footer {
   z-index: 200;
 }
 
-/* line 182, style.scss */
 .card-icons {
   max-width: 600px;
   padding: 16px;
@@ -219,77 +186,64 @@ footer.mdl-mini-footer {
   position: relative;
 }
 
-/* line 189, style.scss */
 .star-label, .card-icons.star-label {
   position: absolute;
   right: 8px;
   top: 20px;
 }
 
-/* line 195, style.scss */
 .card-details {
   max-width: 600px;
   padding-left: 16px;
 }
 
-/* line 200, style.scss */
 .demo-list-radio {
   display: inline;
 }
 
-/* line 204, style.scss */
 .demo-list-two {
   width: 100%;
   padding: 0;
 }
 
-/* line 209, style.scss */
 div.fillin-content {
   padding-top: 8px;
   padding-left: 16px;
   padding-right: 16px;
 }
 
-/* line 215, style.scss */
 .map-container {
   width: 100%;
   margin-bottom: 16px;
-}
-/* line 218, style.scss */
-.map-container iframe {
-  width: 100%;
-  display: block;
-  position: relative;
+  iframe {
+    width: 100%;
+    display: block;
+    position: relative;
+  }
 }
 
-/* line 225, style.scss */
 .leftmargin-16, h5.leftmargin-16 {
   margin-left: 16px;
 }
 
-/* line 229, style.scss */
 #nearme-search {
   width: 260px;
 }
 
-/* line 233, style.scss */
 .mdl-layout__header {
+  .mdl-layout__drawer-button i {
+    opacity: 0;
+  }
   background: url(images/ic_apps_black_24dp_1x.png);
   background-repeat: no-repeat;
   background-position: 16px;
 }
-/* line 234, style.scss */
-.mdl-layout__header .mdl-layout__drawer-button i {
-  opacity: 0;
-}
 
-/* line 242, style.scss */
 .fa {
   font-size: 1.3rem;
   padding: 5px;
 }
 
-/* line 247, style.scss */
 .mdl-card.fav-card {
   width: 100vw;
   max-width: 600px;
@@ -298,138 +252,117 @@ div.fillin-content {
   vertical-align: middle;
 }
 
-/* line 255, style.scss */
 .fav-item {
   font-size: 14px;
   padding-top: 10px;
 }
 
-/* line 260, style.scss */
 .favimg {
   height: 40px;
   overflow-y: hidden;
 }
 
-/* line 266, style.scss */
-.card-grid.demo-card-image.mdl-card {
-  width: 49vw;
-  margin-right: 2px;
-  margin-bottom: 2px;
-  min-height: 0;
-  height: 128px;
-}
-/* line 273, style.scss */
-.card-grid label {
-  position: absolute;
-  top: 0;
-  right: 0;
+.card-grid {
+  &.demo-card-image.mdl-card {
+    width: 49vw;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    min-height: 0;
+    height: 128px;
+  }
+  label {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
 
-/* line 280, style.scss */
 #fav-card.card-grid {
-  background: url("images/image1.jpg") center/cover;
+  background: url('images/image1.jpg') (center / cover);
 }
 
-/* line 284, style.scss */
 #fav-card1.card-grid {
-  background: url("images/image2.jpg") center/cover;
+  background: url('images/image2.jpg') (center / cover);
 }
 
-/* line 288, style.scss */
 #fav-card2.card-grid {
-  background: url("images/image3.jpg") center/cover;
+  background: url('images/image3.jpg') (center / cover);
 }
 
-/* line 292, style.scss */
 #fav-card3.card-grid {
-  background: url("images/image4.jpg") center/cover;
+  background: url('images/image4.jpg') (center / cover);
 }
 
-/* line 296, style.scss */
 .card-info {
   display: flex;
   position: relative;
   margin-bottom: -12px;
 }
 
-/* line 302, style.scss */
 .card-names {
   padding: 16px 0 24px 4px;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.87);
 }
 
-/* line 308, style.scss */
 .category-icon {
   padding: 16px 4px 24px 16px;
   margin-top: -8px;
 }
 
-/* line 313, style.scss */
 .myposts-heading {
   margin-top: 0;
   text-align: center;
   margin-bottom: 24px;
 }
 
-/* line 319, style.scss */
 .settings-btn {
   position: absolute;
   margin: auto;
   top: 43px;
 }
 
-/* line 325, style.scss */
 .active {
   opacity: 0;
   transition: 0.3s 0.3s;
 }
 
-/* line 330, style.scss */
 .normal {
   opacity: 1;
 }
 
-/* line 334, style.scss */
 .displaynone {
   display: none;
 }
 
-/* line 338, style.scss */
 .mdl-icon-toggle__ripple-container {
   background: rgba(255, 255, 255, 0.53);
   z-index: -1;
 }
 
-/* line 343, style.scss */
 .slide-none {
   transform: translateX(0);
   transform: translateY(0);
 }
 
-/* line 348, style.scss */
 .slide-left {
   transform: translateX(-220%);
   margin-top: -73px;
   transition: transform 0.6s, margin-top 0.3s 0.3s;
 }
 
-/* line 354, style.scss */
 .normal label.star-label, .active label.star-label {
   margin: 4px;
 }
 
-/* line 358, style.scss */
 #map {
   height: 70vh;
 }
 
-/* line 362, style.scss */
 .mdl-menu__container {
   margin-left: -20px;
 }
 
-/* line 366, style.scss */
 .card-collapse {
   width: 100vw;
   max-width: 600px;
@@ -438,26 +371,22 @@ div.fillin-content {
   vertical-align: middle;
 }
 
-/* line 374, style.scss */
 .card-expand {
   min-height: 100px;
   transition: 0.3s;
 }
 
-/* line 379, style.scss */
 .search-img-small {
   height: 40px;
   overflow-y: hidden;
 }
 
-/* line 384, style.scss */
 .search-img-big {
   height: 180px;
   overflow-y: hidden;
   transition: 0.3s;
 }
 
-/* line 390, style.scss */
 .profile-content {
   align-items: center;
   justify-content: center;

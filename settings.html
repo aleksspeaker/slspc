@@ -27,15 +27,7 @@
 
         <span class="mdl-layout-title">Мои настройки</span>
         <div class="mdl-layout-spacer"></div>
-        <!-- <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
-                  mdl-textfield--floating-label mdl-textfield--align-right">
-          <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
-            <i class="material-icons">search</i>
-          </label>
-          <div class="mdl-textfield__expandable-holder">
-            <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
-          </div>
-        </div> -->
+      
       </div>
     </header>
 
@@ -49,10 +41,9 @@
     <main class="mdl-layout__content">
       <div class="page-content"> <!-- PAGE CONTENT -->
         <!-- Your content goes here -->
-
-<div class="profile-content">
+<div class="mdl-grid">
+<div class="profile-content mdl-cell">
 <!-- AVATAR -->
-
 <div class="demo-list-action mdl-list">
   <div class="mdl-list__item">
     <span  class="mdl-list__item-primary-content">
@@ -102,18 +93,19 @@
 
 <!-- GENDER SELECTOR -->
 
-<span style="">Пол</span><br><br>
-<form>
+<div style="margin-bottom: 16px;">
+<span style="font-size: 16px; margin-right: 16px; color: rgba(0,0,0,.24);">Пол: </span>
+<form style="display: inline-flex;">
 <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
   <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1">
-  <span class="mdl-radio__label">Мужской</span>
+  <span class="mdl-radio__label">Мужской</span>&nbsp&nbsp&nbsp
 </label>
 <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
   <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
   <span class="mdl-radio__label">Женский</span>
 </label>
 </form><br><!-- END OF GENDER SELECTOR -->
-
+</div>
 
 
 <!-- SAVE BUTTON -->
@@ -227,24 +219,13 @@ function channel_click(){
 
 
 
-
+</div>
 
 </div>
 </div><!-- END OF PAGE CONTENT -->
 </main>
  
 
-<!-- FOOTER -->    
-    <footer class="mdl-mini-footer">
-      <div class="mdl-mini-footer__middle-section">
-        <div class="mdl-mini-footer__link-list">
-          <button onclick="location.href='index.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">home</i></button>
-          <button class="mdl-button mdl-js-button mdl-button--colored mdl-button--icon"><i id="ftr_btn" class="material-icons">account_circle</i></button>
-          <button onclick="location.href='fav.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">star</i></button>
-          <button onclick="location.href='near-me.html';" class="mdl-button mdl-js-button mdl-button--icon"><i id="ftr_btn" class="material-icons">near_me</i></button>
-        </div>
-      </div>
-    </footer><!-- END OF THE FOOTER -->
 
 
   </div>     
