@@ -101,14 +101,21 @@
   overflow: hidden;
   text-overflow: ellipsis;
   margin-bottom: 16px;
+  transition: 1s;
 }
 
-/* line 89, style.scss */
+/* line 90, style.scss */
+.card-description-collapsed:hover {
+  height: 10rem;
+  transition: height .3s;
+}
+
+/* line 95, style.scss */
 .published {
   color: rgba(0, 0, 0, 0.54);
 }
 
-/* line 93, style.scss */
+/* line 99, style.scss */
 footer.mdl-mini-footer {
   box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.4);
   background: white;
@@ -116,7 +123,7 @@ footer.mdl-mini-footer {
   padding-left: 0;
 }
 
-/* line 100, style.scss */
+/* line 106, style.scss */
 .mdl-mini-footer__link-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -125,13 +132,13 @@ footer.mdl-mini-footer {
   justify-content: space-around;
   width: 100vw;
 }
-/* line 108, style.scss */
+/* line 114, style.scss */
 .mdl-mini-footer__link-list button,
 .mdl-mini-footer__link-list span {
   margin: 0;
 }
 
-/* line 113, style.scss */
+/* line 119, style.scss */
 #footer {
   z-index: 1;
   position: fixed;
@@ -144,7 +151,7 @@ footer.mdl-mini-footer {
   padding: 0;
 }
 
-/* line 125, style.scss */
+/* line 131, style.scss */
 .bottom-button {
   width: 96px;
   height: 56px;
@@ -165,13 +172,13 @@ footer.mdl-mini-footer {
   margin: 0;
 }
 
-/* line 146, style.scss */
+/* line 152, style.scss */
 .mdl-button--icon,
 .material-icons {
   margin: 0;
 }
 
-/* line 150, style.scss */
+/* line 156, style.scss */
 .button-label {
   font-size: 12px;
   margin: 0;
@@ -180,7 +187,7 @@ footer.mdl-mini-footer {
   padding-bottom: 10px;
 }
 
-/* line 158, style.scss */
+/* line 164, style.scss */
 .button-label-active {
   color: #00bcd4;
   font-size: 14px;
@@ -190,17 +197,17 @@ footer.mdl-mini-footer {
   padding-bottom: 10px;
 }
 
-/* line 167, style.scss */
+/* line 173, style.scss */
 #video {
   display: block;
 }
 
-/* line 171, style.scss */
+/* line 177, style.scss */
 #myCanvas {
   display: none;
 }
 
-/* line 175, style.scss */
+/* line 181, style.scss */
 #contrButtons {
   padding: 10px;
   display: none;
@@ -208,18 +215,18 @@ footer.mdl-mini-footer {
   width: 100vw;
   margin-left: -16px;
 }
-/* line 181, style.scss */
+/* line 187, style.scss */
 #contrButtons button {
   margin: 10px;
 }
 
-/* line 186, style.scss */
+/* line 192, style.scss */
 #sharebutton {
   float: right;
   bottom: 8px;
 }
 
-/* line 191, style.scss */
+/* line 197, style.scss */
 .mdl-button--fab {
   position: absolute;
   bottom: 60px;
@@ -227,7 +234,7 @@ footer.mdl-mini-footer {
   z-index: 200;
 }
 
-/* line 198, style.scss */
+/* line 204, style.scss */
 .card-icons {
   max-width: 600px;
   padding: 16px;
@@ -235,7 +242,7 @@ footer.mdl-mini-footer {
   position: relative;
 }
 
-/* line 206, style.scss */
+/* line 212, style.scss */
 .star-label,
 .card-icons.star-label {
   position: absolute;
@@ -243,71 +250,71 @@ footer.mdl-mini-footer {
   top: 20px;
 }
 
-/* line 212, style.scss */
+/* line 218, style.scss */
 .card-details {
   max-width: 600px;
   padding-left: 16px;
 }
 
-/* line 217, style.scss */
+/* line 223, style.scss */
 .demo-list-radio {
   display: inline;
 }
 
-/* line 221, style.scss */
+/* line 227, style.scss */
 .demo-list-two {
   width: 100%;
   padding: 0;
 }
 
-/* line 226, style.scss */
+/* line 232, style.scss */
 div.fillin-content {
   padding-top: 8px;
   padding-left: 16px;
   padding-right: 16px;
 }
 
-/* line 232, style.scss */
+/* line 238, style.scss */
 .map-container {
   width: 100%;
   margin-bottom: 16px;
 }
-/* line 235, style.scss */
+/* line 241, style.scss */
 .map-container iframe {
   width: 100%;
   display: block;
   position: relative;
 }
 
-/* line 243, style.scss */
+/* line 249, style.scss */
 .leftmargin-16,
 h5.leftmargin-16 {
   margin-left: 16px;
 }
 
-/* line 247, style.scss */
+/* line 253, style.scss */
 #nearme-search {
   width: 260px;
 }
 
-/* line 251, style.scss */
+/* line 257, style.scss */
 .mdl-layout__header {
   background: url(images/ic_apps_black_24dp_1x.png);
   background-repeat: no-repeat;
   background-position: 16px;
 }
-/* line 252, style.scss */
+/* line 258, style.scss */
 .mdl-layout__header .mdl-layout__drawer-button i {
   opacity: 0;
 }
 
-/* line 260, style.scss */
+/* line 266, style.scss */
 .fa {
   font-size: 1.3rem;
   padding: 5px;
 }
 
-/* line 265, style.scss */
+/* line 271, style.scss */
 .mdl-card.fav-card {
   width: 100vw;
   max-width: 600px;
@@ -316,19 +323,19 @@ h5.leftmargin-16 {
   vertical-align: middle;
 }
 
-/* line 273, style.scss */
+/* line 279, style.scss */
 .fav-item {
   font-size: 14px;
   padding-top: 10px;
 }
 
-/* line 278, style.scss */
+/* line 284, style.scss */
 .favimg {
   height: 40px;
   overflow-y: hidden;
 }
 
-/* line 284, style.scss */
+/* line 290, style.scss */
 .card-grid.demo-card-image.mdl-card {
   width: 49vw;
   margin-right: 2px;
@@ -336,34 +343,34 @@ h5.leftmargin-16 {
   min-height: 0;
   height: 128px;
 }
-/* line 291, style.scss */
+/* line 297, style.scss */
 .card-grid label {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 298, style.scss */
+/* line 304, style.scss */
 #fav-card.card-grid {
   background: url("images/image1.jpg") center/cover;
 }
 
-/* line 302, style.scss */
+/* line 308, style.scss */
 #fav-card1.card-grid {
   background: url("images/image2.jpg") center/cover;
 }
 
-/* line 306, style.scss */
+/* line 312, style.scss */
 #fav-card2.card-grid {
   background: url("images/image3.jpg") center/cover;
 }
 
-/* line 310, style.scss */
+/* line 316, style.scss */
 #fav-card3.card-grid {
   background: url("images/image4.jpg") center/cover;
 }
 
-/* line 314, style.scss */
+/* line 320, style.scss */
 .card-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -372,57 +379,57 @@ h5.leftmargin-16 {
   margin-bottom: -12px;
 }
 
-/* line 322, style.scss */
+/* line 328, style.scss */
 .card-names {
   padding: 16px 0 24px 4px;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.87);
 }
 
-/* line 328, style.scss */
+/* line 334, style.scss */
 .category-icon {
   padding: 16px 4px 24px 16px;
   margin-top: -8px;
 }
 
-/* line 333, style.scss */
+/* line 339, style.scss */
 .myposts-heading {
   margin-top: 0;
   text-align: center;
   margin-bottom: 24px;
 }
 
-/* line 339, style.scss */
+/* line 345, style.scss */
 .settings-btn {
   position: absolute;
   margin: auto;
   top: 43px;
 }
 
-/* line 345, style.scss */
+/* line 351, style.scss */
 .active {
   opacity: 0;
   -webkit-transition: 0.3s 0.3s;
   transition: 0.3s 0.3s;
 }
 
-/* line 351, style.scss */
+/* line 357, style.scss */
 .normal {
   opacity: 1;
 }
 
-/* line 355, style.scss */
+/* line 361, style.scss */
 .displaynone {
   display: none;
 }
 
-/* line 359, style.scss */
+/* line 365, style.scss */
 .mdl-icon-toggle__ripple-container {
   background: rgba(255, 255, 255, 0.53);
   z-index: -1;
 }
 
-/* line 364, style.scss */
+/* line 370, style.scss */
 .slide-none {
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -430,7 +437,7 @@ h5.leftmargin-16 {
   transform: translateY(0);
 }
 
-/* line 371, style.scss */
+/* line 377, style.scss */
 .slide-left {
   -webkit-transform: translateX(-220%);
   transform: translateX(-220%);
@@ -441,23 +448,23 @@ h5.leftmargin-16 {
   transition: transform 0.6s, margin-top 0.3s 0.3s, -webkit-transform 0.6s;
 }
 
-/* line 382, style.scss */
+/* line 388, style.scss */
 .normal label.star-label,
 .active label.star-label {
   margin: 4px;
 }
 
-/* line 386, style.scss */
+/* line 392, style.scss */
 #map {
   height: 70vh;
 }
 
-/* line 390, style.scss */
+/* line 396, style.scss */
 .mdl-menu__container {
   margin-left: -20px;
 }
 
-/* line 394, style.scss */
+/* line 400, style.scss */
 .card-collapse {
   width: 100vw;
   max-width: 600px;
@@ -466,20 +473,20 @@ h5.leftmargin-16 {
   vertical-align: middle;
 }
 
-/* line 402, style.scss */
+/* line 408, style.scss */
 .card-expand {
   min-height: 100px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* line 408, style.scss */
+/* line 414, style.scss */
 .search-img-small {
   height: 40px;
   overflow-y: hidden;
 }
 
-/* line 413, style.scss */
+/* line 419, style.scss */
 .search-img-big {
   height: 180px;
   overflow-y: hidden;
@@ -487,7 +494,7 @@ h5.leftmargin-16 {
   transition: 0.3s;
 }
 
-/* line 420, style.scss */
+/* line 426, style.scss */
 .profile-content {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -498,21 +505,21 @@ h5.leftmargin-16 {
 }
 
 /*POLYFILL DIALOGUE*/
-/* line 430, style.scss */
+/* line 436, style.scss */
 .mdl-dialog {
   border: none;
   box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
   width: 280px;
 }
 
-/* line 434, style.scss */
+/* line 440, style.scss */
 .mdl-dialog__title {
   padding: 24px 24px 0;
   margin: 0;
   font-size: 2.5rem;
 }
 
-/* line 438, style.scss */
+/* line 444, style.scss */
 .mdl-dialog__actions {
   padding: 8px 8px 8px 24px;
   display: -webkit-flex;
@@ -526,23 +533,23 @@ h5.leftmargin-16 {
   flex-wrap: wrap;
 }
 
-/* line 449, style.scss */
+/* line 455, style.scss */
 .mdl-dialog__actions > * {
   margin-right: 8px;
   height: 36px;
 }
 
-/* line 452, style.scss */
+/* line 458, style.scss */
 .mdl-dialog__actions > *:first-child {
   margin-right: 0;
 }
 
-/* line 454, style.scss */
+/* line 460, style.scss */
 .mdl-dialog__actions--full-width {
   padding: 0 0 8px 0;
 }
 
-/* line 456, style.scss */
+/* line 462, style.scss */
 .mdl-dialog__actions--full-width > * {
   height: 48px;
   -webkit-flex: 0 0 100%;
@@ -553,7 +560,7 @@ h5.leftmargin-16 {
   text-align: right;
 }
 
-/* line 464, style.scss */
+/* line 470, style.scss */
 .mdl-dialog__content {
   padding: 20px 24px 24px 24px;
   color: rgba(0, 0, 0, 0.54);

@@ -84,6 +84,12 @@
     overflow: hidden;
     text-overflow: ellipsis;
     margin-bottom: 16px;
+    transition: 1s;
+}
+
+.card-description-collapsed:hover {
+    height: 10rem;
+    transition: height .3s;
 }
 
 .published {
@@ -463,4 +469,5 @@ h5.leftmargin-16 {
         text-align: right; }
   .mdl-dialog__content {
     padding: 20px 24px 24px 24px;
-    color: rgba(0,0,0, 0.54); }
+    color: rgba(0,0,0, 0.54); 
+}

@@ -32,3 +32,22 @@
           }
         }
 // END OF SCRIPT FOR CARD ANIMATION
+
+// function expand(id) {
+// document.getElementById(id).style = 'height: auto;';
+// }
+
+
+// function expand(id) {
+//           var div = document.getElementById(id);
+//           var className = div.getAttribute("class");
+//           if (div.classList.contains('card-description-collapsed')) {
+//             div.classList.remove("card-description-collapsed");
+//             div.classList.add("card-description-expanded");
+//             // setTimeout(function() {
+//             //   div.classList.add("displaynone");
+//             // }, 1700);
+//           } else {
+//             div.classList.add("card-description-expanded");
+//           }
+//         }
