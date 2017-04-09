@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Material Design Lite -->
   <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-orange.min.css" />
+  <script src="dialog-polyfill.js"></script>
+  <link rel="stylesheet" type="text/css" href="dialog-polyfill.css" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-orange.min.css" />
   <!-- Material Design icon font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
@@ -48,10 +50,12 @@
   <div class="mdl-list__item">
     <span  class="mdl-list__item-primary-content">
       <i  class="material-icons mdl-list__item-avatar">person</i>
+      <button style="justify-content: flex-start; align-self: flex-start;" type="button" class="mdl-button">Изменить фото</button>
     </span>
 </div>
+
 </div>
-<button type="button" class="mdl-button">Изменить фото</button>
+
 <!-- END OF AVATAR -->
 
 <!-- NAME FIELD-->
@@ -165,6 +169,21 @@
 
 
 
+<!-- <button class="mdl-button mdl-button--raised mdl-js-button dialog-button">Show Dialog</button>
+<dialog id="dialog" class="mdl-dialog">
+  <h3 class="mdl-dialog__title">MDL Dialog</h3>
+  <div class="mdl-dialog__content">
+    <p>
+      This is an example of the Material Design Lite dialog component.
+      Please use responsibly.
+    </p>
+  </div>
+  <div class="mdl-dialog__actions">
+    <button type="button" class="mdl-button">Close</button>
+    <button type="button" class="mdl-button" disabled>Disabled action</button>
+  </div>
+</dialog> -->
+
 
   <script>
     var dialog = document.querySelector('dialog');
@@ -187,29 +206,23 @@
 <!-- SNACK BAR -->
 
 <script>
-(function() {
-  'use strict';
-  var snackbarContainer = document.querySelector('#demo-snackbar-example');
-  var showSnackbarButton = document.querySelector('#sharebutton');
-  var handler = function(event) {
-    showSnackbarButton.style.backgroundColor = '';
-  };
-  showSnackbarButton.addEventListener('click', function() {
+  (function() {
     'use strict';
-    showSnackbarButton.style.backgroundColor = '#' +
-        Math.floor(Math.random() * 0xFFFFFF).toString(16);
-    var data = {
-      message: 'Изменения были сохранены',
-      timeout: 2000,
-      actionHandler: handler,
-      actionText: 'Отмена'
-    };
-    snackbarContainer.MaterialSnackbar.showSnackbar(data);
-  });
-}());
+    var dialogButton = document.querySelector('.dialog-button');
+    var dialog = document.querySelector('#dialog');
+    if (! dialog.showModal) {
+      dialogPolyfill.registerDialog(dialog);
+    }
+    dialogButton.addEventListener('click', function() {
+       dialog.showModal();
+    });
+    dialog.querySelector('button:not([disabled])')
+    .addEventListener('click', function() {
+      dialog.close();
+    });
+  }());
 
 function channel_click(){
-
 }
 </script> <!-- END OF SNACK BAR -->
 
