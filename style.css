@@ -240,9 +240,14 @@ footer.mdl-mini-footer {
   padding: 16px;
   line-height: 1.5;
   position: relative;
+  color: rgba(0, 0, 0, 0.54);
+}
+/* line 209, style.scss */
+.card-icons .heart {
+  color: rgba(0, 0, 0, 0.54);
 }
 
-/* line 212, style.scss */
+/* line 216, style.scss */
 .star-label,
 .card-icons.star-label {
   position: absolute;
@@ -250,71 +255,71 @@ footer.mdl-mini-footer {
   top: 20px;
 }
 
-/* line 218, style.scss */
+/* line 222, style.scss */
 .card-details {
   max-width: 600px;
   padding-left: 16px;
 }
 
-/* line 223, style.scss */
+/* line 227, style.scss */
 .demo-list-radio {
   display: inline;
 }
 
-/* line 227, style.scss */
+/* line 231, style.scss */
 .demo-list-two {
   width: 100%;
   padding: 0;
 }
 
-/* line 232, style.scss */
+/* line 236, style.scss */
 div.fillin-content {
   padding-top: 8px;
   padding-left: 16px;
   padding-right: 16px;
 }
 
-/* line 238, style.scss */
+/* line 242, style.scss */
 .map-container {
   width: 100%;
   margin-bottom: 16px;
 }
-/* line 241, style.scss */
+/* line 245, style.scss */
 .map-container iframe {
   width: 100%;
   display: block;
   position: relative;
 }
 
-/* line 249, style.scss */
+/* line 253, style.scss */
 .leftmargin-16,
 h5.leftmargin-16 {
   margin-left: 16px;
 }
 
-/* line 253, style.scss */
+/* line 257, style.scss */
 #nearme-search {
   width: 260px;
 }
 
-/* line 257, style.scss */
+/* line 261, style.scss */
 .mdl-layout__header {
   background: url(images/ic_apps_black_24dp_1x.png);
   background-repeat: no-repeat;
   background-position: 16px;
 }
-/* line 258, style.scss */
+/* line 262, style.scss */
 .mdl-layout__header .mdl-layout__drawer-button i {
   opacity: 0;
 }
 
-/* line 266, style.scss */
+/* line 270, style.scss */
 .fa {
   font-size: 1.3rem;
   padding: 5px;
 }
 
-/* line 271, style.scss */
+/* line 275, style.scss */
 .mdl-card.fav-card {
   width: 100vw;
   max-width: 600px;
@@ -323,19 +328,19 @@ h5.leftmargin-16 {
   vertical-align: middle;
 }
 
-/* line 279, style.scss */
+/* line 283, style.scss */
 .fav-item {
   font-size: 14px;
   padding-top: 10px;
 }
 
-/* line 284, style.scss */
+/* line 288, style.scss */
 .favimg {
   height: 40px;
   overflow-y: hidden;
 }
 
-/* line 290, style.scss */
+/* line 294, style.scss */
 .card-grid.demo-card-image.mdl-card {
   width: 49vw;
   margin-right: 2px;
@@ -343,34 +348,34 @@ h5.leftmargin-16 {
   min-height: 0;
   height: 128px;
 }
-/* line 297, style.scss */
+/* line 301, style.scss */
 .card-grid label {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 304, style.scss */
+/* line 308, style.scss */
 #fav-card.card-grid {
   background: url("images/image1.jpg") center/cover;
 }
 
-/* line 308, style.scss */
+/* line 312, style.scss */
 #fav-card1.card-grid {
   background: url("images/image2.jpg") center/cover;
 }
 
-/* line 312, style.scss */
+/* line 316, style.scss */
 #fav-card2.card-grid {
   background: url("images/image3.jpg") center/cover;
 }
 
-/* line 316, style.scss */
+/* line 320, style.scss */
 #fav-card3.card-grid {
   background: url("images/image4.jpg") center/cover;
 }
 
-/* line 320, style.scss */
+/* line 324, style.scss */
 .card-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -379,57 +384,57 @@ h5.leftmargin-16 {
   margin-bottom: -12px;
 }
 
-/* line 328, style.scss */
+/* line 332, style.scss */
 .card-names {
   padding: 16px 0 24px 4px;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.87);
 }
 
-/* line 334, style.scss */
+/* line 338, style.scss */
 .category-icon {
   padding: 16px 4px 24px 16px;
   margin-top: -8px;
 }
 
-/* line 339, style.scss */
+/* line 343, style.scss */
 .myposts-heading {
   margin-top: 0;
   text-align: center;
   margin-bottom: 24px;
 }
 
-/* line 345, style.scss */
+/* line 349, style.scss */
 .settings-btn {
   position: absolute;
   margin: auto;
   top: 43px;
 }
 
-/* line 351, style.scss */
+/* line 355, style.scss */
 .active {
   opacity: 0;
   -webkit-transition: 0.3s 0.3s;
   transition: 0.3s 0.3s;
 }
 
-/* line 357, style.scss */
+/* line 361, style.scss */
 .normal {
   opacity: 1;
 }
 
-/* line 361, style.scss */
+/* line 365, style.scss */
 .displaynone {
   display: none;
 }
 
-/* line 365, style.scss */
+/* line 369, style.scss */
 .mdl-icon-toggle__ripple-container {
   background: rgba(255, 255, 255, 0.53);
   z-index: -1;
 }
 
-/* line 370, style.scss */
+/* line 374, style.scss */
 .slide-none {
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -437,7 +442,7 @@ h5.leftmargin-16 {
   transform: translateY(0);
 }
 
-/* line 377, style.scss */
+/* line 381, style.scss */
 .slide-left {
   -webkit-transform: translateX(-220%);
   transform: translateX(-220%);
@@ -448,23 +453,23 @@ h5.leftmargin-16 {
   transition: transform 0.6s, margin-top 0.3s 0.3s, -webkit-transform 0.6s;
 }
 
-/* line 388, style.scss */
+/* line 392, style.scss */
 .normal label.star-label,
 .active label.star-label {
   margin: 4px;
 }
 
-/* line 392, style.scss */
+/* line 396, style.scss */
 #map {
   height: 70vh;
 }
 
-/* line 396, style.scss */
+/* line 400, style.scss */
 .mdl-menu__container {
   margin-left: -20px;
 }
 
-/* line 400, style.scss */
+/* line 404, style.scss */
 .card-collapse {
   width: 100vw;
   max-width: 600px;
@@ -473,20 +478,20 @@ h5.leftmargin-16 {
   vertical-align: middle;
 }
 
-/* line 408, style.scss */
+/* line 412, style.scss */
 .card-expand {
   min-height: 100px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* line 414, style.scss */
+/* line 418, style.scss */
 .search-img-small {
   height: 40px;
   overflow-y: hidden;
 }
 
-/* line 419, style.scss */
+/* line 423, style.scss */
 .search-img-big {
   height: 180px;
   overflow-y: hidden;
@@ -494,7 +499,7 @@ h5.leftmargin-16 {
   transition: 0.3s;
 }
 
-/* line 426, style.scss */
+/* line 430, style.scss */
 .profile-content {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -505,21 +510,21 @@ h5.leftmargin-16 {
 }
 
 /*POLYFILL DIALOGUE*/
-/* line 436, style.scss */
+/* line 440, style.scss */
 .mdl-dialog {
   border: none;
   box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
   width: 280px;
 }
 
-/* line 440, style.scss */
+/* line 444, style.scss */
 .mdl-dialog__title {
   padding: 24px 24px 0;
   margin: 0;
   font-size: 2.5rem;
 }
 
-/* line 444, style.scss */
+/* line 448, style.scss */
 .mdl-dialog__actions {
   padding: 8px 8px 8px 24px;
   display: -webkit-flex;
@@ -533,23 +538,23 @@ h5.leftmargin-16 {
   flex-wrap: wrap;
 }
 
-/* line 455, style.scss */
+/* line 459, style.scss */
 .mdl-dialog__actions > * {
   margin-right: 8px;
   height: 36px;
 }
 
-/* line 458, style.scss */
+/* line 462, style.scss */
 .mdl-dialog__actions > *:first-child {
   margin-right: 0;
 }
 
-/* line 460, style.scss */
+/* line 464, style.scss */
 .mdl-dialog__actions--full-width {
   padding: 0 0 8px 0;
 }
 
-/* line 462, style.scss */
+/* line 466, style.scss */
 .mdl-dialog__actions--full-width > * {
   height: 48px;
   -webkit-flex: 0 0 100%;
@@ -560,8 +565,25 @@ h5.leftmargin-16 {
   text-align: right;
 }
 
-/* line 470, style.scss */
+/* line 474, style.scss */
 .mdl-dialog__content {
   padding: 20px 24px 24px 24px;
   color: rgba(0, 0, 0, 0.54);
+}
+
+/* line 482, style.scss */
+div.src-result:hover div.demo-list-two div.mdl-list__item span {
+  margin-left: -200%;
+  transition: margin-left .6s .2s;
+}
+/* line 485, style.scss */
+div.src-result:hover div.demo-list-two div.mdl-list__item span img {
+  width: 0;
+  height: 0;
+  transition: .3s;
+}
+/* line 495, style.scss */
+div.src-result:hover div.card-info div.category-icon button.mdl-button {
+  margin-left: -200%;
+  transition: .3s;
 }

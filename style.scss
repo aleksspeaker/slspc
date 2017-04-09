@@ -206,6 +206,10 @@ footer.mdl-mini-footer {
     padding: 16px;
     line-height: 1.5;
     position: relative;
+    .heart {
+      color: rgba(0,0,0,.54);
+    }
+    color: rgba(0,0,0,.54);
 }
 
 .star-label,
@@ -470,4 +474,28 @@ h5.leftmargin-16 {
   .mdl-dialog__content {
     padding: 20px 24px 24px 24px;
     color: rgba(0,0,0, 0.54); 
+}
+
+div.src-result:hover {
+  div.demo-list-two {
+    div.mdl-list__item {
+      span {
+        margin-left: -200%;
+        transition: margin-left .6s .2s;
+        img {
+          width:0;
+          height: 0;
+          transition: .3s;
+        }
+      }
+    }
+  }
+  div.card-info {
+    div.category-icon {
+      button.mdl-button {
+        margin-left: -200%;
+        transition: .3s;
+      }
+    }
+  }
 }
