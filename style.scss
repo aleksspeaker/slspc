@@ -65,7 +65,12 @@
 #card6.demo-card-image.mdl-card {
     background: url('images/image6.jpg') (center / cover);
 }
-
+#card7.demo-card-image.mdl-card {
+    background: url('images/image7.jpg') (center / cover);
+}
+#card8.demo-card-image.mdl-card {
+    background: url('images/image8.jpg') (center / cover);
+}
 .demo-card-image > .mdl-card__actions {
     height: 52px;
     padding: 16px;
@@ -246,7 +251,6 @@ footer.mdl-mini-footer {
     justify-content: center;
     color: rgba(0,0,0,.24);
     margin-top: -12px;
-
 }
 
 .card-details {
@@ -507,12 +511,83 @@ h5.leftmargin-16 {
     color: rgba(0,0,0, 0.54); 
 }
 
-div.src-result:hover {
+
+/*SEARCH LIST EXPAND 1*/
+
+div#src-result1:hover {
+    margin-bottom: -244px;
+    margin-top: 0px;
+    transition: margin-top .9s .2s;
+    height: auto;
   div.demo-list-two {
+        margin-left: auto;
+        transition: margin-left .6s .2s;
     div.mdl-list__item {
       span {
+        
+        img {
+          width:46px;
+          height: 46px;
+          transition: .3s;
+        }
+      }
+    }
+  }
+  div.demo-card-image {
+    margin-top: auto;
+    width: 100%;
+    height: 0px;
+    transition: .3s;
+  }
+  div.card-icons {
+    margin-top: auto;
+    transition: margin-top .9s .2s;
+    margin-left: auto;
+    transition: margin-left .6s .2s;
+  }
+  div.card-info {
+    div.category-icon {
+      button.mdl-button {
+        margin-left: auto;
+        transition: .3s;
+      }
+    }
+    div.card-names {
+    margin-left: 8px;
+    transition: .3s;
+    }
+  }
+  .newprice, .ending {
+    margin-top: auto;
+    transition: margin-top .9s .2s;
+    margin-left: auto;
+    transition: margin-left .6s .2s;
+  }
+  .salevalue {
+    padding-bottom: 0px;
+  }
+  .published {
+    margin-top: auto;
+    transition: margin-top .9s .2s;
+    margin-left: auto;
+    transition: margin-left .6s .2s;
+  }
+}
+
+
+
+
+
+div#src-result1 {
+    margin-top: -80px;
+    transition: margin-top .9s .2s;
+    height: 10px;
+  div.demo-list-two {
         margin-left: -200%;
         transition: margin-left .6s .2s;
+    div.mdl-list__item {
+      span {
+        
         img {
           width:0;
           height: 0;
@@ -521,6 +596,18 @@ div.src-result:hover {
       }
     }
   }
+  div.demo-card-image {
+    margin-top: -250px;
+    width: 0px;
+    height: 0px;
+    transition: .3s;
+  }
+  div.card-icons {
+    margin-top: -40px;
+    transition: margin-top .9s .2s;
+    margin-left: -200%;
+    transition: margin-left .6s .2s;
+  }
   div.card-info {
     div.category-icon {
       button.mdl-button {
@@ -528,5 +615,284 @@ div.src-result:hover {
         transition: .3s;
       }
     }
+    div.card-names {
+    margin-left: -40px;
+    transition: .3s;
+    }
   }
+  .newprice, .ending {
+    margin-top: -32px;
+    transition: margin-top .9s .2s;
+    margin-left: -200%;
+    transition: margin-left .6s .2s;
+  }
+  .salevalue {
+    padding-bottom: 24px;
+  }
+  .published {
+    margin-top: -32px;
+    transition: margin-top .9s .2s;
+    margin-left: -200%;
+    transition: margin-left .6s .2s;
+  }
+}
+
+
+
+/*SEARCH LIST EXPAND 2*/
+
+div#src-result2:hover {
+    margin-bottom: -244px;
+    margin-top: 0px;
+    transition: margin-top .9s .2s;
+    height: auto;
+  div.demo-list-two {
+        margin-left: auto;
+        transition: margin-left .6s .2s;
+    div.mdl-list__item {
+      span {
+        
+        img {
+          width:46px;
+          height: 46px;
+          transition: .3s;
+        }
+      }
+    }
+  }
+  div.demo-card-image {
+    margin-top: auto;
+    width: 100%;
+    height: 0px;
+    transition: .3s;
+  }
+  div.card-icons {
+    margin-top: auto;
+    transition: margin-top .9s .2s;
+    margin-left: auto;
+    transition: margin-left .6s .2s;
+  }
+  div.card-info {
+    div.category-icon {
+      button.mdl-button {
+        margin-left: auto;
+        transition: .3s;
+      }
+    }
+    div.card-names {
+    margin-left: 8px;
+    transition: .3s;
+    }
+  }
+  .newprice, .ending {
+    margin-top: auto;
+    transition: margin-top .9s .2s;
+    margin-left: auto;
+    transition: margin-left .6s .2s;
+  }
+  .salevalue {
+    padding-bottom: 0px;
+  }
+  .published {
+    margin-top: auto;
+    transition: margin-top .9s .2s;
+    margin-left: auto;
+    transition: margin-left .6s .2s;
+  }
+}
+
+
+
+
+
+div#src-result2 {
+    margin-top: -80px;
+    transition: margin-top .9s .2s;
+    height: 10px;
+  div.demo-list-two {
+        margin-left: -200%;
+        transition: margin-left .6s .2s;
+    div.mdl-list__item {
+      span {
+        
+        img {
+          width:0;
+          height: 0;
+          transition: .3s;
+        }
+      }
+    }
+  }
+  div.demo-card-image {
+    margin-top: -250px;
+    width: 0px;
+    height: 0px;
+    transition: .3s;
+  }
+  div.card-icons {
+    margin-top: -40px;
+    transition: margin-top .9s .2s;
+    margin-left: -200%;
+    transition: margin-left .6s .2s;
+  }
+  div.card-info {
+    div.category-icon {
+      button.mdl-button {
+        margin-left: -200%;
+        transition: .3s;
+      }
+    }
+    div.card-names {
+    margin-left: -40px;
+    transition: .3s;
+    }
+  }
+  .newprice, .ending {
+    margin-top: -32px;
+    transition: margin-top .9s .2s;
+    margin-left: -200%;
+    transition: margin-left .6s .2s;
+  }
+  .salevalue {
+    padding-bottom: 24px;
+  }
+  .published {
+    margin-top: -32px;
+    transition: margin-top .9s .2s;
+    margin-left: -200%;
+    transition: margin-left .6s .2s;
+  }
+}
+
+
+
+/*SEARCH LIST EXPAND 3*/
+
+div#src-result3:hover {
+    margin-bottom: -244px;
+    margin-top: 0px;
+    transition: margin-top .9s .2s;
+    height: auto;
+  div.demo-list-two {
+        margin-left: auto;
+        transition: margin-left .6s .2s;
+    div.mdl-list__item {
+      span {
+        
+        img {
+          width:46px;
+          height: 46px;
+          transition: .3s;
+        }
+      }
+    }
+  }
+  div.demo-card-image {
+    margin-top: auto;
+    width: 100%;
+    height: 0px;
+    transition: .3s;
+  }
+  div.card-icons {
+    margin-top: auto;
+    transition: margin-top .9s .2s;
+    margin-left: auto;
+    transition: margin-left .6s .2s;
+  }
+  div.card-info {
+    div.category-icon {
+      button.mdl-button {
+        margin-left: auto;
+        transition: .3s;
+      }
+    }
+    div.card-names {
+    margin-left: 8px;
+    transition: .3s;
+    }
+  }
+  .newprice, .ending {
+    margin-top: auto;
+    transition: margin-top .9s .2s;
+    margin-left: auto;
+    transition: margin-left .6s .2s;
+  }
+  .salevalue {
+    padding-bottom: 0px;
+  }
+  .published {
+    margin-top: auto;
+    transition: margin-top .9s .2s;
+    margin-left: auto;
+    transition: margin-left .6s .2s;
+  }
+}
+
+
+
+
+
+div#src-result3 {
+    margin-top: -80px;
+    transition: margin-top .9s .2s;
+    height: 10px;
+  div.demo-list-two {
+        margin-left: -200%;
+        transition: margin-left .6s .2s;
+    div.mdl-list__item {
+      span {
+        
+        img {
+          width:0;
+          height: 0;
+          transition: .3s;
+        }
+      }
+    }
+  }
+  div.demo-card-image {
+    margin-top: -250px;
+    width: 0px;
+    height: 0px;
+    transition: .3s;
+  }
+  div.card-icons {
+    margin-top: -40px;
+    transition: margin-top .9s .2s;
+    margin-left: -200%;
+    transition: margin-left .6s .2s;
+  }
+  div.card-info {
+    div.category-icon {
+      button.mdl-button {
+        margin-left: -200%;
+        transition: .3s;
+      }
+    }
+    div.card-names {
+    margin-left: -40px;
+    transition: .3s;
+    }
+  }
+  .newprice, .ending {
+    margin-top: -32px;
+    transition: margin-top .9s .2s;
+    margin-left: -200%;
+    transition: margin-left .6s .2s;
+  }
+  .salevalue {
+    padding-bottom: 24px;
+  }
+  .published {
+    margin-top: -32px;
+    transition: margin-top .9s .2s;
+    margin-left: -200%;
+    transition: margin-left .6s .2s;
+  }
+}
+
+
+
+.bufer {
+    height: 232px;
 }

@@ -34,13 +34,15 @@
           <label id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
             <i class="material-icons">search</i>
           </label>
-          <div class="mdl-textfield__expandable-holder"> <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
-            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-    for="demo-menu-lower-right">
-  <li class="mdl-menu__item">Auto tires</li>
-  <li class="mdl-menu__item">Pizza</li>
-</ul>
+      <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+              <li onclick="location.href='search-tires-list.html';" class="mdl-menu__item">Шины</li>
+              <li onclick="location.href='search-pizza-list.html';" class="mdl-menu__item">Пицца</li>
+            </ul>
           </div>
+
+
         </div>
       </div>
     </header>
@@ -50,10 +52,10 @@
       <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="index.html"><i class="material-icons">clear</i> Показать все категории</a>
         <hr>
-        <a class="mdl-navigation__link" href="index.html"><i style="color: red;" class="material-icons">directions_car</i> Машины</a>
-        <a class="mdl-navigation__link" href="index.html"><i style="color: green;" class="fa fa-cutlery" aria-hidden="true"></i> Еда</a>
-        <a class="mdl-navigation__link" href="index.html"><i style="color: brown;" class="material-icons">free_breakfast</i> Кафе</a>
-        <a class="mdl-navigation__link" href="index.html"><i style="color: #2196F3;" class="fa fa-shopping-bag" aria-hidden="true"></i> Одежда</a>
+        <a class="mdl-navigation__link" href="cars.html"><i style="color: red;" class="material-icons">directions_car</i> Машины</a>
+        <a class="mdl-navigation__link" href="food.html"><i style="color: green;" class="fa fa-cutlery" aria-hidden="true"></i> Еда</a>
+        <a style="color: rgba(0,0,0,.14);" class="mdl-navigation__link mdl-navigation__link" href="#"><i style="color: rgba(0,0,0,.14);" class="material-icons">free_breakfast</i> Кафе</a>
+        <a style="color: rgba(0,0,0,.14);" class="mdl-navigation__link" href="#"><i style="color: rgba(0,0,0,.14);" class="fa fa-shopping-bag" aria-hidden="true"></i> Одежда</a>
       </nav>
     </div>  <!-- END OF HEADER WITH NAVIGATION -->
 
@@ -78,84 +80,13 @@
         <div class="card-info">
           <div class="category-icon">
             <button class="mdl-button mdl-js-button mdl-button--icon">
-              <i style="color: #2196F3;" class="fa fa-shopping-bag"></i>
-            </button>
-          </div>
-          <div class="card-names">Зимние шины</div>
-        </div>
-        <!-- CARD THAT CONTAINS THE CONTENT -->
-        <div id="card4" class="demo-card1image mdl-card1mdl-shadow--2dp">
-          <div class="mdl-card1_title mdl-card1-expand"></div>
-        </div>
-        <!-- END OF THE CARD THAT CONTAINS THE CONTENT -->
-        <!-- ICONS AND CARD DETAILS -->
-        <div class="card-icons">
-          <button class="mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect">
-            <i class="material-icons">comment</i>
-          </button>
-          <label class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="heart-toggle-1">
-            <input type="checkbox" id="heart-toggle-1" class="mdl-icon-toggle__input">
-            <i class="heart mdl-icon-toggle__label material-icons">favorite</i>
-          </label>
-          <!-- SHARE BUTTON -->
-          <button id="demo-menu-lower-left6" class="mdl-button mdl-js-button mdl-button--icon">
-            <i class="material-icons">share</i>
-          </button>
-          <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-left6">
-            <li class="mdl-menu__item">Facebook</li>
-            <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Twitter</li>
-          </ul>
-          <!-- END OF SHARE BUTTON -->
-          <label class="star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="star-toggle-1">
-            <input type="checkbox" id="star-toggle-1" class="mdl-icon-toggle__input">
-            <i class="mdl-icon-toggle__label material-icons">star</i>
-          </label>
-        </div>
-        <div class="card-details">
-          <div id="description" class="card-description-collapsed">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen </div>
-          <div 
-          onclick='
-          document.getElementById("description").className = "card-description-collapsed:hover";
-          document.getElementById("downarrow").style.visibility = "hidden";
-          '
-          id="downarrow" 
-          class="downarrow">
-          <i class="material-icons">keyboard_arrow_down</i></div>
-
-          <div>Скидка: -25%</div>
-          <div>Новая цена: $150</div>
-          <div>Заканчивается: через 2 дня</div>
-          <div class="published">Добавлено: 8/04/2017 в 16:45</div>
-        </div>
-        <!-- END OF ICONS AND CARD DETAILS -->
-        <br>
-        <hr>
-
-
-
-
-        <!-- PERSON WHO SHARED CONTENT -->
-        <div class="demo-list-two mdl-list">
-          <div class="mdl-list__item mdl-list__item--two-line">
-            <span class="mdl-list__item-primary-content">
- 
-      <a href=""> <img alt="image" class="material-icons mdl-list__item-avatar" width="42" style="border-radius: 50%; margin-right: 16px;" src="images/avatar.jpg"></a>
-      <span>Дмитрий Петрусенко</span><span class="mdl-list__item-sub-title">Киев, Крещатик 26,<button onclick="location.href='map.html';" class="mdl-button mdl-js-button mdl-button--icon"><i style="margin: 0; padding: 0; font-size: 1.8rem; vertical-align: middle;" class="material-icons">place</i></button>2 км</span>
-            </span>
-          </div>
-        </div>
-        <!--END OF THE PERSON WHO SHARED CONTENT -->
-        <div class="card-info">
-          <div class="category-icon">
-            <button class="mdl-button mdl-js-button mdl-button--icon">
-              <i style="color: #2196F3;" class="fa fa-shopping-bag"></i>
+              <i style="color: red;" class="fa fa-car"></i>
             </button>
           </div>
           <div class="card-names">Летние шины</div>
         </div>
         <!-- CARD THAT CONTAINS THE CONTENT -->
-        <div id="card4" class="demo-card-image mdl-card mdl-shadow--2dp">
+        <div id="card8" class="demo-card-image mdl-card mdl-shadow--2dp">
           <div class="mdl-card__title mdl-card--expand"></div>
         </div>
         <!-- END OF THE CARD THAT CONTAINS THE CONTENT -->
@@ -220,13 +151,13 @@
         <div class="card-info">
           <div class="category-icon">
             <button class="mdl-button mdl-js-button mdl-button--icon">
-              <i style="color: #2196F3;" class="fa fa-shopping-bag"></i>
+              <i style="color: red;" class="fa fa-car"></i>
             </button>
           </div>
           <div class="card-names">Дворники</div>
         </div>
         <!-- CARD THAT CONTAINS THE CONTENT -->
-        <div id="card4" class="demo-card-image mdl-card mdl-shadow--2dp">
+        <div id="card7" class="demo-card-image mdl-card mdl-shadow--2dp">
           <div class="mdl-card__title mdl-card--expand"></div>
         </div>
         <!-- END OF THE CARD THAT CONTAINS THE CONTENT -->
