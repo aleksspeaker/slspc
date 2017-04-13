@@ -533,7 +533,7 @@ h5.leftmargin-16 {
 
 /*SEARCH LIST EXPAND 1*/
 
-div#src-result1:hover {
+div#src-result1:hover, div#src-result1:active {
     margin-bottom: -244px;
     margin-top: 0px;
     -webkit-transition: margin-top .9s .2s;
@@ -684,7 +684,7 @@ div#src-result1 {
 
 /*SEARCH LIST EXPAND 2*/
 
-div#src-result2:hover {
+div#src-result2:hover, div#src-result2:active {
     margin-bottom: -244px;
     margin-top: 0px;
     -webkit-transition: margin-top .9s .2s;
@@ -835,7 +835,7 @@ div#src-result2 {
 
 /*SEARCH LIST EXPAND 3*/
 
-div#src-result3:hover {
+div#src-result3:hover, div#src-result3:active {
     margin-bottom: -244px;
     margin-top: 0px;
     -webkit-transition: margin-top .9s .2s;
