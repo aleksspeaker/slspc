@@ -48,7 +48,7 @@
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="cars.html"><i style="color: red;" class="material-icons">directions_car</i> Машины</a>
         <a class="mdl-navigation__link" href="food.html"><i style="color: green;" class="fa fa-cutlery" aria-hidden="true"></i> Еда</a>
-        <a class="mdl-navigation__link" href="index.html"><i style="color: brown;" class="material-icons">free_breakfast</i> Кафе</a>
+        <a class="mdl-navigation__link mdl-navigation__link" href="index.html"><i style="color: brown;" class="material-icons" disabled>free_breakfast</i> Кафе</a>
         <a class="mdl-navigation__link" href="index.html"><i style="color: #2196F3;" class="fa fa-shopping-bag" aria-hidden="true"></i> Одежда</a>
       </nav>
     </div>
@@ -57,6 +57,11 @@
       <div class="page-content">
         <!-- PAGE CONTENT -->
         <!-- Your content goes here -->
+
+
+
+
+
         <!-- PERSON WHO SHARED CONTENT -->
         <div class="demo-list-two mdl-list">
           <div class="mdl-list__item mdl-list__item--two-line">
@@ -105,8 +110,17 @@
           </label>
         </div>
         <div class="card-details">
-          <div class="card-description-collapsed">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+          <div id="description" class="card-description-collapsed">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen </div>
+          <div 
+          onclick='
+          document.getElementById("description").className = "card-description-collapsed:hover";
+          document.getElementById("downarrow").style.visibility = "hidden";
+          '
+          id="downarrow" 
+          class="downarrow">
+          <i class="material-icons">keyboard_arrow_down</i></div>
+
           <div>Скидка: -25%</div>
           <div>Новая цена: $150</div>
           <div>Заканчивается: через 2 дня</div>
@@ -115,6 +129,11 @@
         <!-- END OF ICONS AND CARD DETAILS -->
         <br>
         <hr>
+
+
+
+
+
         <!-- PERSON WHO SHARED CONTENT -->
         <div class="demo-list-two mdl-list">
           <div class="mdl-list__item mdl-list__item--two-line">
@@ -162,7 +181,8 @@
           </label>
         </div>
         <div class="card-details">
-          <div class="card-description-collapsed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+          <div class="card-description-collapsed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen </div>
+
           <div>Скидка: -25%</div>
           <div>Новая цена: $150</div>
           <div>Заканчивается: через 2 дня</div>
@@ -218,7 +238,7 @@
           </label>
         </div>
         <div class="card-details">
-          <div class="card-description-collapsed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+          <div class="card-description-collapsed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen </div>
           <div>Скидка: -25%</div>
           <div>Новая цена: $150</div>
           <div>Заканчивается: через 2 дня</div>
@@ -272,7 +292,7 @@
           </label>
         </div>
         <div class="card-details">
-          <div class="card-description-collapsed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+          <div class="card-description-collapsed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen </div>
           <div>Скидка: -25%</div>
           <div>Новая цена: $150</div>
           <div>Заканчивается: через 2 дня</div>
@@ -328,7 +348,7 @@
           </label>
         </div>
         <div class="card-details">
-          <div class="card-description-collapsed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+          <div class="card-description-collapsed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen </div>
           <div>Скидка: -25%</div>
           <div>Новая цена: $150</div>
           <div>Заканчивается: через 2 дня</div>
@@ -384,7 +404,7 @@
           </label>
         </div>
         <div class="card-details">
-          <div class="card-description-collapsed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+          <div class="card-description-collapsed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen </div>
           <div>Скидка: -50%</div>
           <div>Новая цена: $0.25</div>
           <div>Заканчивается: через 2 дня</div>

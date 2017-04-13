@@ -85,18 +85,21 @@ $line-height: 1.4;
 $lines-to-show: 2;
 
 .card-description-collapsed {
+    position: relative;
   display: block; /* Fallback for non-webkit */
   display: -webkit-box;
   max-width: 400px;
   height: $font-size*$line-height*$lines-to-show; /* Fallback for non-webkit */
-  margin: 0 auto;
+  margin: 0 auto 16px auto;
   font-size: $font-size;
   line-height: $line-height;
   -webkit-line-clamp: $lines-to-show;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: height 1s;
 }
+
 
 
 .card-description-collapsed:hover {
@@ -108,8 +111,8 @@ $lines-to-show: 2;
 }
 
 .published {
-    padding-top: 8px;
-    padding-bottom: 0;
+    padding-top: 16px;
+    margin-bottom: -16px;
     color: rgba(0, 0, 0, 0.54);
 }
 
@@ -236,10 +239,21 @@ footer.mdl-mini-footer {
     /*top: 20px;*/
 }
 
+.downarrow {
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    color: rgba(0,0,0,.24);
+    margin-top: -12px;
+
+}
+
 .card-details {
     max-width: 600px;
     padding-left: 16px;
 }
+
 
 .demo-list-radio {
     display: inline;
