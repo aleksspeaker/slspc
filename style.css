@@ -636,7 +636,7 @@ h5.leftmargin-16 {
 
 /*SEARCH LIST EXPAND 1*/
 /* line 537, style.scss */
-div#src-result1:hover, div#src-result1:focus {
+div#src-result1:hover, div#src-result1:focus, div#src-result1:active {
   margin-bottom: -244px;
   margin-top: 0px;
   -webkit-transition: margin-top .9s .2s;
@@ -644,20 +644,20 @@ div#src-result1:hover, div#src-result1:focus {
   height: auto;
 }
 /* line 543, style.scss */
-div#src-result1:hover div.demo-list-two, div#src-result1:focus div.demo-list-two {
+div#src-result1:hover div.demo-list-two, div#src-result1:focus div.demo-list-two, div#src-result1:active div.demo-list-two {
   margin-left: auto;
   -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
 /* line 550, style.scss */
-div#src-result1:hover div.demo-list-two div.mdl-list__item span img, div#src-result1:focus div.demo-list-two div.mdl-list__item span img {
+div#src-result1:hover div.demo-list-two div.mdl-list__item span img, div#src-result1:focus div.demo-list-two div.mdl-list__item span img, div#src-result1:active div.demo-list-two div.mdl-list__item span img {
   width: 46px;
   height: 46px;
   -webkit-transition: .3s;
   transition: .3s;
 }
 /* line 559, style.scss */
-div#src-result1:hover div.demo-card-image, div#src-result1:focus div.demo-card-image {
+div#src-result1:hover div.demo-card-image, div#src-result1:focus div.demo-card-image, div#src-result1:active div.demo-card-image {
   margin-top: auto;
   width: 100%;
   height: 0px;
@@ -665,7 +665,7 @@ div#src-result1:hover div.demo-card-image, div#src-result1:focus div.demo-card-i
   transition: .3s;
 }
 /* line 566, style.scss */
-div#src-result1:hover div.card-icons, div#src-result1:focus div.card-icons {
+div#src-result1:hover div.card-icons, div#src-result1:focus div.card-icons, div#src-result1:active div.card-icons {
   margin-top: auto;
   -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
@@ -674,19 +674,19 @@ div#src-result1:hover div.card-icons, div#src-result1:focus div.card-icons {
   transition: margin-left .6s .2s;
 }
 /* line 576, style.scss */
-div#src-result1:hover div.card-info div.category-icon button.mdl-button, div#src-result1:focus div.card-info div.category-icon button.mdl-button {
+div#src-result1:hover div.card-info div.category-icon button.mdl-button, div#src-result1:focus div.card-info div.category-icon button.mdl-button, div#src-result1:active div.card-info div.category-icon button.mdl-button {
   margin-left: auto;
   -webkit-transition: .3s;
   transition: .3s;
 }
 /* line 582, style.scss */
-div#src-result1:hover div.card-info div.card-names, div#src-result1:focus div.card-info div.card-names {
+div#src-result1:hover div.card-info div.card-names, div#src-result1:focus div.card-info div.card-names, div#src-result1:active div.card-info div.card-names {
   margin-left: 8px;
   -webkit-transition: .3s;
   transition: .3s;
 }
 /* line 588, style.scss */
-div#src-result1:hover .newprice, div#src-result1:hover .ending, div#src-result1:focus .newprice, div#src-result1:focus .ending {
+div#src-result1:hover .newprice, div#src-result1:hover .ending, div#src-result1:focus .newprice, div#src-result1:focus .ending, div#src-result1:active .newprice, div#src-result1:active .ending {
   margin-top: auto;
   -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
@@ -695,11 +695,11 @@ div#src-result1:hover .newprice, div#src-result1:hover .ending, div#src-result1:
   transition: margin-left .6s .2s;
 }
 /* line 596, style.scss */
-div#src-result1:hover .salevalue, div#src-result1:focus .salevalue {
+div#src-result1:hover .salevalue, div#src-result1:focus .salevalue, div#src-result1:active .salevalue {
   padding-bottom: 0px;
 }
 /* line 599, style.scss */
-div#src-result1:hover .published, div#src-result1:focus .published {
+div#src-result1:hover .published, div#src-result1:focus .published, div#src-result1:active .published {
   margin-top: auto;
   -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
@@ -782,7 +782,7 @@ div#src-result1 .published {
 
 /*SEARCH LIST EXPAND 2*/
 /* line 688, style.scss */
-div#src-result2:hover, div#src-result2:focus {
+div#src-result2:hover, div#src-result2:focus, div#src-result2:active {
   margin-bottom: -244px;
   margin-top: 0px;
   -webkit-transition: margin-top .9s .2s;
@@ -790,20 +790,20 @@ div#src-result2:hover, div#src-result2:focus {
   height: auto;
 }
 /* line 694, style.scss */
-div#src-result2:hover div.demo-list-two, div#src-result2:focus div.demo-list-two {
+div#src-result2:hover div.demo-list-two, div#src-result2:focus div.demo-list-two, div#src-result2:active div.demo-list-two {
   margin-left: auto;
   -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
 /* line 701, style.scss */
-div#src-result2:hover div.demo-list-two div.mdl-list__item span img, div#src-result2:focus div.demo-list-two div.mdl-list__item span img {
+div#src-result2:hover div.demo-list-two div.mdl-list__item span img, div#src-result2:focus div.demo-list-two div.mdl-list__item span img, div#src-result2:active div.demo-list-two div.mdl-list__item span img {
   width: 46px;
   height: 46px;
   -webkit-transition: .3s;
   transition: .3s;
 }
 /* line 710, style.scss */
-div#src-result2:hover div.demo-card-image, div#src-result2:focus div.demo-card-image {
+div#src-result2:hover div.demo-card-image, div#src-result2:focus div.demo-card-image, div#src-result2:active div.demo-card-image {
   margin-top: auto;
   width: 100%;
   height: 0px;
@@ -811,7 +811,7 @@ div#src-result2:hover div.demo-card-image, div#src-result2:focus div.demo-card-i
   transition: .3s;
 }
 /* line 717, style.scss */
-div#src-result2:hover div.card-icons, div#src-result2:focus div.card-icons {
+div#src-result2:hover div.card-icons, div#src-result2:focus div.card-icons, div#src-result2:active div.card-icons {
   margin-top: auto;
   -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
@@ -820,19 +820,19 @@ div#src-result2:hover div.card-icons, div#src-result2:focus div.card-icons {
   transition: margin-left .6s .2s;
 }
 /* line 727, style.scss */
-div#src-result2:hover div.card-info div.category-icon button.mdl-button, div#src-result2:focus div.card-info div.category-icon button.mdl-button {
+div#src-result2:hover div.card-info div.category-icon button.mdl-button, div#src-result2:focus div.card-info div.category-icon button.mdl-button, div#src-result2:active div.card-info div.category-icon button.mdl-button {
   margin-left: auto;
   -webkit-transition: .3s;
   transition: .3s;
 }
 /* line 733, style.scss */
-div#src-result2:hover div.card-info div.card-names, div#src-result2:focus div.card-info div.card-names {
+div#src-result2:hover div.card-info div.card-names, div#src-result2:focus div.card-info div.card-names, div#src-result2:active div.card-info div.card-names {
   margin-left: 8px;
   -webkit-transition: .3s;
   transition: .3s;
 }
 /* line 739, style.scss */
-div#src-result2:hover .newprice, div#src-result2:hover .ending, div#src-result2:focus .newprice, div#src-result2:focus .ending {
+div#src-result2:hover .newprice, div#src-result2:hover .ending, div#src-result2:focus .newprice, div#src-result2:focus .ending, div#src-result2:active .newprice, div#src-result2:active .ending {
   margin-top: auto;
   -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
@@ -841,11 +841,11 @@ div#src-result2:hover .newprice, div#src-result2:hover .ending, div#src-result2:
   transition: margin-left .6s .2s;
 }
 /* line 747, style.scss */
-div#src-result2:hover .salevalue, div#src-result2:focus .salevalue {
+div#src-result2:hover .salevalue, div#src-result2:focus .salevalue, div#src-result2:active .salevalue {
   padding-bottom: 0px;
 }
 /* line 750, style.scss */
-div#src-result2:hover .published, div#src-result2:focus .published {
+div#src-result2:hover .published, div#src-result2:focus .published, div#src-result2:active .published {
   margin-top: auto;
   -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
@@ -928,7 +928,7 @@ div#src-result2 .published {
 
 /*SEARCH LIST EXPAND 3*/
 /* line 839, style.scss */
-div#src-result3:hover, div#src-result3:focus {
+div#src-result3:hover, div#src-result3:focus, div#src-result3:active {
   margin-bottom: -244px;
   margin-top: 0px;
   -webkit-transition: margin-top .9s .2s;
@@ -936,20 +936,20 @@ div#src-result3:hover, div#src-result3:focus {
   height: auto;
 }
 /* line 845, style.scss */
-div#src-result3:hover div.demo-list-two, div#src-result3:focus div.demo-list-two {
+div#src-result3:hover div.demo-list-two, div#src-result3:focus div.demo-list-two, div#src-result3:active div.demo-list-two {
   margin-left: auto;
   -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
 /* line 852, style.scss */
-div#src-result3:hover div.demo-list-two div.mdl-list__item span img, div#src-result3:focus div.demo-list-two div.mdl-list__item span img {
+div#src-result3:hover div.demo-list-two div.mdl-list__item span img, div#src-result3:focus div.demo-list-two div.mdl-list__item span img, div#src-result3:active div.demo-list-two div.mdl-list__item span img {
   width: 46px;
   height: 46px;
   -webkit-transition: .3s;
   transition: .3s;
 }
 /* line 861, style.scss */
-div#src-result3:hover div.demo-card-image, div#src-result3:focus div.demo-card-image {
+div#src-result3:hover div.demo-card-image, div#src-result3:focus div.demo-card-image, div#src-result3:active div.demo-card-image {
   margin-top: auto;
   width: 100%;
   height: 0px;
@@ -957,7 +957,7 @@ div#src-result3:hover div.demo-card-image, div#src-result3:focus div.demo-card-i
   transition: .3s;
 }
 /* line 868, style.scss */
-div#src-result3:hover div.card-icons, div#src-result3:focus div.card-icons {
+div#src-result3:hover div.card-icons, div#src-result3:focus div.card-icons, div#src-result3:active div.card-icons {
   margin-top: auto;
   -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
@@ -966,19 +966,19 @@ div#src-result3:hover div.card-icons, div#src-result3:focus div.card-icons {
   transition: margin-left .6s .2s;
 }
 /* line 878, style.scss */
-div#src-result3:hover div.card-info div.category-icon button.mdl-button, div#src-result3:focus div.card-info div.category-icon button.mdl-button {
+div#src-result3:hover div.card-info div.category-icon button.mdl-button, div#src-result3:focus div.card-info div.category-icon button.mdl-button, div#src-result3:active div.card-info div.category-icon button.mdl-button {
   margin-left: auto;
   -webkit-transition: .3s;
   transition: .3s;
 }
 /* line 884, style.scss */
-div#src-result3:hover div.card-info div.card-names, div#src-result3:focus div.card-info div.card-names {
+div#src-result3:hover div.card-info div.card-names, div#src-result3:focus div.card-info div.card-names, div#src-result3:active div.card-info div.card-names {
   margin-left: 8px;
   -webkit-transition: .3s;
   transition: .3s;
 }
 /* line 890, style.scss */
-div#src-result3:hover .newprice, div#src-result3:hover .ending, div#src-result3:focus .newprice, div#src-result3:focus .ending {
+div#src-result3:hover .newprice, div#src-result3:hover .ending, div#src-result3:focus .newprice, div#src-result3:focus .ending, div#src-result3:active .newprice, div#src-result3:active .ending {
   margin-top: auto;
   -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
@@ -987,11 +987,11 @@ div#src-result3:hover .newprice, div#src-result3:hover .ending, div#src-result3:
   transition: margin-left .6s .2s;
 }
 /* line 898, style.scss */
-div#src-result3:hover .salevalue, div#src-result3:focus .salevalue {
+div#src-result3:hover .salevalue, div#src-result3:focus .salevalue, div#src-result3:active .salevalue {
   padding-bottom: 0px;
 }
 /* line 901, style.scss */
-div#src-result3:hover .published, div#src-result3:focus .published {
+div#src-result3:hover .published, div#src-result3:focus .published, div#src-result3:active .published {
   margin-top: auto;
   -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
