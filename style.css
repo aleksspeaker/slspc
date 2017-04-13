@@ -91,13 +91,33 @@
 }
 
 /* line 74, style.scss */
+#card9.demo-card-image.mdl-card {
+  background: url("images/image8.jpg") center/cover;
+}
+
+/* line 77, style.scss */
+#card10.demo-card-image.mdl-card {
+  background: url("images/image9.jpg") center/cover;
+}
+
+/* line 80, style.scss */
+#card11.demo-card-image.mdl-card {
+  background: url("images/image10.jpg") center/cover;
+}
+
+/* line 83, style.scss */
+#card12.demo-card-image.mdl-card {
+  background: url("images/image11.jpg") center/cover;
+}
+
+/* line 86, style.scss */
 .demo-card-image > .mdl-card__actions {
   height: 52px;
   padding: 16px;
   background: rgba(0, 0, 0, 0.7);
 }
 
-/* line 80, style.scss */
+/* line 92, style.scss */
 .demo-card-image__filename {
   color: white;
   font-size: 18px;
@@ -105,7 +125,7 @@
 }
 
 /*THIS MAKES MULTILINE ELLIPSIS POSSIBLE*/
-/* line 92, style.scss */
+/* line 104, style.scss */
 .card-description-collapsed {
   position: relative;
   display: block;
@@ -124,7 +144,7 @@
   transition: height 1s;
 }
 
-/* line 110, style.scss */
+/* line 122, style.scss */
 .card-description-collapsed:hover {
   display: block;
   overflow: visible;
@@ -133,14 +153,14 @@
   transition: height .1s;
 }
 
-/* line 118, style.scss */
+/* line 130, style.scss */
 .published {
   padding-top: 16px;
   margin-bottom: -16px;
   color: rgba(0, 0, 0, 0.54);
 }
 
-/* line 124, style.scss */
+/* line 136, style.scss */
 footer.mdl-mini-footer {
   box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.4);
   background: white;
@@ -148,7 +168,7 @@ footer.mdl-mini-footer {
   padding-left: 0;
 }
 
-/* line 131, style.scss */
+/* line 143, style.scss */
 .mdl-mini-footer__link-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,13 +177,13 @@ footer.mdl-mini-footer {
   justify-content: space-around;
   width: 100vw;
 }
-/* line 139, style.scss */
+/* line 151, style.scss */
 .mdl-mini-footer__link-list button,
 .mdl-mini-footer__link-list span {
   margin: 0;
 }
 
-/* line 144, style.scss */
+/* line 156, style.scss */
 #footer {
   z-index: 1;
   position: fixed;
@@ -176,7 +196,7 @@ footer.mdl-mini-footer {
   padding: 0;
 }
 
-/* line 156, style.scss */
+/* line 168, style.scss */
 .bottom-button {
   width: 96px;
   height: 56px;
@@ -197,13 +217,13 @@ footer.mdl-mini-footer {
   margin: 0;
 }
 
-/* line 177, style.scss */
+/* line 189, style.scss */
 .mdl-button--icon,
 .material-icons {
   margin: 0;
 }
 
-/* line 181, style.scss */
+/* line 193, style.scss */
 .button-label {
   font-size: 12px;
   margin: 0;
@@ -212,7 +232,7 @@ footer.mdl-mini-footer {
   padding-bottom: 10px;
 }
 
-/* line 189, style.scss */
+/* line 201, style.scss */
 .button-label-active {
   color: #00bcd4;
   font-size: 14px;
@@ -222,17 +242,17 @@ footer.mdl-mini-footer {
   padding-bottom: 10px;
 }
 
-/* line 198, style.scss */
+/* line 210, style.scss */
 #video {
   display: block;
 }
 
-/* line 202, style.scss */
+/* line 214, style.scss */
 #myCanvas {
   display: none;
 }
 
-/* line 206, style.scss */
+/* line 218, style.scss */
 #contrButtons {
   padding: 10px;
   display: none;
@@ -240,18 +260,18 @@ footer.mdl-mini-footer {
   width: 100vw;
   margin-left: -16px;
 }
-/* line 212, style.scss */
+/* line 224, style.scss */
 #contrButtons button {
   margin: 10px;
 }
 
-/* line 217, style.scss */
+/* line 229, style.scss */
 #sharebutton {
   float: right;
   bottom: 8px;
 }
 
-/* line 222, style.scss */
+/* line 234, style.scss */
 .mdl-button--fab {
   position: absolute;
   bottom: 60px;
@@ -259,7 +279,7 @@ footer.mdl-mini-footer {
   z-index: 200;
 }
 
-/* line 229, style.scss */
+/* line 241, style.scss */
 .card-icons {
   max-width: 600px;
   padding: 16px;
@@ -267,12 +287,12 @@ footer.mdl-mini-footer {
   position: relative;
   color: rgba(0, 0, 0, 0.54);
 }
-/* line 234, style.scss */
+/* line 246, style.scss */
 .card-icons .heart {
   color: rgba(0, 0, 0, 0.54);
 }
 
-/* line 241, style.scss */
+/* line 253, style.scss */
 .star-label,
 .card-icons.star-label {
   position: absolute;
@@ -280,7 +300,7 @@ footer.mdl-mini-footer {
   /*top: 20px;*/
 }
 
-/* line 247, style.scss */
+/* line 259, style.scss */
 .downarrow {
   width: 100%;
   display: flex;
@@ -290,71 +310,71 @@ footer.mdl-mini-footer {
   margin-top: -12px;
 }
 
-/* line 256, style.scss */
+/* line 268, style.scss */
 .card-details {
   max-width: 600px;
   padding-left: 16px;
 }
 
-/* line 262, style.scss */
+/* line 274, style.scss */
 .demo-list-radio {
   display: inline;
 }
 
-/* line 266, style.scss */
+/* line 278, style.scss */
 .demo-list-two {
   width: 100%;
   padding: 0;
 }
 
-/* line 271, style.scss */
+/* line 283, style.scss */
 div.fillin-content {
   padding-top: 8px;
   padding-left: 16px;
   padding-right: 16px;
 }
 
-/* line 277, style.scss */
+/* line 289, style.scss */
 .map-container {
   width: 100%;
   margin-bottom: 16px;
 }
-/* line 280, style.scss */
+/* line 292, style.scss */
 .map-container iframe {
   width: 100%;
   display: block;
   position: relative;
 }
 
-/* line 288, style.scss */
+/* line 300, style.scss */
 .leftmargin-16,
 h5.leftmargin-16 {
   margin-left: 16px;
 }
 
-/* line 292, style.scss */
+/* line 304, style.scss */
 #nearme-search {
   width: 260px;
 }
 
-/* line 296, style.scss */
+/* line 308, style.scss */
 .mdl-layout__header {
   background: url(images/ic_apps_black_24dp_1x.png);
   background-repeat: no-repeat;
   background-position: 16px;
 }
-/* line 297, style.scss */
+/* line 309, style.scss */
 .mdl-layout__header .mdl-layout__drawer-button i {
   opacity: 0;
 }
 
-/* line 305, style.scss */
+/* line 317, style.scss */
 .fa {
   font-size: 1.3rem;
   padding: 5px;
 }
 
-/* line 310, style.scss */
+/* line 322, style.scss */
 .mdl-card.fav-card {
   width: 100vw;
   max-width: 600px;
@@ -363,19 +383,19 @@ h5.leftmargin-16 {
   vertical-align: middle;
 }
 
-/* line 318, style.scss */
+/* line 330, style.scss */
 .fav-item {
   font-size: 14px;
   padding-top: 10px;
 }
 
-/* line 323, style.scss */
+/* line 335, style.scss */
 .favimg {
   height: 40px;
   overflow-y: hidden;
 }
 
-/* line 329, style.scss */
+/* line 341, style.scss */
 .card-grid.demo-card-image.mdl-card {
   width: 49vw;
   margin-right: 2px;
@@ -383,34 +403,34 @@ h5.leftmargin-16 {
   min-height: 0;
   height: 128px;
 }
-/* line 336, style.scss */
+/* line 348, style.scss */
 .card-grid label {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 343, style.scss */
+/* line 355, style.scss */
 #fav-card.card-grid {
   background: url("images/image1.jpg") center/cover;
 }
 
-/* line 347, style.scss */
+/* line 359, style.scss */
 #fav-card1.card-grid {
   background: url("images/image2.jpg") center/cover;
 }
 
-/* line 351, style.scss */
+/* line 363, style.scss */
 #fav-card2.card-grid {
   background: url("images/image3.jpg") center/cover;
 }
 
-/* line 355, style.scss */
+/* line 367, style.scss */
 #fav-card3.card-grid {
   background: url("images/image4.jpg") center/cover;
 }
 
-/* line 359, style.scss */
+/* line 371, style.scss */
 .card-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -419,57 +439,57 @@ h5.leftmargin-16 {
   margin-bottom: -12px;
 }
 
-/* line 367, style.scss */
+/* line 379, style.scss */
 .card-names {
   padding: 16px 0 24px 4px;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.87);
 }
 
-/* line 373, style.scss */
+/* line 385, style.scss */
 .category-icon {
   padding: 16px 4px 24px 16px;
   margin-top: -8px;
 }
 
-/* line 378, style.scss */
+/* line 390, style.scss */
 .myposts-heading {
   margin-top: 0;
   text-align: center;
   margin-bottom: 24px;
 }
 
-/* line 384, style.scss */
+/* line 396, style.scss */
 .settings-btn {
   position: absolute;
   margin: auto;
   top: 43px;
 }
 
-/* line 390, style.scss */
+/* line 402, style.scss */
 .active {
   opacity: 0;
   -webkit-transition: 0.3s 0.3s;
   transition: 0.3s 0.3s;
 }
 
-/* line 396, style.scss */
+/* line 408, style.scss */
 .normal {
   opacity: 1;
 }
 
-/* line 400, style.scss */
+/* line 412, style.scss */
 .displaynone {
   display: none;
 }
 
-/* line 404, style.scss */
+/* line 416, style.scss */
 .mdl-icon-toggle__ripple-container {
   background: rgba(255, 255, 255, 0.53);
   z-index: -1;
 }
 
-/* line 409, style.scss */
+/* line 421, style.scss */
 .slide-none {
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -477,7 +497,7 @@ h5.leftmargin-16 {
   transform: translateY(0);
 }
 
-/* line 416, style.scss */
+/* line 428, style.scss */
 .slide-left {
   -webkit-transform: translateX(-220%);
   transform: translateX(-220%);
@@ -488,23 +508,23 @@ h5.leftmargin-16 {
   transition: transform 0.6s, margin-top 0.3s 0.3s, -webkit-transform 0.6s;
 }
 
-/* line 427, style.scss */
+/* line 439, style.scss */
 .normal label.star-label,
 .active label.star-label {
   margin: 4px;
 }
 
-/* line 431, style.scss */
+/* line 443, style.scss */
 #map {
   height: 70vh;
 }
 
-/* line 435, style.scss */
+/* line 447, style.scss */
 .mdl-menu__container {
   margin-left: -20px;
 }
 
-/* line 439, style.scss */
+/* line 451, style.scss */
 .card-collapse {
   width: 100vw;
   max-width: 600px;
@@ -513,20 +533,20 @@ h5.leftmargin-16 {
   vertical-align: middle;
 }
 
-/* line 447, style.scss */
+/* line 459, style.scss */
 .card-expand {
   min-height: 100px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* line 453, style.scss */
+/* line 465, style.scss */
 .search-img-small {
   height: 40px;
   overflow-y: hidden;
 }
 
-/* line 458, style.scss */
+/* line 470, style.scss */
 .search-img-big {
   height: 180px;
   overflow-y: hidden;
@@ -534,7 +554,7 @@ h5.leftmargin-16 {
   transition: 0.3s;
 }
 
-/* line 465, style.scss */
+/* line 477, style.scss */
 .profile-content {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -545,21 +565,21 @@ h5.leftmargin-16 {
 }
 
 /*POLYFILL DIALOGUE*/
-/* line 475, style.scss */
+/* line 487, style.scss */
 .mdl-dialog {
   border: none;
   box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
   width: 280px;
 }
 
-/* line 479, style.scss */
+/* line 491, style.scss */
 .mdl-dialog__title {
   padding: 24px 24px 0;
   margin: 0;
   font-size: 2.5rem;
 }
 
-/* line 483, style.scss */
+/* line 495, style.scss */
 .mdl-dialog__actions {
   padding: 8px 8px 8px 24px;
   display: -webkit-flex;
@@ -573,23 +593,23 @@ h5.leftmargin-16 {
   flex-wrap: wrap;
 }
 
-/* line 494, style.scss */
+/* line 506, style.scss */
 .mdl-dialog__actions > * {
   margin-right: 8px;
   height: 36px;
 }
 
-/* line 497, style.scss */
+/* line 509, style.scss */
 .mdl-dialog__actions > *:first-child {
   margin-right: 0;
 }
 
-/* line 499, style.scss */
+/* line 511, style.scss */
 .mdl-dialog__actions--full-width {
   padding: 0 0 8px 0;
 }
 
-/* line 501, style.scss */
+/* line 513, style.scss */
 .mdl-dialog__actions--full-width > * {
   height: 48px;
   -webkit-flex: 0 0 100%;
@@ -600,67 +620,67 @@ h5.leftmargin-16 {
   text-align: right;
 }
 
-/* line 509, style.scss */
+/* line 521, style.scss */
 .mdl-dialog__content {
   padding: 20px 24px 24px 24px;
   color: rgba(0, 0, 0, 0.54);
 }
 
 /*SEARCH LIST EXPAND 1*/
-/* line 517, style.scss */
+/* line 529, style.scss */
 div#src-result1:hover {
   margin-bottom: -244px;
   margin-top: 0px;
   transition: margin-top .9s .2s;
   height: auto;
 }
-/* line 522, style.scss */
+/* line 534, style.scss */
 div#src-result1:hover div.demo-list-two {
   margin-left: auto;
   transition: margin-left .6s .2s;
 }
-/* line 528, style.scss */
+/* line 540, style.scss */
 div#src-result1:hover div.demo-list-two div.mdl-list__item span img {
   width: 46px;
   height: 46px;
   transition: .3s;
 }
-/* line 536, style.scss */
+/* line 548, style.scss */
 div#src-result1:hover div.demo-card-image {
   margin-top: auto;
   width: 100%;
   height: 0px;
   transition: .3s;
 }
-/* line 542, style.scss */
+/* line 554, style.scss */
 div#src-result1:hover div.card-icons {
   margin-top: auto;
   transition: margin-top .9s .2s;
   margin-left: auto;
   transition: margin-left .6s .2s;
 }
-/* line 550, style.scss */
+/* line 562, style.scss */
 div#src-result1:hover div.card-info div.category-icon button.mdl-button {
   margin-left: auto;
   transition: .3s;
 }
-/* line 555, style.scss */
+/* line 567, style.scss */
 div#src-result1:hover div.card-info div.card-names {
   margin-left: 8px;
   transition: .3s;
 }
-/* line 560, style.scss */
+/* line 572, style.scss */
 div#src-result1:hover .newprice, div#src-result1:hover .ending {
   margin-top: auto;
   transition: margin-top .9s .2s;
   margin-left: auto;
   transition: margin-left .6s .2s;
 }
-/* line 566, style.scss */
+/* line 578, style.scss */
 div#src-result1:hover .salevalue {
   padding-bottom: 0px;
 }
-/* line 569, style.scss */
+/* line 581, style.scss */
 div#src-result1:hover .published {
   margin-top: auto;
   transition: margin-top .9s .2s;
@@ -668,59 +688,59 @@ div#src-result1:hover .published {
   transition: margin-left .6s .2s;
 }
 
-/* line 581, style.scss */
+/* line 593, style.scss */
 div#src-result1 {
   margin-top: -80px;
   transition: margin-top .9s .2s;
   height: 10px;
 }
-/* line 585, style.scss */
+/* line 597, style.scss */
 div#src-result1 div.demo-list-two {
   margin-left: -200%;
   transition: margin-left .6s .2s;
 }
-/* line 591, style.scss */
+/* line 603, style.scss */
 div#src-result1 div.demo-list-two div.mdl-list__item span img {
   width: 0;
   height: 0;
   transition: .3s;
 }
-/* line 599, style.scss */
+/* line 611, style.scss */
 div#src-result1 div.demo-card-image {
   margin-top: -250px;
   width: 0px;
   height: 0px;
   transition: .3s;
 }
-/* line 605, style.scss */
+/* line 617, style.scss */
 div#src-result1 div.card-icons {
   margin-top: -40px;
   transition: margin-top .9s .2s;
   margin-left: -200%;
   transition: margin-left .6s .2s;
 }
-/* line 613, style.scss */
+/* line 625, style.scss */
 div#src-result1 div.card-info div.category-icon button.mdl-button {
   margin-left: -200%;
   transition: .3s;
 }
-/* line 618, style.scss */
+/* line 630, style.scss */
 div#src-result1 div.card-info div.card-names {
   margin-left: -40px;
   transition: .3s;
 }
-/* line 623, style.scss */
+/* line 635, style.scss */
 div#src-result1 .newprice, div#src-result1 .ending {
   margin-top: -32px;
   transition: margin-top .9s .2s;
   margin-left: -200%;
   transition: margin-left .6s .2s;
 }
-/* line 629, style.scss */
+/* line 641, style.scss */
 div#src-result1 .salevalue {
   padding-bottom: 24px;
 }
-/* line 632, style.scss */
+/* line 644, style.scss */
 div#src-result1 .published {
   margin-top: -32px;
   transition: margin-top .9s .2s;
@@ -729,60 +749,60 @@ div#src-result1 .published {
 }
 
 /*SEARCH LIST EXPAND 2*/
-/* line 644, style.scss */
+/* line 656, style.scss */
 div#src-result2:hover {
   margin-bottom: -244px;
   margin-top: 0px;
   transition: margin-top .9s .2s;
   height: auto;
 }
-/* line 649, style.scss */
+/* line 661, style.scss */
 div#src-result2:hover div.demo-list-two {
   margin-left: auto;
   transition: margin-left .6s .2s;
 }
-/* line 655, style.scss */
+/* line 667, style.scss */
 div#src-result2:hover div.demo-list-two div.mdl-list__item span img {
   width: 46px;
   height: 46px;
   transition: .3s;
 }
-/* line 663, style.scss */
+/* line 675, style.scss */
 div#src-result2:hover div.demo-card-image {
   margin-top: auto;
   width: 100%;
   height: 0px;
   transition: .3s;
 }
-/* line 669, style.scss */
+/* line 681, style.scss */
 div#src-result2:hover div.card-icons {
   margin-top: auto;
   transition: margin-top .9s .2s;
   margin-left: auto;
   transition: margin-left .6s .2s;
 }
-/* line 677, style.scss */
+/* line 689, style.scss */
 div#src-result2:hover div.card-info div.category-icon button.mdl-button {
   margin-left: auto;
   transition: .3s;
 }
-/* line 682, style.scss */
+/* line 694, style.scss */
 div#src-result2:hover div.card-info div.card-names {
   margin-left: 8px;
   transition: .3s;
 }
-/* line 687, style.scss */
+/* line 699, style.scss */
 div#src-result2:hover .newprice, div#src-result2:hover .ending {
   margin-top: auto;
   transition: margin-top .9s .2s;
   margin-left: auto;
   transition: margin-left .6s .2s;
 }
-/* line 693, style.scss */
+/* line 705, style.scss */
 div#src-result2:hover .salevalue {
   padding-bottom: 0px;
 }
-/* line 696, style.scss */
+/* line 708, style.scss */
 div#src-result2:hover .published {
   margin-top: auto;
   transition: margin-top .9s .2s;
@@ -790,59 +810,59 @@ div#src-result2:hover .published {
   transition: margin-left .6s .2s;
 }
 
-/* line 708, style.scss */
+/* line 720, style.scss */
 div#src-result2 {
   margin-top: -80px;
   transition: margin-top .9s .2s;
   height: 10px;
 }
-/* line 712, style.scss */
+/* line 724, style.scss */
 div#src-result2 div.demo-list-two {
   margin-left: -200%;
   transition: margin-left .6s .2s;
 }
-/* line 718, style.scss */
+/* line 730, style.scss */
 div#src-result2 div.demo-list-two div.mdl-list__item span img {
   width: 0;
   height: 0;
   transition: .3s;
 }
-/* line 726, style.scss */
+/* line 738, style.scss */
 div#src-result2 div.demo-card-image {
   margin-top: -250px;
   width: 0px;
   height: 0px;
   transition: .3s;
 }
-/* line 732, style.scss */
+/* line 744, style.scss */
 div#src-result2 div.card-icons {
   margin-top: -40px;
   transition: margin-top .9s .2s;
   margin-left: -200%;
   transition: margin-left .6s .2s;
 }
-/* line 740, style.scss */
+/* line 752, style.scss */
 div#src-result2 div.card-info div.category-icon button.mdl-button {
   margin-left: -200%;
   transition: .3s;
 }
-/* line 745, style.scss */
+/* line 757, style.scss */
 div#src-result2 div.card-info div.card-names {
   margin-left: -40px;
   transition: .3s;
 }
-/* line 750, style.scss */
+/* line 762, style.scss */
 div#src-result2 .newprice, div#src-result2 .ending {
   margin-top: -32px;
   transition: margin-top .9s .2s;
   margin-left: -200%;
   transition: margin-left .6s .2s;
 }
-/* line 756, style.scss */
+/* line 768, style.scss */
 div#src-result2 .salevalue {
   padding-bottom: 24px;
 }
-/* line 759, style.scss */
+/* line 771, style.scss */
 div#src-result2 .published {
   margin-top: -32px;
   transition: margin-top .9s .2s;
@@ -851,60 +871,60 @@ div#src-result2 .published {
 }
 
 /*SEARCH LIST EXPAND 3*/
-/* line 771, style.scss */
+/* line 783, style.scss */
 div#src-result3:hover {
   margin-bottom: -244px;
   margin-top: 0px;
   transition: margin-top .9s .2s;
   height: auto;
 }
-/* line 776, style.scss */
+/* line 788, style.scss */
 div#src-result3:hover div.demo-list-two {
   margin-left: auto;
   transition: margin-left .6s .2s;
 }
-/* line 782, style.scss */
+/* line 794, style.scss */
 div#src-result3:hover div.demo-list-two div.mdl-list__item span img {
   width: 46px;
   height: 46px;
   transition: .3s;
 }
-/* line 790, style.scss */
+/* line 802, style.scss */
 div#src-result3:hover div.demo-card-image {
   margin-top: auto;
   width: 100%;
   height: 0px;
   transition: .3s;
 }
-/* line 796, style.scss */
+/* line 808, style.scss */
 div#src-result3:hover div.card-icons {
   margin-top: auto;
   transition: margin-top .9s .2s;
   margin-left: auto;
   transition: margin-left .6s .2s;
 }
-/* line 804, style.scss */
+/* line 816, style.scss */
 div#src-result3:hover div.card-info div.category-icon button.mdl-button {
   margin-left: auto;
   transition: .3s;
 }
-/* line 809, style.scss */
+/* line 821, style.scss */
 div#src-result3:hover div.card-info div.card-names {
   margin-left: 8px;
   transition: .3s;
 }
-/* line 814, style.scss */
+/* line 826, style.scss */
 div#src-result3:hover .newprice, div#src-result3:hover .ending {
   margin-top: auto;
   transition: margin-top .9s .2s;
   margin-left: auto;
   transition: margin-left .6s .2s;
 }
-/* line 820, style.scss */
+/* line 832, style.scss */
 div#src-result3:hover .salevalue {
   padding-bottom: 0px;
 }
-/* line 823, style.scss */
+/* line 835, style.scss */
 div#src-result3:hover .published {
   margin-top: auto;
   transition: margin-top .9s .2s;
@@ -912,59 +932,59 @@ div#src-result3:hover .published {
   transition: margin-left .6s .2s;
 }
 
-/* line 835, style.scss */
+/* line 847, style.scss */
 div#src-result3 {
   margin-top: -80px;
   transition: margin-top .9s .2s;
   height: 10px;
 }
-/* line 839, style.scss */
+/* line 851, style.scss */
 div#src-result3 div.demo-list-two {
   margin-left: -200%;
   transition: margin-left .6s .2s;
 }
-/* line 845, style.scss */
+/* line 857, style.scss */
 div#src-result3 div.demo-list-two div.mdl-list__item span img {
   width: 0;
   height: 0;
   transition: .3s;
 }
-/* line 853, style.scss */
+/* line 865, style.scss */
 div#src-result3 div.demo-card-image {
   margin-top: -250px;
   width: 0px;
   height: 0px;
   transition: .3s;
 }
-/* line 859, style.scss */
+/* line 871, style.scss */
 div#src-result3 div.card-icons {
   margin-top: -40px;
   transition: margin-top .9s .2s;
   margin-left: -200%;
   transition: margin-left .6s .2s;
 }
-/* line 867, style.scss */
+/* line 879, style.scss */
 div#src-result3 div.card-info div.category-icon button.mdl-button {
   margin-left: -200%;
   transition: .3s;
 }
-/* line 872, style.scss */
+/* line 884, style.scss */
 div#src-result3 div.card-info div.card-names {
   margin-left: -40px;
   transition: .3s;
 }
-/* line 877, style.scss */
+/* line 889, style.scss */
 div#src-result3 .newprice, div#src-result3 .ending {
   margin-top: -32px;
   transition: margin-top .9s .2s;
   margin-left: -200%;
   transition: margin-left .6s .2s;
 }
-/* line 883, style.scss */
+/* line 895, style.scss */
 div#src-result3 .salevalue {
   padding-bottom: 24px;
 }
-/* line 886, style.scss */
+/* line 898, style.scss */
 div#src-result3 .published {
   margin-top: -32px;
   transition: margin-top .9s .2s;
@@ -972,7 +992,7 @@ div#src-result3 .published {
   transition: margin-left .6s .2s;
 }
 
-/* line 896, style.scss */
+/* line 908, style.scss */
 .bufer {
   height: 232px;
 }
