@@ -114,6 +114,7 @@ $lines-to-show: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  -webkit-transition: height 1s;
   transition: height 1s;
 }
 
@@ -124,6 +125,7 @@ $lines-to-show: 2;
     overflow: visible;
     text-overflow: visible;
     height: 10rem;
+    -webkit-transition: height .1s;
     transition: height .1s;
 }
 
@@ -258,9 +260,14 @@ footer.mdl-mini-footer {
 
 .downarrow {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-content: flex-start;
-    justify-content: center;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: rgba(0,0,0,.24);
     margin-top: -12px;
 }
@@ -494,15 +501,15 @@ h5.leftmargin-16 {
     font-size: 2.5rem; }
   .mdl-dialog__actions {
     padding: 8px 8px 8px 24px;
-    display: -webkit-flex;
     display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
-    -webkit-flex-direction: row-reverse;
-        -ms-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
             flex-direction: row-reverse;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
     .mdl-dialog__actions > * {
       margin-right: 8px;
       height: 36px; }
@@ -512,8 +519,8 @@ h5.leftmargin-16 {
       padding: 0 0 8px 0; }
       .mdl-dialog__actions--full-width > * {
         height: 48px;
-        -webkit-flex: 0 0 100%;
-            -ms-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            -webkit-box-flex: 0;
                 flex: 0 0 100%;
         padding-right: 16px;
         margin-right: 0;
@@ -529,10 +536,12 @@ h5.leftmargin-16 {
 div#src-result1:hover {
     margin-bottom: -244px;
     margin-top: 0px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     height: auto;
   div.demo-list-two {
         margin-left: auto;
+        -webkit-transition: margin-left .6s .2s;
         transition: margin-left .6s .2s;
     div.mdl-list__item {
       span {
@@ -540,6 +549,7 @@ div#src-result1:hover {
         img {
           width:46px;
           height: 46px;
+          -webkit-transition: .3s;
           transition: .3s;
         }
       }
@@ -549,30 +559,37 @@ div#src-result1:hover {
     margin-top: auto;
     width: 100%;
     height: 0px;
+    -webkit-transition: .3s;
     transition: .3s;
   }
   div.card-icons {
     margin-top: auto;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: auto;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
   div.card-info {
     div.category-icon {
       button.mdl-button {
         margin-left: auto;
+        -webkit-transition: .3s;
         transition: .3s;
       }
     }
     div.card-names {
     margin-left: 8px;
+    -webkit-transition: .3s;
     transition: .3s;
     }
   }
   .newprice, .ending {
     margin-top: auto;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: auto;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
   .salevalue {
@@ -580,8 +597,10 @@ div#src-result1:hover {
   }
   .published {
     margin-top: auto;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: auto;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
 }
@@ -592,10 +611,12 @@ div#src-result1:hover {
 
 div#src-result1 {
     margin-top: -80px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     height: 10px;
   div.demo-list-two {
         margin-left: -200%;
+        -webkit-transition: margin-left .6s .2s;
         transition: margin-left .6s .2s;
     div.mdl-list__item {
       span {
@@ -603,6 +624,7 @@ div#src-result1 {
         img {
           width:0;
           height: 0;
+          -webkit-transition: .3s;
           transition: .3s;
         }
       }
@@ -612,30 +634,37 @@ div#src-result1 {
     margin-top: -250px;
     width: 0px;
     height: 0px;
+    -webkit-transition: .3s;
     transition: .3s;
   }
   div.card-icons {
     margin-top: -40px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: -200%;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
   div.card-info {
     div.category-icon {
       button.mdl-button {
         margin-left: -200%;
+        -webkit-transition: .3s;
         transition: .3s;
       }
     }
     div.card-names {
     margin-left: -40px;
+    -webkit-transition: .3s;
     transition: .3s;
     }
   }
   .newprice, .ending {
     margin-top: -32px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: -200%;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
   .salevalue {
@@ -643,8 +672,10 @@ div#src-result1 {
   }
   .published {
     margin-top: -32px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: -200%;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
 }
@@ -656,10 +687,12 @@ div#src-result1 {
 div#src-result2:hover {
     margin-bottom: -244px;
     margin-top: 0px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     height: auto;
   div.demo-list-two {
         margin-left: auto;
+        -webkit-transition: margin-left .6s .2s;
         transition: margin-left .6s .2s;
     div.mdl-list__item {
       span {
@@ -667,6 +700,7 @@ div#src-result2:hover {
         img {
           width:46px;
           height: 46px;
+          -webkit-transition: .3s;
           transition: .3s;
         }
       }
@@ -676,30 +710,37 @@ div#src-result2:hover {
     margin-top: auto;
     width: 100%;
     height: 0px;
+    -webkit-transition: .3s;
     transition: .3s;
   }
   div.card-icons {
     margin-top: auto;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: auto;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
   div.card-info {
     div.category-icon {
       button.mdl-button {
         margin-left: auto;
+        -webkit-transition: .3s;
         transition: .3s;
       }
     }
     div.card-names {
     margin-left: 8px;
+    -webkit-transition: .3s;
     transition: .3s;
     }
   }
   .newprice, .ending {
     margin-top: auto;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: auto;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
   .salevalue {
@@ -707,8 +748,10 @@ div#src-result2:hover {
   }
   .published {
     margin-top: auto;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: auto;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
 }
@@ -719,10 +762,12 @@ div#src-result2:hover {
 
 div#src-result2 {
     margin-top: -80px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     height: 10px;
   div.demo-list-two {
         margin-left: -200%;
+        -webkit-transition: margin-left .6s .2s;
         transition: margin-left .6s .2s;
     div.mdl-list__item {
       span {
@@ -730,6 +775,7 @@ div#src-result2 {
         img {
           width:0;
           height: 0;
+          -webkit-transition: .3s;
           transition: .3s;
         }
       }
@@ -739,30 +785,37 @@ div#src-result2 {
     margin-top: -250px;
     width: 0px;
     height: 0px;
+    -webkit-transition: .3s;
     transition: .3s;
   }
   div.card-icons {
     margin-top: -40px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: -200%;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
   div.card-info {
     div.category-icon {
       button.mdl-button {
         margin-left: -200%;
+        -webkit-transition: .3s;
         transition: .3s;
       }
     }
     div.card-names {
     margin-left: -40px;
+    -webkit-transition: .3s;
     transition: .3s;
     }
   }
   .newprice, .ending {
     margin-top: -32px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: -200%;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
   .salevalue {
@@ -770,8 +823,10 @@ div#src-result2 {
   }
   .published {
     margin-top: -32px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: -200%;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
 }
@@ -783,10 +838,12 @@ div#src-result2 {
 div#src-result3:hover {
     margin-bottom: -244px;
     margin-top: 0px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     height: auto;
   div.demo-list-two {
         margin-left: auto;
+        -webkit-transition: margin-left .6s .2s;
         transition: margin-left .6s .2s;
     div.mdl-list__item {
       span {
@@ -794,6 +851,7 @@ div#src-result3:hover {
         img {
           width:46px;
           height: 46px;
+          -webkit-transition: .3s;
           transition: .3s;
         }
       }
@@ -803,30 +861,37 @@ div#src-result3:hover {
     margin-top: auto;
     width: 100%;
     height: 0px;
+    -webkit-transition: .3s;
     transition: .3s;
   }
   div.card-icons {
     margin-top: auto;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: auto;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
   div.card-info {
     div.category-icon {
       button.mdl-button {
         margin-left: auto;
+        -webkit-transition: .3s;
         transition: .3s;
       }
     }
     div.card-names {
     margin-left: 8px;
+    -webkit-transition: .3s;
     transition: .3s;
     }
   }
   .newprice, .ending {
     margin-top: auto;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: auto;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
   .salevalue {
@@ -834,8 +899,10 @@ div#src-result3:hover {
   }
   .published {
     margin-top: auto;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: auto;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
 }
@@ -846,10 +913,12 @@ div#src-result3:hover {
 
 div#src-result3 {
     margin-top: -80px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     height: 10px;
   div.demo-list-two {
         margin-left: -200%;
+        -webkit-transition: margin-left .6s .2s;
         transition: margin-left .6s .2s;
     div.mdl-list__item {
       span {
@@ -857,6 +926,7 @@ div#src-result3 {
         img {
           width:0;
           height: 0;
+          -webkit-transition: .3s;
           transition: .3s;
         }
       }
@@ -866,30 +936,37 @@ div#src-result3 {
     margin-top: -250px;
     width: 0px;
     height: 0px;
+    -webkit-transition: .3s;
     transition: .3s;
   }
   div.card-icons {
     margin-top: -40px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: -200%;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
   div.card-info {
     div.category-icon {
       button.mdl-button {
         margin-left: -200%;
+        -webkit-transition: .3s;
         transition: .3s;
       }
     }
     div.card-names {
     margin-left: -40px;
+    -webkit-transition: .3s;
     transition: .3s;
     }
   }
   .newprice, .ending {
     margin-top: -32px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: -200%;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
   .salevalue {
@@ -897,8 +974,10 @@ div#src-result3 {
   }
   .published {
     margin-top: -32px;
+    -webkit-transition: margin-top .9s .2s;
     transition: margin-top .9s .2s;
     margin-left: -200%;
+    -webkit-transition: margin-left .6s .2s;
     transition: margin-left .6s .2s;
   }
 }

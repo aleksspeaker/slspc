@@ -141,26 +141,28 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  -webkit-transition: height 1s;
   transition: height 1s;
 }
 
-/* line 122, style.scss */
+/* line 123, style.scss */
 .card-description-collapsed:hover {
   display: block;
   overflow: visible;
   text-overflow: visible;
   height: 10rem;
+  -webkit-transition: height .1s;
   transition: height .1s;
 }
 
-/* line 130, style.scss */
+/* line 132, style.scss */
 .published {
   padding-top: 16px;
   margin-bottom: -16px;
   color: rgba(0, 0, 0, 0.54);
 }
 
-/* line 136, style.scss */
+/* line 138, style.scss */
 footer.mdl-mini-footer {
   box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.4);
   background: white;
@@ -168,7 +170,7 @@ footer.mdl-mini-footer {
   padding-left: 0;
 }
 
-/* line 143, style.scss */
+/* line 145, style.scss */
 .mdl-mini-footer__link-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -177,13 +179,13 @@ footer.mdl-mini-footer {
   justify-content: space-around;
   width: 100vw;
 }
-/* line 151, style.scss */
+/* line 153, style.scss */
 .mdl-mini-footer__link-list button,
 .mdl-mini-footer__link-list span {
   margin: 0;
 }
 
-/* line 156, style.scss */
+/* line 158, style.scss */
 #footer {
   z-index: 1;
   position: fixed;
@@ -196,7 +198,7 @@ footer.mdl-mini-footer {
   padding: 0;
 }
 
-/* line 168, style.scss */
+/* line 170, style.scss */
 .bottom-button {
   width: 96px;
   height: 56px;
@@ -217,13 +219,13 @@ footer.mdl-mini-footer {
   margin: 0;
 }
 
-/* line 189, style.scss */
+/* line 191, style.scss */
 .mdl-button--icon,
 .material-icons {
   margin: 0;
 }
 
-/* line 193, style.scss */
+/* line 195, style.scss */
 .button-label {
   font-size: 12px;
   margin: 0;
@@ -232,7 +234,7 @@ footer.mdl-mini-footer {
   padding-bottom: 10px;
 }
 
-/* line 201, style.scss */
+/* line 203, style.scss */
 .button-label-active {
   color: #00bcd4;
   font-size: 14px;
@@ -242,17 +244,17 @@ footer.mdl-mini-footer {
   padding-bottom: 10px;
 }
 
-/* line 210, style.scss */
+/* line 212, style.scss */
 #video {
   display: block;
 }
 
-/* line 214, style.scss */
+/* line 216, style.scss */
 #myCanvas {
   display: none;
 }
 
-/* line 218, style.scss */
+/* line 220, style.scss */
 #contrButtons {
   padding: 10px;
   display: none;
@@ -260,18 +262,18 @@ footer.mdl-mini-footer {
   width: 100vw;
   margin-left: -16px;
 }
-/* line 224, style.scss */
+/* line 226, style.scss */
 #contrButtons button {
   margin: 10px;
 }
 
-/* line 229, style.scss */
+/* line 231, style.scss */
 #sharebutton {
   float: right;
   bottom: 8px;
 }
 
-/* line 234, style.scss */
+/* line 236, style.scss */
 .mdl-button--fab {
   position: absolute;
   bottom: 60px;
@@ -279,7 +281,7 @@ footer.mdl-mini-footer {
   z-index: 200;
 }
 
-/* line 241, style.scss */
+/* line 243, style.scss */
 .card-icons {
   max-width: 600px;
   padding: 16px;
@@ -287,12 +289,12 @@ footer.mdl-mini-footer {
   position: relative;
   color: rgba(0, 0, 0, 0.54);
 }
-/* line 246, style.scss */
+/* line 248, style.scss */
 .card-icons .heart {
   color: rgba(0, 0, 0, 0.54);
 }
 
-/* line 253, style.scss */
+/* line 255, style.scss */
 .star-label,
 .card-icons.star-label {
   position: absolute;
@@ -300,81 +302,86 @@ footer.mdl-mini-footer {
   /*top: 20px;*/
 }
 
-/* line 259, style.scss */
+/* line 261, style.scss */
 .downarrow {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: start;
   align-content: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   color: rgba(0, 0, 0, 0.24);
   margin-top: -12px;
 }
 
-/* line 268, style.scss */
+/* line 275, style.scss */
 .card-details {
   max-width: 600px;
   padding-left: 16px;
 }
 
-/* line 274, style.scss */
+/* line 281, style.scss */
 .demo-list-radio {
   display: inline;
 }
 
-/* line 278, style.scss */
+/* line 285, style.scss */
 .demo-list-two {
   width: 100%;
   padding: 0;
 }
 
-/* line 283, style.scss */
+/* line 290, style.scss */
 div.fillin-content {
   padding-top: 8px;
   padding-left: 16px;
   padding-right: 16px;
 }
 
-/* line 289, style.scss */
+/* line 296, style.scss */
 .map-container {
   width: 100%;
   margin-bottom: 16px;
 }
-/* line 292, style.scss */
+/* line 299, style.scss */
 .map-container iframe {
   width: 100%;
   display: block;
   position: relative;
 }
 
-/* line 300, style.scss */
+/* line 307, style.scss */
 .leftmargin-16,
 h5.leftmargin-16 {
   margin-left: 16px;
 }
 
-/* line 304, style.scss */
+/* line 311, style.scss */
 #nearme-search {
   width: 260px;
 }
 
-/* line 308, style.scss */
+/* line 315, style.scss */
 .mdl-layout__header {
   background: url(images/ic_apps_black_24dp_1x.png);
   background-repeat: no-repeat;
   background-position: 16px;
 }
-/* line 309, style.scss */
+/* line 316, style.scss */
 .mdl-layout__header .mdl-layout__drawer-button i {
   opacity: 0;
 }
 
-/* line 317, style.scss */
+/* line 324, style.scss */
 .fa {
   font-size: 1.3rem;
   padding: 5px;
 }
 
-/* line 322, style.scss */
+/* line 329, style.scss */
 .mdl-card.fav-card {
   width: 100vw;
   max-width: 600px;
@@ -383,19 +390,19 @@ h5.leftmargin-16 {
   vertical-align: middle;
 }
 
-/* line 330, style.scss */
+/* line 337, style.scss */
 .fav-item {
   font-size: 14px;
   padding-top: 10px;
 }
 
-/* line 335, style.scss */
+/* line 342, style.scss */
 .favimg {
   height: 40px;
   overflow-y: hidden;
 }
 
-/* line 341, style.scss */
+/* line 348, style.scss */
 .card-grid.demo-card-image.mdl-card {
   width: 49vw;
   margin-right: 2px;
@@ -403,34 +410,34 @@ h5.leftmargin-16 {
   min-height: 0;
   height: 128px;
 }
-/* line 348, style.scss */
+/* line 355, style.scss */
 .card-grid label {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 355, style.scss */
+/* line 362, style.scss */
 #fav-card.card-grid {
   background: url("images/image1.jpg") center/cover;
 }
 
-/* line 359, style.scss */
+/* line 366, style.scss */
 #fav-card1.card-grid {
   background: url("images/image2.jpg") center/cover;
 }
 
-/* line 363, style.scss */
+/* line 370, style.scss */
 #fav-card2.card-grid {
   background: url("images/image3.jpg") center/cover;
 }
 
-/* line 367, style.scss */
+/* line 374, style.scss */
 #fav-card3.card-grid {
   background: url("images/image4.jpg") center/cover;
 }
 
-/* line 371, style.scss */
+/* line 378, style.scss */
 .card-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -439,57 +446,57 @@ h5.leftmargin-16 {
   margin-bottom: -12px;
 }
 
-/* line 379, style.scss */
+/* line 386, style.scss */
 .card-names {
   padding: 16px 0 24px 4px;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.87);
 }
 
-/* line 385, style.scss */
+/* line 392, style.scss */
 .category-icon {
   padding: 16px 4px 24px 16px;
   margin-top: -8px;
 }
 
-/* line 390, style.scss */
+/* line 397, style.scss */
 .myposts-heading {
   margin-top: 0;
   text-align: center;
   margin-bottom: 24px;
 }
 
-/* line 396, style.scss */
+/* line 403, style.scss */
 .settings-btn {
   position: absolute;
   margin: auto;
   top: 43px;
 }
 
-/* line 402, style.scss */
+/* line 409, style.scss */
 .active {
   opacity: 0;
   -webkit-transition: 0.3s 0.3s;
   transition: 0.3s 0.3s;
 }
 
-/* line 408, style.scss */
+/* line 415, style.scss */
 .normal {
   opacity: 1;
 }
 
-/* line 412, style.scss */
+/* line 419, style.scss */
 .displaynone {
   display: none;
 }
 
-/* line 416, style.scss */
+/* line 423, style.scss */
 .mdl-icon-toggle__ripple-container {
   background: rgba(255, 255, 255, 0.53);
   z-index: -1;
 }
 
-/* line 421, style.scss */
+/* line 428, style.scss */
 .slide-none {
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -497,7 +504,7 @@ h5.leftmargin-16 {
   transform: translateY(0);
 }
 
-/* line 428, style.scss */
+/* line 435, style.scss */
 .slide-left {
   -webkit-transform: translateX(-220%);
   transform: translateX(-220%);
@@ -508,23 +515,23 @@ h5.leftmargin-16 {
   transition: transform 0.6s, margin-top 0.3s 0.3s, -webkit-transform 0.6s;
 }
 
-/* line 439, style.scss */
+/* line 446, style.scss */
 .normal label.star-label,
 .active label.star-label {
   margin: 4px;
 }
 
-/* line 443, style.scss */
+/* line 450, style.scss */
 #map {
   height: 70vh;
 }
 
-/* line 447, style.scss */
+/* line 454, style.scss */
 .mdl-menu__container {
   margin-left: -20px;
 }
 
-/* line 451, style.scss */
+/* line 458, style.scss */
 .card-collapse {
   width: 100vw;
   max-width: 600px;
@@ -533,20 +540,20 @@ h5.leftmargin-16 {
   vertical-align: middle;
 }
 
-/* line 459, style.scss */
+/* line 466, style.scss */
 .card-expand {
   min-height: 100px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* line 465, style.scss */
+/* line 472, style.scss */
 .search-img-small {
   height: 40px;
   overflow-y: hidden;
 }
 
-/* line 470, style.scss */
+/* line 477, style.scss */
 .search-img-big {
   height: 180px;
   overflow-y: hidden;
@@ -554,7 +561,7 @@ h5.leftmargin-16 {
   transition: 0.3s;
 }
 
-/* line 477, style.scss */
+/* line 484, style.scss */
 .profile-content {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -565,434 +572,506 @@ h5.leftmargin-16 {
 }
 
 /*POLYFILL DIALOGUE*/
-/* line 487, style.scss */
+/* line 494, style.scss */
 .mdl-dialog {
   border: none;
   box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
   width: 280px;
 }
 
-/* line 491, style.scss */
+/* line 498, style.scss */
 .mdl-dialog__title {
   padding: 24px 24px 0;
   margin: 0;
   font-size: 2.5rem;
 }
 
-/* line 495, style.scss */
+/* line 502, style.scss */
 .mdl-dialog__actions {
   padding: 8px 8px 8px 24px;
-  display: -webkit-flex;
   display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
-  -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
   flex-direction: row-reverse;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
-/* line 506, style.scss */
+/* line 513, style.scss */
 .mdl-dialog__actions > * {
   margin-right: 8px;
   height: 36px;
 }
 
-/* line 509, style.scss */
+/* line 516, style.scss */
 .mdl-dialog__actions > *:first-child {
   margin-right: 0;
 }
 
-/* line 511, style.scss */
+/* line 518, style.scss */
 .mdl-dialog__actions--full-width {
   padding: 0 0 8px 0;
 }
 
-/* line 513, style.scss */
+/* line 520, style.scss */
 .mdl-dialog__actions--full-width > * {
   height: 48px;
-  -webkit-flex: 0 0 100%;
   -ms-flex: 0 0 100%;
+  -webkit-box-flex: 0;
   flex: 0 0 100%;
   padding-right: 16px;
   margin-right: 0;
   text-align: right;
 }
 
-/* line 521, style.scss */
+/* line 528, style.scss */
 .mdl-dialog__content {
   padding: 20px 24px 24px 24px;
   color: rgba(0, 0, 0, 0.54);
 }
 
 /*SEARCH LIST EXPAND 1*/
-/* line 529, style.scss */
+/* line 536, style.scss */
 div#src-result1:hover {
   margin-bottom: -244px;
   margin-top: 0px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   height: auto;
 }
-/* line 534, style.scss */
+/* line 542, style.scss */
 div#src-result1:hover div.demo-list-two {
   margin-left: auto;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 540, style.scss */
+/* line 549, style.scss */
 div#src-result1:hover div.demo-list-two div.mdl-list__item span img {
   width: 46px;
   height: 46px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 548, style.scss */
+/* line 558, style.scss */
 div#src-result1:hover div.demo-card-image {
   margin-top: auto;
   width: 100%;
   height: 0px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 554, style.scss */
+/* line 565, style.scss */
 div#src-result1:hover div.card-icons {
   margin-top: auto;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: auto;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 562, style.scss */
+/* line 575, style.scss */
 div#src-result1:hover div.card-info div.category-icon button.mdl-button {
   margin-left: auto;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 567, style.scss */
+/* line 581, style.scss */
 div#src-result1:hover div.card-info div.card-names {
   margin-left: 8px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 572, style.scss */
+/* line 587, style.scss */
 div#src-result1:hover .newprice, div#src-result1:hover .ending {
   margin-top: auto;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: auto;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 578, style.scss */
+/* line 595, style.scss */
 div#src-result1:hover .salevalue {
   padding-bottom: 0px;
 }
-/* line 581, style.scss */
+/* line 598, style.scss */
 div#src-result1:hover .published {
   margin-top: auto;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: auto;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
 
-/* line 593, style.scss */
+/* line 612, style.scss */
 div#src-result1 {
   margin-top: -80px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   height: 10px;
 }
-/* line 597, style.scss */
+/* line 617, style.scss */
 div#src-result1 div.demo-list-two {
   margin-left: -200%;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 603, style.scss */
+/* line 624, style.scss */
 div#src-result1 div.demo-list-two div.mdl-list__item span img {
   width: 0;
   height: 0;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 611, style.scss */
+/* line 633, style.scss */
 div#src-result1 div.demo-card-image {
   margin-top: -250px;
   width: 0px;
   height: 0px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 617, style.scss */
+/* line 640, style.scss */
 div#src-result1 div.card-icons {
   margin-top: -40px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: -200%;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 625, style.scss */
+/* line 650, style.scss */
 div#src-result1 div.card-info div.category-icon button.mdl-button {
   margin-left: -200%;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 630, style.scss */
+/* line 656, style.scss */
 div#src-result1 div.card-info div.card-names {
   margin-left: -40px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 635, style.scss */
+/* line 662, style.scss */
 div#src-result1 .newprice, div#src-result1 .ending {
   margin-top: -32px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: -200%;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 641, style.scss */
+/* line 670, style.scss */
 div#src-result1 .salevalue {
   padding-bottom: 24px;
 }
-/* line 644, style.scss */
+/* line 673, style.scss */
 div#src-result1 .published {
   margin-top: -32px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: -200%;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
 
 /*SEARCH LIST EXPAND 2*/
-/* line 656, style.scss */
+/* line 687, style.scss */
 div#src-result2:hover {
   margin-bottom: -244px;
   margin-top: 0px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   height: auto;
 }
-/* line 661, style.scss */
+/* line 693, style.scss */
 div#src-result2:hover div.demo-list-two {
   margin-left: auto;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 667, style.scss */
+/* line 700, style.scss */
 div#src-result2:hover div.demo-list-two div.mdl-list__item span img {
   width: 46px;
   height: 46px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 675, style.scss */
+/* line 709, style.scss */
 div#src-result2:hover div.demo-card-image {
   margin-top: auto;
   width: 100%;
   height: 0px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 681, style.scss */
+/* line 716, style.scss */
 div#src-result2:hover div.card-icons {
   margin-top: auto;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: auto;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 689, style.scss */
+/* line 726, style.scss */
 div#src-result2:hover div.card-info div.category-icon button.mdl-button {
   margin-left: auto;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 694, style.scss */
+/* line 732, style.scss */
 div#src-result2:hover div.card-info div.card-names {
   margin-left: 8px;
-  transition: .3s;
-}
-/* line 699, style.scss */
-div#src-result2:hover .newprice, div#src-result2:hover .ending {
-  margin-top: auto;
-  transition: margin-top .9s .2s;
-  margin-left: auto;
-  transition: margin-left .6s .2s;
-}
-/* line 705, style.scss */
-div#src-result2:hover .salevalue {
-  padding-bottom: 0px;
-}
-/* line 708, style.scss */
-div#src-result2:hover .published {
-  margin-top: auto;
-  transition: margin-top .9s .2s;
-  margin-left: auto;
-  transition: margin-left .6s .2s;
-}
-
-/* line 720, style.scss */
-div#src-result2 {
-  margin-top: -80px;
-  transition: margin-top .9s .2s;
-  height: 10px;
-}
-/* line 724, style.scss */
-div#src-result2 div.demo-list-two {
-  margin-left: -200%;
-  transition: margin-left .6s .2s;
-}
-/* line 730, style.scss */
-div#src-result2 div.demo-list-two div.mdl-list__item span img {
-  width: 0;
-  height: 0;
+  -webkit-transition: .3s;
   transition: .3s;
 }
 /* line 738, style.scss */
+div#src-result2:hover .newprice, div#src-result2:hover .ending {
+  margin-top: auto;
+  -webkit-transition: margin-top .9s .2s;
+  transition: margin-top .9s .2s;
+  margin-left: auto;
+  -webkit-transition: margin-left .6s .2s;
+  transition: margin-left .6s .2s;
+}
+/* line 746, style.scss */
+div#src-result2:hover .salevalue {
+  padding-bottom: 0px;
+}
+/* line 749, style.scss */
+div#src-result2:hover .published {
+  margin-top: auto;
+  -webkit-transition: margin-top .9s .2s;
+  transition: margin-top .9s .2s;
+  margin-left: auto;
+  -webkit-transition: margin-left .6s .2s;
+  transition: margin-left .6s .2s;
+}
+
+/* line 763, style.scss */
+div#src-result2 {
+  margin-top: -80px;
+  -webkit-transition: margin-top .9s .2s;
+  transition: margin-top .9s .2s;
+  height: 10px;
+}
+/* line 768, style.scss */
+div#src-result2 div.demo-list-two {
+  margin-left: -200%;
+  -webkit-transition: margin-left .6s .2s;
+  transition: margin-left .6s .2s;
+}
+/* line 775, style.scss */
+div#src-result2 div.demo-list-two div.mdl-list__item span img {
+  width: 0;
+  height: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/* line 784, style.scss */
 div#src-result2 div.demo-card-image {
   margin-top: -250px;
   width: 0px;
   height: 0px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 744, style.scss */
+/* line 791, style.scss */
 div#src-result2 div.card-icons {
   margin-top: -40px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: -200%;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 752, style.scss */
+/* line 801, style.scss */
 div#src-result2 div.card-info div.category-icon button.mdl-button {
   margin-left: -200%;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 757, style.scss */
+/* line 807, style.scss */
 div#src-result2 div.card-info div.card-names {
   margin-left: -40px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 762, style.scss */
+/* line 813, style.scss */
 div#src-result2 .newprice, div#src-result2 .ending {
   margin-top: -32px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: -200%;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 768, style.scss */
+/* line 821, style.scss */
 div#src-result2 .salevalue {
   padding-bottom: 24px;
 }
-/* line 771, style.scss */
+/* line 824, style.scss */
 div#src-result2 .published {
   margin-top: -32px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: -200%;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
 
 /*SEARCH LIST EXPAND 3*/
-/* line 783, style.scss */
+/* line 838, style.scss */
 div#src-result3:hover {
   margin-bottom: -244px;
   margin-top: 0px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   height: auto;
 }
-/* line 788, style.scss */
+/* line 844, style.scss */
 div#src-result3:hover div.demo-list-two {
   margin-left: auto;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 794, style.scss */
+/* line 851, style.scss */
 div#src-result3:hover div.demo-list-two div.mdl-list__item span img {
   width: 46px;
   height: 46px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 802, style.scss */
+/* line 860, style.scss */
 div#src-result3:hover div.demo-card-image {
   margin-top: auto;
   width: 100%;
   height: 0px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 808, style.scss */
+/* line 867, style.scss */
 div#src-result3:hover div.card-icons {
   margin-top: auto;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: auto;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 816, style.scss */
+/* line 877, style.scss */
 div#src-result3:hover div.card-info div.category-icon button.mdl-button {
   margin-left: auto;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 821, style.scss */
+/* line 883, style.scss */
 div#src-result3:hover div.card-info div.card-names {
   margin-left: 8px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 826, style.scss */
+/* line 889, style.scss */
 div#src-result3:hover .newprice, div#src-result3:hover .ending {
   margin-top: auto;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: auto;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 832, style.scss */
+/* line 897, style.scss */
 div#src-result3:hover .salevalue {
   padding-bottom: 0px;
 }
-/* line 835, style.scss */
+/* line 900, style.scss */
 div#src-result3:hover .published {
   margin-top: auto;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: auto;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
 
-/* line 847, style.scss */
+/* line 914, style.scss */
 div#src-result3 {
   margin-top: -80px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   height: 10px;
 }
-/* line 851, style.scss */
+/* line 919, style.scss */
 div#src-result3 div.demo-list-two {
   margin-left: -200%;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 857, style.scss */
+/* line 926, style.scss */
 div#src-result3 div.demo-list-two div.mdl-list__item span img {
   width: 0;
   height: 0;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 865, style.scss */
+/* line 935, style.scss */
 div#src-result3 div.demo-card-image {
   margin-top: -250px;
   width: 0px;
   height: 0px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 871, style.scss */
+/* line 942, style.scss */
 div#src-result3 div.card-icons {
   margin-top: -40px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: -200%;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 879, style.scss */
+/* line 952, style.scss */
 div#src-result3 div.card-info div.category-icon button.mdl-button {
   margin-left: -200%;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 884, style.scss */
+/* line 958, style.scss */
 div#src-result3 div.card-info div.card-names {
   margin-left: -40px;
+  -webkit-transition: .3s;
   transition: .3s;
 }
-/* line 889, style.scss */
+/* line 964, style.scss */
 div#src-result3 .newprice, div#src-result3 .ending {
   margin-top: -32px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: -200%;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
-/* line 895, style.scss */
+/* line 972, style.scss */
 div#src-result3 .salevalue {
   padding-bottom: 24px;
 }
-/* line 898, style.scss */
+/* line 975, style.scss */
 div#src-result3 .published {
   margin-top: -32px;
+  -webkit-transition: margin-top .9s .2s;
   transition: margin-top .9s .2s;
   margin-left: -200%;
+  -webkit-transition: margin-left .6s .2s;
   transition: margin-left .6s .2s;
 }
 
-/* line 908, style.scss */
+/* line 987, style.scss */
 .bufer {
   height: 232px;
 }
